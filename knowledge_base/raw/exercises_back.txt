@@ -1,0 +1,122 @@
+SOURCE: APEX AI Curated Exercise Database
+BASED ON: NSCA Essentials of Strength & Conditioning
+Muscle Group: Back — 5 exercises
+============================================================
+
+EXERCISE: Deadlift
+Muscle Group: Back
+Type: Compound
+Primary Muscles: Erector spinae, Gluteus maximus, Hamstrings
+Secondary Muscles: Latissimus dorsi, Trapezius, Forearms
+Equipment: Barbell
+
+Execution:
+Bar over mid-foot. Hinge at hips, grip just outside legs. Brace core, pull bar up by driving floor away. Lock hips and knees together at top. Keep bar close to body throughout. Neutral spine mandatory.
+
+Prescription by goal:
+  • Strength: 4 sets × 3–5 reps | Rest: 180s | Tempo: 2-0-X-0
+  • Hypertrophy: 4 sets × 8–12 reps | Rest: 90s | Tempo: 3-0-1-0
+  • Fat_loss: 3 sets × 10–15 reps | Rest: 60s | Tempo: 2-0-1-0
+  • Endurance: 3 sets × 15–20 reps | Rest: 45s | Tempo: 2-0-1-0
+  • General: 3 sets × 10–12 reps | Rest: 75s | Tempo: 2-0-1-0
+
+Progressive overload:
+  • Beginner: +1.25kg when top of rep range hit | Deload every 6 weeks
+  • Intermediate: +1.25kg when top of rep range hit | Deload every 4 weeks
+  • Advanced: +0.5kg when top of rep range hit | Deload every 4 weeks
+
+---
+
+EXERCISE: Barbell Row
+Muscle Group: Back
+Type: Compound
+Primary Muscles: Latissimus dorsi, Rhomboids, Middle trapezius
+Secondary Muscles: Biceps brachii, Rear deltoid
+Equipment: Barbell
+
+Execution:
+Hinge to ~45°. Pull bar to lower ribcage, leading with elbows. Squeeze shoulder blades at top. Control descent.
+
+Prescription by goal:
+  • Strength: 4 sets × 3–5 reps | Rest: 180s | Tempo: 2-0-X-0
+  • Hypertrophy: 4 sets × 8–12 reps | Rest: 90s | Tempo: 3-0-1-0
+  • Fat_loss: 3 sets × 10–15 reps | Rest: 60s | Tempo: 2-0-1-0
+  • Endurance: 3 sets × 15–20 reps | Rest: 45s | Tempo: 2-0-1-0
+  • General: 3 sets × 10–12 reps | Rest: 75s | Tempo: 2-0-1-0
+
+Progressive overload:
+  • Beginner: +1.25kg when top of rep range hit | Deload every 6 weeks
+  • Intermediate: +1.25kg when top of rep range hit | Deload every 4 weeks
+  • Advanced: +0.5kg when top of rep range hit | Deload every 4 weeks
+
+---
+
+EXERCISE: Pull-up / Chin-up
+Muscle Group: Back
+Type: Compound
+Primary Muscles: Latissimus dorsi, Biceps brachii
+Secondary Muscles: Rear deltoid, Rhomboids, Core
+Equipment: Pull-up Bar
+
+Execution:
+Dead hang from bar. Pull until chin clears bar. Pull-up = overhand (more lats). Chin-up = underhand (more biceps). Progress: weighted belt. Regress: band-assisted or lat pulldown.
+
+Prescription by goal:
+  • Strength: 4 sets × 3–5 reps | Rest: 180s | Tempo: 2-0-X-0
+  • Hypertrophy: 4 sets × 8–12 reps | Rest: 90s | Tempo: 3-0-1-0
+  • Fat_loss: 3 sets × 10–15 reps | Rest: 60s | Tempo: 2-0-1-0
+  • Endurance: 3 sets × 15–20 reps | Rest: 45s | Tempo: 2-0-1-0
+  • General: 3 sets × 10–12 reps | Rest: 75s | Tempo: 2-0-1-0
+
+Progressive overload:
+  • Beginner: +1.25kg when top of rep range hit | Deload every 6 weeks
+  • Intermediate: +1.25kg when top of rep range hit | Deload every 4 weeks
+  • Advanced: +0.5kg when top of rep range hit | Deload every 4 weeks
+
+---
+
+EXERCISE: Seated Cable Row
+Muscle Group: Back
+Type: Compound
+Primary Muscles: Latissimus dorsi, Rhomboids
+Secondary Muscles: Biceps, Erector spinae
+Equipment: Cables
+
+Execution:
+Sit upright at cable station. Pull handle to lower ribcage. Elbows stay close to body. Avoid rounding forward.
+
+Prescription by goal:
+  • Strength: 4 sets × 3–5 reps | Rest: 180s | Tempo: 2-0-X-0
+  • Hypertrophy: 4 sets × 8–12 reps | Rest: 90s | Tempo: 3-0-1-0
+  • Fat_loss: 3 sets × 10–15 reps | Rest: 60s | Tempo: 2-0-1-0
+  • Endurance: 3 sets × 15–20 reps | Rest: 45s | Tempo: 2-0-1-0
+  • General: 3 sets × 10–12 reps | Rest: 75s | Tempo: 2-0-1-0
+
+Progressive overload:
+  • Beginner: +1.25kg when top of rep range hit | Deload every 6 weeks
+  • Intermediate: +1.25kg when top of rep range hit | Deload every 4 weeks
+  • Advanced: +0.5kg when top of rep range hit | Deload every 4 weeks
+
+---
+
+EXERCISE: Face Pull
+Muscle Group: Back
+Type: Isolation
+Primary Muscles: Rear deltoid, Rotator cuff, Middle trapezius
+Secondary Muscles: Rhomboids
+Equipment: Cables
+
+Execution:
+Set cable at head height. Pull rope to face, separating hands at end. External rotation at end range. Essential for shoulder health.
+
+Prescription by goal:
+  • Strength: 3 sets × 5–8 reps | Rest: 120s | Tempo: 2-0-1-0
+  • Hypertrophy: 3 sets × 10–15 reps | Rest: 60s | Tempo: 2-0-1-0
+  • Fat_loss: 3 sets × 12–15 reps | Rest: 45s | Tempo: 2-0-1-0
+  • Endurance: 2 sets × 15–20 reps | Rest: 30s | Tempo: 2-0-1-0
+  • General: 3 sets × 12–15 reps | Rest: 60s | Tempo: 2-0-1-0
+
+Progressive overload:
+  • Beginner: +1.25kg when top of rep range hit | Deload every 6 weeks
+  • Intermediate: +1.25kg when top of rep range hit | Deload every 4 weeks
+  • Advanced: +0.5kg when top of rep range hit | Deload every 4 weeks

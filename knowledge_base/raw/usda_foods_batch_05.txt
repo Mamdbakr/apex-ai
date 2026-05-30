@@ -1,0 +1,904 @@
+SOURCE: USDA FoodData Central
+LICENSE: Public domain
+Batch 5 (foods 201–250)
+============================================================
+
+FOOD: Celery, raw
+Category: Vegetables and Vegetable Products
+Nutrients per 100g:
+  • Iron, Fe: 0.0 mg
+  • Magnesium, Mg: 10.9 mg
+  • Potassium, K: 265 mg
+  • Sodium, Na: 97.2 mg
+  • Zinc, Zn: 0.093 mg
+  • Total lipid (fat): 0.162 g
+  • Calcium, Ca: 46.3 mg
+  • Protein: 0.492 g
+  • Carbohydrate, by difference: 3.32 g
+Common portions:
+  • serving: 85.0g
+
+---
+
+FOOD: Cucumber, with peel, raw
+Category: Vegetables and Vegetable Products
+Nutrients per 100g:
+  • Iron, Fe: 0.0 mg
+  • Magnesium, Mg: 10.1 mg
+  • Potassium, K: 170 mg
+  • Sodium, Na: 1.52 mg
+  • Zinc, Zn: 0.204 mg
+  • Total lipid (fat): 0.178 g
+  • Calcium, Ca: 16.3 mg
+  • Protein: 0.625 g
+  • Carbohydrate, by difference: 2.95 g
+Common portions:
+  • serving: 85.0g
+
+---
+
+FOOD: Cabbage, green, raw
+Category: Vegetables and Vegetable Products
+Nutrients per 100g:
+  • Iron, Fe: 0.066 mg
+  • Magnesium, Mg: 13.9 mg
+  • Potassium, K: 207 mg
+  • Sodium, Na: 16.1 mg
+  • Zinc, Zn: 0.211 mg
+  • Vitamin C, total ascorbic acid: 40.3 mg
+  • Total lipid (fat): 0.228 g
+  • Calcium, Ca: 41.8 mg
+  • Protein: 0.961 g
+  • Carbohydrate, by difference: 6.38 g
+Common portions:
+  • serving: 85.0g
+
+---
+
+FOOD: Cabbage, red, raw
+Category: Vegetables and Vegetable Products
+Nutrients per 100g:
+  • Iron, Fe: 0.0 mg
+  • Magnesium, Mg: 13.3 mg
+  • Potassium, K: 269 mg
+  • Sodium, Na: 11.7 mg
+  • Zinc, Zn: 0.245 mg
+  • Vitamin C, total ascorbic acid: 53.9 mg
+  • Total lipid (fat): 0.214 g
+  • Calcium, Ca: 31.0 mg
+  • Protein: 1.24 g
+  • Carbohydrate, by difference: 6.79 g
+Common portions:
+  • serving: 85.0g
+
+---
+
+FOOD: Strawberries, raw
+Category: Fruits and Fruit Juices
+Nutrients per 100g:
+  • Iron, Fe: 0.255 mg
+  • Magnesium, Mg: 12.5 mg
+  • Potassium, K: 161 mg
+  • Sodium, Na: 0.0 mg
+  • Zinc, Zn: 0.114 mg
+  • Vitamin C, total ascorbic acid: 59.6 mg
+  • Total lipid (fat): 0.22 g
+  • Calcium, Ca: 16.9 mg
+  • Carbohydrate, by difference: 7.96 g
+  • Protein: 0.641 g
+Common portions:
+  • serving: 140.0g
+
+---
+
+FOOD: Raspberries, raw
+Category: Fruits and Fruit Juices
+Nutrients per 100g:
+  • Iron, Fe: 0.45 mg
+  • Magnesium, Mg: 19.2 mg
+  • Potassium, K: 156 mg
+  • Sodium, Na: 0.0 mg
+  • Zinc, Zn: 0.221 mg
+  • Vitamin C, total ascorbic acid: 23.0 mg
+  • Total lipid (fat): 0.188 g
+  • Calcium, Ca: 16.4 mg
+  • Carbohydrate, by difference: 12.9 g
+  • Protein: 1.01 g
+Common portions:
+  • serving: 140.0g
+
+---
+
+FOOD: Blueberries, raw
+Category: Fruits and Fruit Juices
+Nutrients per 100g:
+  • Iron, Fe: 0.34 mg
+  • Magnesium, Mg: 6.18 mg
+  • Potassium, K: 85.6 mg
+  • Sodium, Na: 0.0 mg
+  • Zinc, Zn: 0.085 mg
+  • Vitamin C, total ascorbic acid: 8.06 mg
+  • Total lipid (fat): 0.306 g
+  • Calcium, Ca: 11.7 mg
+  • Protein: 0.703 g
+  • Carbohydrate, by difference: 14.6 g
+Common portions:
+  • serving: 140.0g
+
+---
+
+FOOD: Grapes, red, seedless, raw
+Category: Fruits and Fruit Juices
+Nutrients per 100g:
+  • Iron, Fe: 0.162 mg
+  • Magnesium, Mg: 8.56 mg
+  • Potassium, K: 229 mg
+  • Sodium, Na: 7.0 mg
+  • Zinc, Zn: 0.036 mg
+  • Vitamin C, total ascorbic acid: 3.31 mg
+  • Total lipid (fat): 0.164 g
+  • Calcium, Ca: 10.2 mg
+  • Protein: 0.914 g
+  • Carbohydrate, by difference: 20.2 g
+Common portions:
+  • serving: 140.0g
+
+---
+
+FOOD: Grapes, green, seedless, raw
+Category: Fruits and Fruit Juices
+Nutrients per 100g:
+  • Iron, Fe: 0.199 mg
+  • Magnesium, Mg: 7.12 mg
+  • Potassium, K: 218 mg
+  • Sodium, Na: 3.17 mg
+  • Zinc, Zn: 0.027 mg
+  • Vitamin C, total ascorbic acid: 3.02 mg
+  • Total lipid (fat): 0.232 g
+  • Calcium, Ca: 9.9 mg
+  • Protein: 0.899 g
+  • Carbohydrate, by difference: 18.6 g
+Common portions:
+  • serving: 140.0g
+
+---
+
+FOOD: Applesauce, unsweetened, with added vitamin C
+Category: Fruits and Fruit Juices
+Nutrients per 100g:
+  • Iron, Fe: 0.045 mg
+  • Magnesium, Mg: 3.94 mg
+  • Potassium, K: 108 mg
+  • Sodium, Na: 0.504 mg
+  • Zinc, Zn: 0.003 mg
+  • Vitamin C, total ascorbic acid: 43.7 mg
+  • Total lipid (fat): 0.162 g
+  • Calcium, Ca: 3.82 mg
+  • Carbohydrate, by difference: 12.3 g
+  • Protein: 0.273 g
+Common portions:
+  • serving: 140.0g
+
+---
+
+FOOD: Flour, amaranth
+Category: Cereal Grains and Pasta
+Nutrients per 100g:
+  • Iron, Fe: 7.56 mg
+  • Magnesium, Mg: 233 mg
+  • Potassium, K: 396 mg
+  • Sodium, Na: 0.0 mg
+  • Zinc, Zn: 3.0 mg
+  • Total lipid (fat): 6.24 g
+  • Fiber, total dietary: 7.21 g
+  • Calcium, Ca: 135 mg
+  • Protein: 13.2 g
+  • Carbohydrate, by difference: 68.8 g
+Common portions:
+  • serving: 30.0g
+
+---
+
+FOOD: Flour, quinoa
+Category: Cereal Grains and Pasta
+Nutrients per 100g:
+  • Iron, Fe: 4.53 mg
+  • Magnesium, Mg: 164 mg
+  • Potassium, K: 551 mg
+  • Sodium, Na: 6.32 mg
+  • Zinc, Zn: 2.77 mg
+  • Total lipid (fat): 6.6 g
+  • Fiber, total dietary: 6.3 g
+  • Calcium, Ca: 37.6 mg
+  • Protein: 11.9 g
+  • Carbohydrate, by difference: 69.5 g
+Common portions:
+  • serving: 30.0g
+
+---
+
+FOOD: Flour, sorghum
+Category: Cereal Grains and Pasta
+Nutrients per 100g:
+  • Iron, Fe: 3.72 mg
+  • Magnesium, Mg: 116 mg
+  • Potassium, K: 335 mg
+  • Sodium, Na: 0.0 mg
+  • Zinc, Zn: 1.66 mg
+  • Total lipid (fat): 3.59 g
+  • Fiber, total dietary: 6.02 g
+  • Calcium, Ca: 11.4 mg
+  • Protein: 8.27 g
+  • Carbohydrate, by difference: 77.4 g
+Common portions:
+  • serving: 45.0g
+
+---
+
+FOOD: Flour, buckwheat
+Category: Cereal Grains and Pasta
+Nutrients per 100g:
+  • Iron, Fe: 3.84 mg
+  • Magnesium, Mg: 167 mg
+  • Potassium, K: 378 mg
+  • Sodium, Na: 0.0 mg
+  • Zinc, Zn: 1.76 mg
+  • Total lipid (fat): 2.48 g
+  • Fiber, total dietary: 10.4 g
+  • Calcium, Ca: 30.6 mg
+  • Protein: 8.88 g
+  • Carbohydrate, by difference: 75.0 g
+Common portions:
+  • serving: 30.0g
+
+---
+
+FOOD: Flour, rye
+Category: Cereal Grains and Pasta
+Nutrients per 100g:
+  • Iron, Fe: 2.54 mg
+  • Magnesium, Mg: 95.4 mg
+  • Potassium, K: 434 mg
+  • Sodium, Na: 0.0 mg
+  • Zinc, Zn: 2.33 mg
+  • Total lipid (fat): 1.91 g
+  • Fiber, total dietary: 13.7 g
+  • Calcium, Ca: 32.2 mg
+  • Protein: 8.4 g
+  • Carbohydrate, by difference: 77.2 g
+Common portions:
+  • serving: 30.0g
+
+---
+
+FOOD: Flour, barley
+Category: Cereal Grains and Pasta
+Nutrients per 100g:
+  • Iron, Fe: 3.3 mg
+  • Magnesium, Mg: 88.0 mg
+  • Potassium, K: 367 mg
+  • Sodium, Na: 20.3 mg
+  • Zinc, Zn: 2.14 mg
+  • Total lipid (fat): 2.45 g
+  • Fiber, total dietary: 12.8 g
+  • Calcium, Ca: 35.6 mg
+  • Protein: 8.72 g
+  • Carbohydrate, by difference: 77.4 g
+Common portions:
+  • serving: 30.0g
+
+---
+
+FOOD: Flour, cassava
+Category: Vegetables and Vegetable Products
+Nutrients per 100g:
+  • Iron, Fe: 3.99 mg
+  • Magnesium, Mg: 33.6 mg
+  • Potassium, K: 198 mg
+  • Sodium, Na: 13.1 mg
+  • Zinc, Zn: 0.41 mg
+  • Total lipid (fat): 0.494 g
+  • Fiber, total dietary: 4.83 g
+  • Calcium, Ca: 74.6 mg
+  • Protein: 0.918 g
+  • Carbohydrate, by difference: 87.3 g
+Common portions:
+  • serving: 30.0g
+
+---
+
+FOOD: Buckwheat, whole grain
+Category: Cereal Grains and Pasta
+Nutrients per 100g:
+  • Iron, Fe: 2.44 mg
+  • Magnesium, Mg: 203 mg
+  • Potassium, K: 414 mg
+  • Sodium, Na: 0.0 mg
+  • Zinc, Zn: 2.24 mg
+  • Total lipid (fat): 3.04 g
+  • Fiber, total dietary: 4.05 g
+  • Calcium, Ca: 13.6 mg
+  • Protein: 11.1 g
+  • Carbohydrate, by difference: 71.1 g
+
+---
+
+FOOD: Millet, whole grain
+Category: Cereal Grains and Pasta
+Nutrients per 100g:
+  • Iron, Fe: 2.53 mg
+  • Magnesium, Mg: 106 mg
+  • Potassium, K: 214 mg
+  • Sodium, Na: 0.0 mg
+  • Zinc, Zn: 2.26 mg
+  • Total lipid (fat): 4.19 g
+  • Fiber, total dietary: 2.62 g
+  • Calcium, Ca: 9.1 mg
+  • Protein: 10.0 g
+  • Carbohydrate, by difference: 74.4 g
+
+---
+
+FOOD: Rice, brown, long grain, unenriched, raw
+Category: Cereal Grains and Pasta
+Nutrients per 100g:
+  • Iron, Fe: 1.24 mg
+  • Magnesium, Mg: 115 mg
+  • Potassium, K: 250 mg
+  • Sodium, Na: 0.0 mg
+  • Zinc, Zn: 1.85 mg
+  • Total lipid (fat): 3.31 g
+  • Fiber, total dietary: 3.02 g
+  • Calcium, Ca: 8.06 mg
+  • Protein: 7.25 g
+  • Carbohydrate, by difference: 76.7 g
+Common portions:
+  • serving: 45.0g
+
+---
+
+FOOD: Rice, white, long grain, unenriched, raw
+Category: Cereal Grains and Pasta
+Nutrients per 100g:
+  • Iron, Fe: 0.14 mg
+  • Magnesium, Mg: 26.5 mg
+  • Potassium, K: 82.3 mg
+  • Sodium, Na: 0.462 mg
+  • Zinc, Zn: 1.35 mg
+  • Total lipid (fat): 1.03 g
+  • Fiber, total dietary: 0.149 g
+  • Calcium, Ca: 4.46 mg
+  • Carbohydrate, by difference: 80.3 g
+  • Protein: 7.04 g
+Common portions:
+  • serving: 45.0g
+
+---
+
+FOOD: Beef, ground, 90% lean meat / 10% fat, raw
+Category: Beef Products
+Nutrients per 100g:
+  • Iron, Fe: 2.13 mg
+  • Magnesium, Mg: 16.5 mg
+  • Potassium, K: 281 mg
+  • Cholesterol: 65.9 mg
+  • Sodium, Na: 61.6 mg
+  • Zinc, Zn: 4.19 mg
+  • Total lipid (fat): 12.8 g
+  • Calcium, Ca: 7.14 mg
+  • Protein: 18.2 g
+  • Carbohydrate, by difference: 0.0 g
+  • Fatty acids, total polyunsaturated: 0.361 g
+  • Fatty acids, total monounsaturated: 4.48 g
+  • Fatty acids, total saturated: 5.05 g
+Common portions:
+  • serving: 114.0g
+
+---
+
+FOOD: Beef, ground, 80% lean meat / 20% fat, raw
+Category: Beef Products
+Nutrients per 100g:
+  • Iron, Fe: 1.96 mg
+  • Magnesium, Mg: 16.4 mg
+  • Potassium, K: 273 mg
+  • Cholesterol: 67.7 mg
+  • Sodium, Na: 54.9 mg
+  • Zinc, Zn: 3.85 mg
+  • Total lipid (fat): 19.4 g
+  • Calcium, Ca: 6.89 mg
+  • Protein: 17.5 g
+  • Carbohydrate, by difference: 0.0 g
+  • Fatty acids, total polyunsaturated: 0.485 g
+  • Fatty acids, total monounsaturated: 7.25 g
+  • Fatty acids, total saturated: 6.84 g
+Common portions:
+  • serving: 114.0g
+
+---
+
+FOOD: Pork, ground, raw
+Category: Pork Products
+Nutrients per 100g:
+  • Iron, Fe: 0.788 mg
+  • Magnesium, Mg: 19.0 mg
+  • Potassium, K: 318 mg
+  • Cholesterol: 71.2 mg
+  • Sodium, Na: 53.6 mg
+  • Zinc, Zn: 2.23 mg
+  • Total lipid (fat): 17.5 g
+  • Calcium, Ca: 5.86 mg
+  • Protein: 17.8 g
+  • Carbohydrate, by difference: 0.0 g
+  • Fatty acids, total polyunsaturated: 2.55 g
+  • Fatty acids, total monounsaturated: 7.78 g
+  • Fatty acids, total saturated: 6.28 g
+Common portions:
+  • serving: 110.0g
+
+---
+
+FOOD: Chicken, ground, with additives, raw
+Category: Poultry Products
+Nutrients per 100g:
+  • Iron, Fe: 0.593 mg
+  • Magnesium, Mg: 20.5 mg
+  • Potassium, K: 302 mg
+  • Cholesterol: 81.7 mg
+  • Sodium, Na: 63.0 mg
+  • Zinc, Zn: 1.18 mg
+  • Total lipid (fat): 7.16 g
+  • Calcium, Ca: 5.82 mg
+  • Protein: 17.9 g
+  • Carbohydrate, by difference: 0.0 g
+  • Fatty acids, total polyunsaturated: 1.38 g
+  • Fatty acids, total monounsaturated: 2.17 g
+  • Fatty acids, total saturated: 1.56 g
+Common portions:
+  • serving: 114.0g
+
+---
+
+FOOD: Turkey, ground, 93% lean/ 7% fat, raw
+Category: Poultry Products
+Nutrients per 100g:
+  • Iron, Fe: 1.09 mg
+  • Magnesium, Mg: 17.3 mg
+  • Potassium, K: 246 mg
+  • Cholesterol: 82.3 mg
+  • Sodium, Na: 80.2 mg
+  • Zinc, Zn: 2.95 mg
+  • Total lipid (fat): 9.59 g
+  • Calcium, Ca: 23.6 mg
+  • Protein: 17.3 g
+  • Carbohydrate, by difference: 0.0 g
+  • Fatty acids, total polyunsaturated: 2.59 g
+  • Fatty acids, total monounsaturated: 2.87 g
+  • Fatty acids, total saturated: 2.26 g
+Common portions:
+  • serving: 114.0g
+
+---
+
+FOOD: Nuts, brazilnuts, raw
+Category: Nut and Seed Products
+Nutrients per 100g:
+  • Iron, Fe: 2.47 mg
+  • Magnesium, Mg: 351 mg
+  • Potassium, K: 592 mg
+  • Sodium, Na: 0.0 mg
+  • Zinc, Zn: 3.82 mg
+  • Total lipid (fat): 57.4 g
+  • Fiber, total dietary: 5.98 g
+  • Calcium, Ca: 168 mg
+  • Protein: 15.0 g
+  • Carbohydrate, by difference: 21.6 g
+Common portions:
+  • serving: 30.0g
+
+---
+
+FOOD: Nuts, cashew nuts, raw
+Category: Nut and Seed Products
+Nutrients per 100g:
+  • Iron, Fe: 5.99 mg
+  • Magnesium, Mg: 251 mg
+  • Potassium, K: 638 mg
+  • Sodium, Na: 4.76 mg
+  • Zinc, Zn: 5.07 mg
+  • Total lipid (fat): 38.9 g
+  • Fiber, total dietary: 4.1 g
+  • Calcium, Ca: 42.0 mg
+  • Protein: 17.4 g
+  • Carbohydrate, by difference: 36.3 g
+Common portions:
+  • serving: 30.0g
+
+---
+
+FOOD: Nuts, hazelnuts or filberts, raw
+Category: Nut and Seed Products
+Nutrients per 100g:
+  • Iron, Fe: 3.46 mg
+  • Magnesium, Mg: 156 mg
+  • Potassium, K: 636 mg
+  • Sodium, Na: 0.0 mg
+  • Zinc, Zn: 2.33 mg
+  • Total lipid (fat): 53.5 g
+  • Fiber, total dietary: 8.41 g
+  • Calcium, Ca: 135 mg
+  • Protein: 13.5 g
+  • Carbohydrate, by difference: 26.5 g
+Common portions:
+  • serving: 30.0g
+
+---
+
+FOOD: Peanuts, raw
+Category: Legumes and Legume Products
+Nutrients per 100g:
+  • Iron, Fe: 1.55 mg
+  • Magnesium, Mg: 180 mg
+  • Potassium, K: 636 mg
+  • Sodium, Na: 1.49 mg
+  • Zinc, Zn: 2.78 mg
+  • Total lipid (fat): 43.3 g
+  • Fiber, total dietary: 8.01 g
+  • Calcium, Ca: 49.1 mg
+  • Protein: 23.2 g
+  • Carbohydrate, by difference: 26.5 g
+Common portions:
+  • serving: 30.0g
+
+---
+
+FOOD: Flour, chestnut
+Category: Nut and Seed Products
+Nutrients per 100g:
+  • Iron, Fe: 1.62 mg
+  • Magnesium, Mg: 68.8 mg
+  • Potassium, K: 1030.0 mg
+  • Sodium, Na: 0.0 mg
+  • Zinc, Zn: 1.04 mg
+  • Vitamin C, total ascorbic acid: 4.05 mg
+  • Total lipid (fat): 4.64 g
+  • Fiber, total dietary: 8.71 g
+  • Calcium, Ca: 55.8 mg
+  • Protein: 5.29 g
+  • Carbohydrate, by difference: 80.5 g
+  • Fatty acids, total monounsaturated: 1.26 g
+  • Fatty acids, total polyunsaturated: 1.52 g
+  • Fatty acids, total saturated: 0.689 g
+Common portions:
+  • serving: 30.0g
+
+---
+
+FOOD: Nuts, macadamia nuts, raw
+Category: Nut and Seed Products
+Nutrients per 100g:
+  • Iron, Fe: 1.88 mg
+  • Magnesium, Mg: 107 mg
+  • Potassium, K: 373 mg
+  • Sodium, Na: 0.0 mg
+  • Zinc, Zn: 1.2 mg
+  • Total lipid (fat): 64.9 g
+  • Fiber, total dietary: 7.56 g
+  • Calcium, Ca: 52.7 mg
+  • Protein: 7.79 g
+  • Carbohydrate, by difference: 24.1 g
+Common portions:
+  • serving: 30.0g
+
+---
+
+FOOD: Nuts, pistachio nuts, raw
+Category: Nut and Seed Products
+Nutrients per 100g:
+  • Iron, Fe: 3.46 mg
+  • Magnesium, Mg: 110 mg
+  • Potassium, K: 947 mg
+  • Sodium, Na: 0.0 mg
+  • Zinc, Zn: 2.18 mg
+  • Total lipid (fat): 45.0 g
+  • Fiber, total dietary: 6.97 g
+  • Calcium, Ca: 117 mg
+  • Protein: 20.5 g
+  • Carbohydrate, by difference: 27.7 g
+Common portions:
+  • serving: 30.0g
+
+---
+
+FOOD: Seeds, pumpkin seeds (pepitas), raw
+Category: Nut and Seed Products
+Nutrients per 100g:
+  • Iron, Fe: 8.36 mg
+  • Magnesium, Mg: 500 mg
+  • Potassium, K: 691 mg
+  • Sodium, Na: 0.0 mg
+  • Zinc, Zn: 6.34 mg
+  • Total lipid (fat): 40.0 g
+  • Fiber, total dietary: 5.08 g
+  • Calcium, Ca: 37.4 mg
+  • Protein: 29.9 g
+  • Carbohydrate, by difference: 18.7 g
+Common portions:
+  • serving: 30.0g
+
+---
+
+FOOD: Seeds, sunflower seed, kernel, raw
+Category: Nut and Seed Products
+Nutrients per 100g:
+  • Iron, Fe: 4.37 mg
+  • Magnesium, Mg: 302 mg
+  • Potassium, K: 657 mg
+  • Sodium, Na: 0.0 mg
+  • Zinc, Zn: 5.58 mg
+  • Total lipid (fat): 48.4 g
+  • Fiber, total dietary: 7.22 g
+  • Calcium, Ca: 116 mg
+  • Protein: 18.9 g
+  • Carbohydrate, by difference: 24.5 g
+Common portions:
+  • serving: 30.0g
+
+---
+
+FOOD: Flour, coconut
+Category: Nut and Seed Products
+Nutrients per 100g:
+  • Iron, Fe: 8.02 mg
+  • Magnesium, Mg: 248 mg
+  • Potassium, K: 2090.0 mg
+  • Sodium, Na: 46.9 mg
+  • Zinc, Zn: 3.7 mg
+  • Total lipid (fat): 15.3 g
+  • Fiber, total dietary: 34.2 g
+  • Calcium, Ca: 36.0 mg
+  • Protein: 16.1 g
+  • Carbohydrate, by difference: 58.9 g
+  • Fatty acids, total monounsaturated: 0.806 g
+  • Fatty acids, total polyunsaturated: 0.111 g
+  • Fatty acids, total saturated: 14.0 g
+Common portions:
+  • serving: 15.0g
+
+---
+
+FOOD: Beans, cannellini, dry
+Category: Legumes and Legume Products
+Nutrients per 100g:
+  • Iron, Fe: 6.67 mg
+  • Magnesium, Mg: 154 mg
+  • Potassium, K: 1420.0 mg
+  • Sodium, Na: 0.0 mg
+  • Zinc, Zn: 2.72 mg
+  • Total lipid (fat): 2.2 g
+  • Calcium, Ca: 143 mg
+  • Protein: 21.6 g
+  • Carbohydrate, by difference: 59.8 g
+Common portions:
+  • serving: 35.0g
+
+---
+
+FOOD: Chickpeas, (garbanzo beans, bengal gram), dry
+Category: Legumes and Legume Products
+Nutrients per 100g:
+  • Iron, Fe: 5.09 mg
+  • Magnesium, Mg: 135 mg
+  • Potassium, K: 1070.0 mg
+  • Sodium, Na: 8.78 mg
+  • Zinc, Zn: 3.12 mg
+  • Total lipid (fat): 6.27 g
+  • Calcium, Ca: 111 mg
+  • Carbohydrate, by difference: 60.4 g
+  • Protein: 21.3 g
+Common portions:
+  • serving: 35.0g
+
+---
+
+FOOD: Lentils, dry
+Category: Legumes and Legume Products
+Nutrients per 100g:
+  • Iron, Fe: 7.16 mg
+  • Magnesium, Mg: 107 mg
+  • Potassium, K: 949 mg
+  • Sodium, Na: 0.0 mg
+  • Zinc, Zn: 3.86 mg
+  • Total lipid (fat): 1.92 g
+  • Calcium, Ca: 61.8 mg
+  • Protein: 23.6 g
+  • Carbohydrate, by difference: 62.2 g
+Common portions:
+  • serving: 35.0g
+
+---
+
+FOOD: Blackeye pea, dry
+Category: Legumes and Legume Products
+Nutrients per 100g:
+  • Iron, Fe: 5.93 mg
+  • Magnesium, Mg: 184 mg
+  • Potassium, K: 1240.0 mg
+  • Sodium, Na: 3.46 mg
+  • Zinc, Zn: 3.65 mg
+  • Total lipid (fat): 2.42 g
+  • Calcium, Ca: 71.4 mg
+  • Protein: 21.2 g
+  • Carbohydrate, by difference: 61.8 g
+Common portions:
+  • serving: 35.0g
+
+---
+
+FOOD: Beans, black, canned, sodium added, drained and rinsed
+Category: Legumes and Legume Products
+Nutrients per 100g:
+  • Iron, Fe: 1.69 mg
+  • Magnesium, Mg: 32.5 mg
+  • Potassium, K: 253 mg
+  • Sodium, Na: 218 mg
+  • Zinc, Zn: 0.74 mg
+  • Total lipid (fat): 1.27 g
+  • Calcium, Ca: 43.3 mg
+  • Protein: 6.91 g
+  • Carbohydrate, by difference: 19.8 g
+Common portions:
+  • serving: 130.0g
+
+---
+
+FOOD: Beans, navy, canned, sodium added, drained and rinsed
+Category: Legumes and Legume Products
+Nutrients per 100g:
+  • Iron, Fe: 1.6 mg
+  • Magnesium, Mg: 29.6 mg
+  • Potassium, K: 184 mg
+  • Sodium, Na: 190 mg
+  • Zinc, Zn: 0.631 mg
+  • Total lipid (fat): 1.4 g
+  • Calcium, Ca: 63.9 mg
+  • Protein: 6.57 g
+  • Carbohydrate, by difference: 20.0 g
+Common portions:
+  • serving: 130.0g
+
+---
+
+FOOD: Beans, cannellini, canned, sodium added, drained and rinsed
+Category: Legumes and Legume Products
+Nutrients per 100g:
+  • Iron, Fe: 1.4 mg
+  • Magnesium, Mg: 29.3 mg
+  • Potassium, K: 203 mg
+  • Sodium, Na: 164 mg
+  • Zinc, Zn: 0.516 mg
+  • Total lipid (fat): 1.17 g
+  • Calcium, Ca: 69.2 mg
+  • Protein: 7.41 g
+  • Carbohydrate, by difference: 18.8 g
+Common portions:
+  • serving: 130.0g
+
+---
+
+FOOD: Chickpeas (garbanzo beans, bengal gram), canned, sodium added, drained and rinsed
+Category: Legumes and Legume Products
+Nutrients per 100g:
+  • Iron, Fe: 1.04 mg
+  • Magnesium, Mg: 28.4 mg
+  • Potassium, K: 137 mg
+  • Sodium, Na: 202 mg
+  • Zinc, Zn: 0.724 mg
+  • Total lipid (fat): 3.1 g
+  • Calcium, Ca: 40.5 mg
+  • Protein: 7.02 g
+  • Carbohydrate, by difference: 20.3 g
+Common portions:
+  • serving: 130.0g
+
+---
+
+FOOD: Beans, kidney, dark red, canned, sodium added, sugar added, drained and rinsed
+Category: Legumes and Legume Products
+Nutrients per 100g:
+  • Iron, Fe: 1.44 mg
+  • Magnesium, Mg: 29.3 mg
+  • Potassium, K: 227 mg
+  • Sodium, Na: 172 mg
+  • Zinc, Zn: 0.56 mg
+  • Total lipid (fat): 1.26 g
+  • Calcium, Ca: 56.9 mg
+  • Protein: 7.8 g
+  • Carbohydrate, by difference: 21.0 g
+Common portions:
+  • serving: 130.0g
+
+---
+
+FOOD: Beans, kidney, light red, canned, sodium added, sugar added, drained and rinsed
+Category: Legumes and Legume Products
+Nutrients per 100g:
+  • Iron, Fe: 1.3 mg
+  • Magnesium, Mg: 25.5 mg
+  • Potassium, K: 209 mg
+  • Sodium, Na: 158 mg
+  • Zinc, Zn: 0.526 mg
+  • Total lipid (fat): 1.3 g
+  • Calcium, Ca: 60.2 mg
+  • Protein: 7.31 g
+  • Carbohydrate, by difference: 21.4 g
+Common portions:
+  • serving: 130.0g
+
+---
+
+FOOD: Peas, green, sweet, canned, sodium added, sugar added, drained and rinsed
+Category: Vegetables and Vegetable Products
+Nutrients per 100g:
+  • Iron, Fe: 1.14 mg
+  • Magnesium, Mg: 21.9 mg
+  • Potassium, K: 109 mg
+  • Sodium, Na: 207 mg
+  • Zinc, Zn: 0.712 mg
+  • Total lipid (fat): 1.15 g
+  • Calcium, Ca: 28.2 mg
+  • Protein: 4.73 g
+  • Carbohydrate, by difference: 12.7 g
+Common portions:
+  • serving: 130.0g
+
+---
+
+FOOD: Beans, pinto, canned, sodium added, drained and rinsed
+Category: Legumes and Legume Products
+Nutrients per 100g:
+  • Iron, Fe: 1.28 mg
+  • Magnesium, Mg: 27.5 mg
+  • Potassium, K: 210 mg
+  • Sodium, Na: 202 mg
+  • Zinc, Zn: 0.625 mg
+  • Total lipid (fat): 1.27 g
+  • Calcium, Ca: 55.2 mg
+  • Carbohydrate, by difference: 19.6 g
+  • Protein: 6.69 g
+Common portions:
+  • serving: 130.0g
+
+---
+
+FOOD: Blackeye pea, canned, sodium added, drained and rinsed
+Category: Legumes and Legume Products
+Nutrients per 100g:
+  • Iron, Fe: 1.08 mg
+  • Magnesium, Mg: 27.3 mg
+  • Potassium, K: 138 mg
+  • Sodium, Na: 227 mg
+  • Zinc, Zn: 0.655 mg
+  • Total lipid (fat): 1.3 g
+  • Calcium, Ca: 27.8 mg
+  • Carbohydrate, by difference: 19.2 g
+  • Protein: 6.92 g
+Common portions:
+  • serving: 130.0g
+
+---
+
+FOOD: Beans, great northern, canned, sodium added, drained and rinsed
+Category: Legumes and Legume Products
+Nutrients per 100g:
+  • Iron, Fe: 1.38 mg
+  • Magnesium, Mg: 29.3 mg
+  • Potassium, K: 213 mg
+  • Sodium, Na: 223 mg
+  • Zinc, Zn: 0.635 mg
+  • Total lipid (fat): 1.27 g
+  • Calcium, Ca: 67.2 mg
+  • Carbohydrate, by difference: 19.3 g
+  • Protein: 7.03 g
+Common portions:
+  • serving: 130.0g

@@ -1,0 +1,122 @@
+SOURCE: APEX AI Curated Exercise Database
+BASED ON: NSCA Essentials of Strength & Conditioning
+Muscle Group: Arms — 5 exercises
+============================================================
+
+EXERCISE: Barbell Curl
+Muscle Group: Arms
+Type: Isolation
+Primary Muscles: Biceps brachii, Brachialis
+Secondary Muscles: Forearm flexors
+Equipment: Barbell
+
+Execution:
+Stand with barbell, shoulder-width underhand grip. Curl to shoulder height, squeeze bicep. Lower in 3 seconds. Keep elbows fixed at sides — no swinging.
+
+Prescription by goal:
+  • Strength: 3 sets × 5–8 reps | Rest: 120s | Tempo: 2-0-1-0
+  • Hypertrophy: 3 sets × 10–15 reps | Rest: 60s | Tempo: 2-0-1-0
+  • Fat_loss: 3 sets × 12–15 reps | Rest: 45s | Tempo: 2-0-1-0
+  • Endurance: 2 sets × 15–20 reps | Rest: 30s | Tempo: 2-0-1-0
+  • General: 3 sets × 12–15 reps | Rest: 60s | Tempo: 2-0-1-0
+
+Progressive overload:
+  • Beginner: +1.25kg when top of rep range hit | Deload every 6 weeks
+  • Intermediate: +1.25kg when top of rep range hit | Deload every 4 weeks
+  • Advanced: +0.5kg when top of rep range hit | Deload every 4 weeks
+
+---
+
+EXERCISE: Tricep Pushdown
+Muscle Group: Arms
+Type: Isolation
+Primary Muscles: Triceps brachii (lateral + medial head)
+Secondary Muscles: Anconeus
+Equipment: Cables
+
+Execution:
+Set cable high. Push bar/rope down to full extension. Elbows stay at sides. Squeeze triceps at lockout.
+
+Prescription by goal:
+  • Strength: 3 sets × 5–8 reps | Rest: 120s | Tempo: 2-0-1-0
+  • Hypertrophy: 3 sets × 10–15 reps | Rest: 60s | Tempo: 2-0-1-0
+  • Fat_loss: 3 sets × 12–15 reps | Rest: 45s | Tempo: 2-0-1-0
+  • Endurance: 2 sets × 15–20 reps | Rest: 30s | Tempo: 2-0-1-0
+  • General: 3 sets × 12–15 reps | Rest: 60s | Tempo: 2-0-1-0
+
+Progressive overload:
+  • Beginner: +1.25kg when top of rep range hit | Deload every 6 weeks
+  • Intermediate: +1.25kg when top of rep range hit | Deload every 4 weeks
+  • Advanced: +0.5kg when top of rep range hit | Deload every 4 weeks
+
+---
+
+EXERCISE: Hammer Curl
+Muscle Group: Arms
+Type: Isolation
+Primary Muscles: Brachialis, Brachioradialis
+Secondary Muscles: Biceps brachii
+Equipment: Dumbbell
+
+Execution:
+Neutral grip (thumbs up). Curl dumbbells to shoulder. Targets brachialis — adds arm thickness.
+
+Prescription by goal:
+  • Strength: 3 sets × 5–8 reps | Rest: 120s | Tempo: 2-0-1-0
+  • Hypertrophy: 3 sets × 10–15 reps | Rest: 60s | Tempo: 2-0-1-0
+  • Fat_loss: 3 sets × 12–15 reps | Rest: 45s | Tempo: 2-0-1-0
+  • Endurance: 2 sets × 15–20 reps | Rest: 30s | Tempo: 2-0-1-0
+  • General: 3 sets × 12–15 reps | Rest: 60s | Tempo: 2-0-1-0
+
+Progressive overload:
+  • Beginner: +1.25kg when top of rep range hit | Deload every 6 weeks
+  • Intermediate: +1.25kg when top of rep range hit | Deload every 4 weeks
+  • Advanced: +0.5kg when top of rep range hit | Deload every 4 weeks
+
+---
+
+EXERCISE: Skull Crusher
+Muscle Group: Arms
+Type: Isolation
+Primary Muscles: Triceps brachii (long head)
+Secondary Muscles: Anconeus
+Equipment: Barbell
+
+Execution:
+Lie on bench. Lower bar toward forehead by hinging elbows. Press back to lockout. Also called lying tricep extension.
+
+Prescription by goal:
+  • Strength: 3 sets × 5–8 reps | Rest: 120s | Tempo: 2-0-1-0
+  • Hypertrophy: 3 sets × 10–15 reps | Rest: 60s | Tempo: 2-0-1-0
+  • Fat_loss: 3 sets × 12–15 reps | Rest: 45s | Tempo: 2-0-1-0
+  • Endurance: 2 sets × 15–20 reps | Rest: 30s | Tempo: 2-0-1-0
+  • General: 3 sets × 12–15 reps | Rest: 60s | Tempo: 2-0-1-0
+
+Progressive overload:
+  • Beginner: +1.25kg when top of rep range hit | Deload every 6 weeks
+  • Intermediate: +1.25kg when top of rep range hit | Deload every 4 weeks
+  • Advanced: +0.5kg when top of rep range hit | Deload every 4 weeks
+
+---
+
+EXERCISE: Preacher Curl
+Muscle Group: Arms
+Type: Isolation
+Primary Muscles: Biceps brachii (short head)
+Secondary Muscles: Brachialis
+Equipment: Barbell
+
+Execution:
+Use preacher bench. Curl from full extension to peak contraction. Eliminates momentum. Excellent for peak bicep development.
+
+Prescription by goal:
+  • Strength: 3 sets × 5–8 reps | Rest: 120s | Tempo: 2-0-1-0
+  • Hypertrophy: 3 sets × 10–15 reps | Rest: 60s | Tempo: 2-0-1-0
+  • Fat_loss: 3 sets × 12–15 reps | Rest: 45s | Tempo: 2-0-1-0
+  • Endurance: 2 sets × 15–20 reps | Rest: 30s | Tempo: 2-0-1-0
+  • General: 3 sets × 12–15 reps | Rest: 60s | Tempo: 2-0-1-0
+
+Progressive overload:
+  • Beginner: +1.25kg when top of rep range hit | Deload every 6 weeks
+  • Intermediate: +1.25kg when top of rep range hit | Deload every 4 weeks
+  • Advanced: +0.5kg when top of rep range hit | Deload every 4 weeks

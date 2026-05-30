@@ -1,0 +1,59 @@
+SOURCE: APEX AI Curated Knowledge Base
+TOPIC: Training Periodization
+LICENSE: Internal
+============================================================
+
+# Periodization in Strength and Conditioning
+
+Periodization is the systematic planning of athletic training to reach peak
+performance at the right time and avoid overtraining.
+
+## Types of Periodization
+
+### Linear Periodization
+- Progressive increase in intensity, decrease in volume over time
+- Classic model: weeks 1-4 hypertrophy (high volume), weeks 5-8 strength
+  (moderate volume), weeks 9-12 power (low volume, high intensity)
+- Best for: beginners and intermediate athletes
+- Limitation: adaptation plateaus after several cycles
+
+### Undulating Periodization (DUP)
+- Daily or weekly variation in rep ranges and loading
+- Example: Monday 4x12 (hypertrophy), Wednesday 4x6 (strength), Friday 4x20 (endurance)
+- Provides more frequent variation stimulus
+- Better for intermediate and advanced athletes
+- Research shows superior hypertrophy gains vs linear periodization
+
+### Block Periodization
+- Concentrated training blocks (3-4 weeks) with single dominant quality
+- Accumulation → Transmutation → Realization blocks
+- Used by elite athletes in annual planning
+
+## Key Concepts
+
+### Volume-Intensity Relationship
+- High volume + low intensity = hypertrophy and endurance adaptations
+- Low volume + high intensity = strength and power adaptations
+- Both variables cannot be maximized simultaneously
+
+### Mesocycles, Microcycles, Macrocycles
+- Microcycle: 1 week of training
+- Mesocycle: 4-6 week training block
+- Macrocycle: full training year
+
+### Deload Weeks
+- Scheduled reduction in volume/intensity every 4-8 weeks
+- Allows supercompensation and reduces injury risk
+- Typical deload: 50-60% of normal volume at same intensity
+- Signs that deload is needed: persistent fatigue, declining performance,
+  joint pain, poor sleep, decreased motivation
+
+## Practical Application for Hypertrophy
+- Weeks 1-4: 3x10-12 per exercise (accumulation)
+- Weeks 5-8: 4x6-8 (intensification)
+- Week 9: Deload 2x10 at 60% weight
+- Repeat with slightly higher weights
+
+## Evidence Base
+Based on NSCA Essentials of Strength and Conditioning and meta-analyses
+by Schoenfeld (2010), Krieger (2010), and Rhea et al. (2003).

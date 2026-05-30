@@ -1,0 +1,34 @@
+
+╔══════════════════════════════════════════════════════════════╗
+║            APEX AI — ML MODELS SUMMARY REPORT              ║
+╚══════════════════════════════════════════════════════════════╝
+
+This file explains ALL machine learning models in plain English.
+The models are saved as .pkl files (binary format) because that is
+the industry standard for scikit-learn models. This report shows
+you exactly what is INSIDE each .pkl file.
+
+MODELS OVERVIEW:
+─────────────────────────────────────────────────────────────────
+│ File                        │ Algorithm           │ Purpose   │
+─────────────────────────────────────────────────────────────────
+│ calorie_regression.pkl      │ Linear Regression   │ TDEE calc │
+│ weight_regression.pkl       │ Random Forest       │ Weight Δ  │
+│ fitness_classifier.pkl      │ Random Forest       │ Level cls │
+│ fitness_classifier_labels   │ Dict                │ Label map │
+│ recommender.pkl             │ Content-based       │ Exercises │
+─────────────────────────────────────────────────────────────────
+
+WHY .pkl FILES?
+  .pkl (pickle) is Python's native serialization format.
+  It saves the entire trained model — including all learned 
+  weights, trees, and preprocessors — into a single file.
+  When the API loads it, it's instantly ready to make predictions
+  without retraining. Think of it like saving a game.
+
+PIPELINE FLOW:
+  User enters profile → API calls ml_service.py → 
+  Models loaded from .pkl → Predictions returned → 
+  Frontend displays results
+
+See individual report files in this folder for detailed metrics.

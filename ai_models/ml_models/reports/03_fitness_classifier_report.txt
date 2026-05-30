@@ -1,0 +1,40 @@
+
+╔══════════════════════════════════════════════════════════════╗
+║  MODEL 3: Fitness Level Classifier (Random Forest)          ║
+╚══════════════════════════════════════════════════════════════╝
+
+ALGORITHM : Random Forest Classifier (150 trees)
+INPUT     : Age, Weight, Height, Activity Level, Gender
+OUTPUT    : Fitness Level — Beginner (0) / Intermediate (1) / Advanced (2)
+
+OVERALL ACCURACY: 0.9350 (93.5%)
+
+DETAILED CLASSIFICATION REPORT:
+              precision    recall  f1-score   support
+
+    Beginner       0.92      0.87      0.90        69
+Intermediate       0.91      0.92      0.91       132
+    Advanced       0.96      0.97      0.96       199
+
+    accuracy                           0.94       400
+   macro avg       0.93      0.92      0.92       400
+weighted avg       0.93      0.94      0.93       400
+
+
+CONFUSION MATRIX:
+  (Rows = Actual, Columns = Predicted)
+  
+                   Beginner    Intermediate    Advanced
+  Beginner                  60 ✅           7              2   
+  Intermediate               4            121 ✅           7   
+  Advanced                   1              5            193 ✅
+
+WHAT THE CLASSES MEAN:
+  Beginner     (0): Low activity, higher weight-to-height ratio, age 40+
+  Intermediate (1): Moderate activity, average body composition
+  Advanced     (2): High activity (4-5), good body composition, regular training
+
+HOW IT'S USED IN APEX AI:
+  The classifier automatically assigns your fitness tier when you enter your
+  profile, then the recommendation engine uses that tier to suggest exercises
+  matched to your actual ability level.

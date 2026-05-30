@@ -1,0 +1,860 @@
+SOURCE: USDA FoodData Central
+LICENSE: Public domain
+Batch 7 (foods 301–350)
+============================================================
+
+FOOD: Farro, pearled, dry, raw
+Category: Cereal Grains and Pasta
+Nutrients per 100g:
+  • Iron, Fe: 3.2 mg
+  • Magnesium, Mg: 119 mg
+  • Potassium, K: 385 mg
+  • Sodium, Na: 0.845 mg
+  • Zinc, Zn: 3.97 mg
+  • Total lipid (fat): 3.1 g
+  • Fiber, total dietary: 7.31 g
+  • Calcium, Ca: 25.9 mg
+  • Protein: 12.6 g
+  • Carbohydrate, by difference: 72.1 g
+Common portions:
+  • serving: 45.0g
+
+---
+
+FOOD: Fonio, grain, dry, raw
+Category: Cereal Grains and Pasta
+Nutrients per 100g:
+  • Iron, Fe: 2.66 mg
+  • Magnesium, Mg: 39.1 mg
+  • Potassium, K: 43.8 mg
+  • Sodium, Na: 2.97 mg
+  • Zinc, Zn: 1.85 mg
+  • Total lipid (fat): 1.69 g
+  • Fiber, total dietary: 2.2 g
+  • Calcium, Ca: 11.6 mg
+  • Protein: 7.17 g
+  • Carbohydrate, by difference: 81.3 g
+Common portions:
+  • serving: 45.0g
+
+---
+
+FOOD: Khorasan, grain, dry, raw
+Category: Cereal Grains and Pasta
+Nutrients per 100g:
+  • Iron, Fe: 3.87 mg
+  • Magnesium, Mg: 130 mg
+  • Potassium, K: 450 mg
+  • Sodium, Na: 3.94 mg
+  • Zinc, Zn: 4.46 mg
+  • Total lipid (fat): 2.8 g
+  • Fiber, total dietary: 10.5 g
+  • Calcium, Ca: 24.1 mg
+  • Protein: 14.8 g
+  • Carbohydrate, by difference: 71.8 g
+Common portions:
+  • serving: 45.0g
+
+---
+
+FOOD: Kiwifruit (kiwi), green, peeled, raw
+Category: Fruits and Fruit Juices
+Nutrients per 100g:
+  • Iron, Fe: 0.037 mg
+  • Magnesium, Mg: 14.8 mg
+  • Potassium, K: 302 mg
+  • Sodium, Na: 2.28 mg
+  • Zinc, Zn: 0.455 mg
+  • Vitamin C, total ascorbic acid: 58.8 mg
+  • Total lipid (fat): 0.64 g
+  • Fiber, total dietary: 2.13 g
+  • Calcium, Ca: 24.4 mg
+  • Protein: 1.01 g
+  • Carbohydrate, by difference: 13.8 g
+Common portions:
+  • serving: 140.0g
+
+---
+
+FOOD: Mandarin, seedless, peeled, raw
+Category: Fruits and Fruit Juices
+Nutrients per 100g:
+  • Iron, Fe: 0.0 mg
+  • Magnesium, Mg: 12.6 mg
+  • Potassium, K: 167 mg
+  • Sodium, Na: 0.0 mg
+  • Zinc, Zn: 0.069 mg
+  • Vitamin C, total ascorbic acid: 21.2 mg
+  • Total lipid (fat): 0.458 g
+  • Fiber, total dietary: 1.33 g
+  • Calcium, Ca: 44.0 mg
+  • Protein: 1.04 g
+  • Carbohydrate, by difference: 13.4 g
+Common portions:
+  • serving: 140.0g
+
+---
+
+FOOD: Mango, Tommy Atkins, peeled, raw
+Category: Fruits and Fruit Juices
+Nutrients per 100g:
+  • Iron, Fe: 0.0 mg
+  • Magnesium, Mg: 10.3 mg
+  • Potassium, K: 165 mg
+  • Sodium, Na: 0.0 mg
+  • Zinc, Zn: 0.066 mg
+  • Vitamin C, total ascorbic acid: 25.5 mg
+  • Total lipid (fat): 0.572 g
+  • Fiber, total dietary: 1.75 g
+  • Calcium, Ca: 12.4 mg
+  • Protein: 0.562 g
+  • Carbohydrate, by difference: 15.3 g
+Common portions:
+  • serving: 140.0g
+
+---
+
+FOOD: Mango, Ataulfo, peeled, raw
+Category: Fruits and Fruit Juices
+Nutrients per 100g:
+  • Iron, Fe: 0.0 mg
+  • Magnesium, Mg: 10.6 mg
+  • Potassium, K: 204 mg
+  • Sodium, Na: 0.0 mg
+  • Zinc, Zn: 0.102 mg
+  • Vitamin C, total ascorbic acid: 168 mg
+  • Total lipid (fat): 0.681 g
+  • Fiber, total dietary: 1.29 g
+  • Calcium, Ca: 10.0 mg
+  • Protein: 0.688 g
+  • Carbohydrate, by difference: 17.4 g
+Common portions:
+  • serving: 140.0g
+
+---
+
+FOOD: Corn flour, masa harina, white or yellow, dry, raw
+Category: Cereal Grains and Pasta
+Nutrients per 100g:
+  • Iron, Fe: 1.7 mg
+  • Magnesium, Mg: 93.3 mg
+  • Potassium, K: 277 mg
+  • Sodium, Na: 2.73 mg
+  • Zinc, Zn: 1.62 mg
+  • Total lipid (fat): 4.34 g
+  • Fiber, total dietary: 7.04 g
+  • Calcium, Ca: 112 mg
+  • Protein: 7.56 g
+  • Carbohydrate, by difference: 76.7 g
+Common portions:
+  • serving: 30.0g
+
+---
+
+FOOD: Pear, Anjou, green, with skin, raw
+Category: Fruits and Fruit Juices
+Nutrients per 100g:
+  • Iron, Fe: 0.0 mg
+  • Magnesium, Mg: 6.49 mg
+  • Potassium, K: 122 mg
+  • Sodium, Na: 0.398 mg
+  • Zinc, Zn: 0.107 mg
+  • Vitamin C, total ascorbic acid: 5.51 mg
+  • Total lipid (fat): 0.371 g
+  • Fiber, total dietary: 2.64 g
+  • Calcium, Ca: 9.99 mg
+  • Protein: 0.312 g
+  • Carbohydrate, by difference: 14.8 g
+Common portions:
+  • serving: 140.0g
+
+---
+
+FOOD: Plum, black, with skin, raw
+Category: Fruits and Fruit Juices
+Nutrients per 100g:
+  • Iron, Fe: 0.0 mg
+  • Magnesium, Mg: 6.62 mg
+  • Potassium, K: 186 mg
+  • Sodium, Na: 0.0 mg
+  • Zinc, Zn: 0.045 mg
+  • Vitamin C, total ascorbic acid: 1.82 mg
+  • Total lipid (fat): 0.282 g
+  • Fiber, total dietary: 1.35 g
+  • Calcium, Ca: 4.03 mg
+  • Protein: 0.578 g
+  • Carbohydrate, by difference: 13.5 g
+Common portions:
+  • serving: 140.0g
+
+---
+
+FOOD: Rice, red, unenriched, dry, raw
+Category: Cereal Grains and Pasta
+Nutrients per 100g:
+  • Iron, Fe: 1.2 mg
+  • Magnesium, Mg: 126 mg
+  • Potassium, K: 245 mg
+  • Sodium, Na: 0.438 mg
+  • Zinc, Zn: 2.56 mg
+  • Total lipid (fat): 3.44 g
+  • Fiber, total dietary: 4.2 g
+  • Calcium, Ca: 9.22 mg
+  • Protein: 8.56 g
+  • Carbohydrate, by difference: 76.2 g
+Common portions:
+  • serving: 45.0g
+
+---
+
+FOOD: Sorghum bran, white, unenriched, dry, raw
+Category: Cereal Grains and Pasta
+Nutrients per 100g:
+  • Iron, Fe: 14.2 mg
+  • Magnesium, Mg: 274 mg
+  • Potassium, K: 852 mg
+  • Sodium, Na: 2.92 mg
+  • Zinc, Zn: 4.4 mg
+  • Total lipid (fat): 9.26 g
+  • Fiber, total dietary: 35.0 g
+  • Calcium, Ca: 61.7 mg
+  • Protein: 11.2 g
+  • Carbohydrate, by difference: 68.7 g
+Common portions:
+  • serving: 45.0g
+
+---
+
+FOOD: Sorghum flour, white, pearled, unenriched, dry, raw
+Category: Cereal Grains and Pasta
+Nutrients per 100g:
+  • Iron, Fe: 2.22 mg
+  • Magnesium, Mg: 107 mg
+  • Potassium, K: 274 mg
+  • Sodium, Na: 0.0 mg
+  • Zinc, Zn: 1.32 mg
+  • Total lipid (fat): 3.24 g
+  • Fiber, total dietary: 3.3 g
+  • Calcium, Ca: 7.89 mg
+  • Protein: 10.2 g
+  • Carbohydrate, by difference: 73.5 g
+Common portions:
+  • serving: 30.0g
+
+---
+
+FOOD: Sorghum grain, white, pearled, unenriched, dry, raw
+Category: Cereal Grains and Pasta
+Nutrients per 100g:
+  • Iron, Fe: 2.04 mg
+  • Magnesium, Mg: 109 mg
+  • Potassium, K: 274 mg
+  • Sodium, Na: 0.0 mg
+  • Zinc, Zn: 1.28 mg
+  • Total lipid (fat): 3.26 g
+  • Fiber, total dietary: 3.92 g
+  • Calcium, Ca: 7.45 mg
+  • Protein: 10.2 g
+  • Carbohydrate, by difference: 74.9 g
+Common portions:
+  • serving: 45.0g
+
+---
+
+FOOD: Sorghum, whole grain, white, dry, raw
+Category: Cereal Grains and Pasta
+Nutrients per 100g:
+  • Iron, Fe: 3.9 mg
+  • Magnesium, Mg: 136 mg
+  • Potassium, K: 367 mg
+  • Sodium, Na: 0.329 mg
+  • Zinc, Zn: 1.77 mg
+  • Total lipid (fat): 4.22 g
+  • Fiber, total dietary: 8.27 g
+  • Calcium, Ca: 14.9 mg
+  • Carbohydrate, by difference: 73.6 g
+  • Protein: 10.1 g
+Common portions:
+  • serving: 45.0g
+
+---
+
+FOOD: Plantains, overripe, raw
+Category: Fruits and Fruit Juices
+Nutrients per 100g:
+  • Iron, Fe: 0.315 mg
+  • Magnesium, Mg: 31.7 mg
+  • Potassium, K: 408 mg
+  • Sodium, Na: 0.0 mg
+  • Zinc, Zn: 0.149 mg
+  • Vitamin C, total ascorbic acid: 19.1 mg
+  • Total lipid (fat): 0.99 g
+  • Fiber, total dietary: 1.79 g
+  • Calcium, Ca: 3.9 mg
+  • Protein: 1.17 g
+  • Carbohydrate, by difference: 29.2 g
+Common portions:
+  • serving: 140.0g
+
+---
+
+FOOD: Chicken, drumstick, meat and skin, raw
+Category: Poultry Products
+Nutrients per 100g:
+  • Iron, Fe: 0.666 mg
+  • Magnesium, Mg: 18.6 mg
+  • Potassium, K: 244 mg
+  • Cholesterol: 94.6 mg
+  • Sodium, Na: 91.0 mg
+  • Zinc, Zn: 1.7 mg
+  • Total lipid (fat): 5.94 g
+  • Calcium, Ca: 8.28 mg
+  • Protein: 18.4 g
+  • Carbohydrate, by difference: -0.475 g
+Common portions:
+  • serving: 114.0g
+
+---
+
+FOOD: Chicken, thigh, meat and skin, raw
+Category: Poultry Products
+Nutrients per 100g:
+  • Iron, Fe: 0.586 mg
+  • Magnesium, Mg: 18.5 mg
+  • Potassium, K: 246 mg
+  • Cholesterol: 95.5 mg
+  • Sodium, Na: 63.6 mg
+  • Zinc, Zn: 1.2 mg
+  • Total lipid (fat): 13.4 g
+  • Calcium, Ca: 5.73 mg
+  • Protein: 17.1 g
+  • Carbohydrate, by difference: -0.173 g
+Common portions:
+  • serving: 114.0g
+
+---
+
+FOOD: Chicken, wing, meat and skin, raw
+Category: Poultry Products
+Nutrients per 100g:
+  • Iron, Fe: 0.511 mg
+  • Magnesium, Mg: 16.5 mg
+  • Potassium, K: 194 mg
+  • Cholesterol: 98.9 mg
+  • Sodium, Na: 84.1 mg
+  • Zinc, Zn: 1.18 mg
+  • Total lipid (fat): 10.6 g
+  • Calcium, Ca: 13.6 mg
+  • Protein: 18.4 g
+  • Carbohydrate, by difference: -0.459 g
+Common portions:
+  • serving: 114.0g
+
+---
+
+FOOD: Chicken, breast, meat and skin, raw
+Category: Poultry Products
+Nutrients per 100g:
+  • Iron, Fe: 0.354 mg
+  • Magnesium, Mg: 25.4 mg
+  • Potassium, K: 332 mg
+  • Cholesterol: 75.4 mg
+  • Sodium, Na: 48.1 mg
+  • Zinc, Zn: 0.624 mg
+  • Total lipid (fat): 4.78 g
+  • Calcium, Ca: 6.9 mg
+  • Protein: 21.4 g
+  • Carbohydrate, by difference: -0.428 g
+Common portions:
+  • serving: 114.0g
+
+---
+
+FOOD: Lamb, ground, raw
+Category: Lamb, Veal, and Game Products
+Nutrients per 100g:
+  • Iron, Fe: 1.64 mg
+  • Magnesium, Mg: 17.5 mg
+  • Potassium, K: 272 mg
+  • Cholesterol: 75.0 mg
+  • Sodium, Na: 53.4 mg
+  • Zinc, Zn: 3.13 mg
+  • Total lipid (fat): 18.6 g
+  • Calcium, Ca: 6.58 mg
+  • Protein: 17.5 g
+  • Carbohydrate, by difference: -0.251 g
+Common portions:
+  • serving: 114.0g
+
+---
+
+FOOD: Bison, ground, raw
+Category: Lamb, Veal, and Game Products
+Nutrients per 100g:
+  • Iron, Fe: 2.17 mg
+  • Magnesium, Mg: 18.5 mg
+  • Potassium, K: 301 mg
+  • Cholesterol: 64.5 mg
+  • Sodium, Na: 55.7 mg
+  • Zinc, Zn: 3.76 mg
+  • Total lipid (fat): 8.88 g
+  • Calcium, Ca: 6.83 mg
+  • Protein: 19.9 g
+  • Carbohydrate, by difference: -0.15 g
+Common portions:
+  • serving: 114.0g
+
+---
+
+FOOD: Beef, short loin (NY strip steak), raw
+Category: Beef Products
+Nutrients per 100g:
+  • Iron, Fe: 1.61 mg
+  • Magnesium, Mg: 19.5 mg
+  • Potassium, K: 323 mg
+  • Cholesterol: 57.6 mg
+  • Sodium, Na: 43.1 mg
+  • Zinc, Zn: 3.28 mg
+  • Total lipid (fat): 11.5 g
+  • Calcium, Ca: 5.04 mg
+  • Protein: 21.3 g
+  • Carbohydrate, by difference: 0.221 g
+Common portions:
+  • serving: 114.0g
+
+---
+
+FOOD: Beef, tenderloin steak, raw
+Category: Beef Products
+Nutrients per 100g:
+  • Iron, Fe: 2.53 mg
+  • Magnesium, Mg: 22.0 mg
+  • Potassium, K: 345 mg
+  • Cholesterol: 64.4 mg
+  • Sodium, Na: 44.8 mg
+  • Zinc, Zn: 3.22 mg
+  • Total lipid (fat): 6.46 g
+  • Calcium, Ca: 4.09 mg
+  • Protein: 21.1 g
+  • Carbohydrate, by difference: 0.18 g
+Common portions:
+  • serving: 114.0g
+
+---
+
+FOOD: Beef, top sirloin steak, raw
+Category: Beef Products
+Nutrients per 100g:
+  • Iron, Fe: 2.22 mg
+  • Magnesium, Mg: 22.1 mg
+  • Potassium, K: 349 mg
+  • Cholesterol: 60.1 mg
+  • Sodium, Na: 42.8 mg
+  • Zinc, Zn: 3.45 mg
+  • Total lipid (fat): 5.71 g
+  • Calcium, Ca: 3.7 mg
+  • Protein: 22.0 g
+  • Carbohydrate, by difference: 0.218 g
+Common portions:
+  • serving: 114.0g
+
+---
+
+FOOD: Pork, chop, center cut, raw
+Category: Pork Products
+Nutrients per 100g:
+  • Iron, Fe: 0.421 mg
+  • Magnesium, Mg: 23.4 mg
+  • Potassium, K: 366 mg
+  • Cholesterol: 57.3 mg
+  • Sodium, Na: 39.3 mg
+  • Zinc, Zn: 1.32 mg
+  • Total lipid (fat): 5.48 g
+  • Calcium, Ca: 4.12 mg
+  • Carbohydrate, by difference: -0.562 g
+  • Protein: 22.8 g
+Common portions:
+  • serving: 110.0g
+
+---
+
+FOOD: Pork, belly, with skin, raw
+Category: Pork Products
+Nutrients per 100g:
+  • Iron, Fe: 0.382 mg
+  • Magnesium, Mg: 12.2 mg
+  • Potassium, K: 208 mg
+  • Cholesterol: 66.6 mg
+  • Sodium, Na: 49.7 mg
+  • Zinc, Zn: 1.07 mg
+  • Total lipid (fat): 35.8 g
+  • Calcium, Ca: 4.2 mg
+  • Protein: 15.2 g
+  • Carbohydrate, by difference: -0.705 g
+Common portions:
+  • serving: 26.0g
+
+---
+
+FOOD: Pawpaw, peeled, seeded, raw
+Category: Fruits and Fruit Juices
+Nutrients per 100g:
+  • Iron, Fe: 0.075 mg
+  • Magnesium, Mg: 10.6 mg
+  • Potassium, K: 221 mg
+  • Sodium, Na: 0.351 mg
+  • Zinc, Zn: 0.085 mg
+  • Vitamin C, total ascorbic acid: 27.6 mg
+  • Calcium, Ca: 9.91 mg
+  • Protein: 1.15 g
+  • Fiber, total dietary: 3.3 g
+
+---
+
+FOOD: Squash, pie pumpkin, peeled, seeded, raw
+Category: Vegetables and Vegetable Products
+Nutrients per 100g:
+  • Iron, Fe: 0.063 mg
+  • Magnesium, Mg: 12.8 mg
+  • Potassium, K: 472 mg
+  • Sodium, Na: 0.312 mg
+  • Zinc, Zn: 0.139 mg
+  • Vitamin C, total ascorbic acid: 10.1 mg
+  • Calcium, Ca: 16.4 mg
+  • Protein: 0.854 g
+  • Fiber, total dietary: 2.3 g
+Common portions:
+  • serving: 85.0g
+
+---
+
+FOOD: Squash, spaghetti, peeled, seeded, raw
+Category: Vegetables and Vegetable Products
+Nutrients per 100g:
+  • Iron, Fe: 0.031 mg
+  • Magnesium, Mg: 13.3 mg
+  • Potassium, K: 267 mg
+  • Sodium, Na: 0.312 mg
+  • Zinc, Zn: 0.105 mg
+  • Vitamin C, total ascorbic acid: 5.55 mg
+  • Calcium, Ca: 16.6 mg
+  • Protein: 0.792 g
+  • Fiber, total dietary: 1.4 g
+Common portions:
+  • serving: 85.0g
+
+---
+
+FOOD: Rutabaga, peeled, raw
+Category: Vegetables and Vegetable Products
+Nutrients per 100g:
+  • Iron, Fe: 0.137 mg
+  • Magnesium, Mg: 15.4 mg
+  • Potassium, K: 267 mg
+  • Sodium, Na: 4.59 mg
+  • Zinc, Zn: 0.211 mg
+  • Calcium, Ca: 42.0 mg
+  • Protein: 0.888 g
+  • Fiber, total dietary: 2.9 g
+Common portions:
+  • serving: 85.0g
+
+---
+
+FOOD: Blackberries, raw
+Category: Fruits and Fruit Juices
+Nutrients per 100g:
+  • Iron, Fe: 0.208 mg
+  • Magnesium, Mg: 20.6 mg
+  • Potassium, K: 167 mg
+  • Sodium, Na: 1.55 mg
+  • Zinc, Zn: 0.189 mg
+  • Vitamin C, total ascorbic acid: 15.4 mg
+  • Calcium, Ca: 15.4 mg
+  • Protein: 1.53 g
+  • Fiber, total dietary: 5.3 g
+Common portions:
+  • serving: 140.0g
+
+---
+
+FOOD: Tomatillos, dehusked, raw
+Category: Vegetables and Vegetable Products
+Nutrients per 100g:
+  • Iron, Fe: 0.245 mg
+  • Magnesium, Mg: 13.5 mg
+  • Potassium, K: 239 mg
+  • Sodium, Na: 0.311 mg
+  • Zinc, Zn: 0.159 mg
+  • Vitamin C, total ascorbic acid: 2.18 mg
+  • Calcium, Ca: 7.14 mg
+  • Protein: 1.06 g
+  • Fiber, total dietary: 1.7 g
+Common portions:
+  • serving: 85.0g
+
+---
+
+FOOD: Cabbage, napa, leaf, destemmed, raw
+Category: Vegetables and Vegetable Products
+Nutrients per 100g:
+  • Iron, Fe: 0.255 mg
+  • Magnesium, Mg: 11.3 mg
+  • Potassium, K: 235 mg
+  • Sodium, Na: 12.6 mg
+  • Zinc, Zn: 0.253 mg
+  • Calcium, Ca: 35.0 mg
+  • Protein: 1.06 g
+  • Fiber, total dietary: 1.2 g
+Common portions:
+  • serving: 85.0g
+
+---
+
+FOOD: Leeks, bulb and greens, root removed, raw
+Category: Vegetables and Vegetable Products
+Nutrients per 100g:
+  • Iron, Fe: 0.761 mg
+  • Magnesium, Mg: 15.7 mg
+  • Potassium, K: 319 mg
+  • Sodium, Na: 17.7 mg
+  • Zinc, Zn: 0.293 mg
+  • Calcium, Ca: 51.4 mg
+  • Protein: 1.47 g
+  • Fiber, total dietary: 3.0 g
+Common portions:
+  • serving: 85.0g
+
+---
+
+FOOD: Green onion, (scallion), bulb and greens, root removed, raw
+Category: Vegetables and Vegetable Products
+Nutrients per 100g:
+  • Iron, Fe: 1.04 mg
+  • Magnesium, Mg: 18.9 mg
+  • Potassium, K: 232 mg
+  • Sodium, Na: 9.95 mg
+  • Zinc, Zn: 0.248 mg
+  • Calcium, Ca: 59.4 mg
+  • Protein: 0.669 g
+  • Fiber, total dietary: 2.3 g
+Common portions:
+  • serving: 85.0g
+
+---
+
+FOOD: Shallots, bulb, peeled, root removed, raw
+Category: Vegetables and Vegetable Products
+Nutrients per 100g:
+  • Iron, Fe: 0.332 mg
+  • Magnesium, Mg: 15.1 mg
+  • Potassium, K: 252 mg
+  • Sodium, Na: 3.64 mg
+  • Zinc, Zn: 0.282 mg
+  • Calcium, Ca: 26.1 mg
+  • Protein: 1.38 g
+  • Fiber, total dietary: 2.2 g
+Common portions:
+  • serving: 85.0g
+
+---
+
+FOOD: Juice, prune, shelf-stable
+Category: Fruits and Fruit Juices
+Nutrients per 100g:
+  • Iron, Fe: 0.444 mg
+  • Magnesium, Mg: 15.2 mg
+  • Potassium, K: 216 mg
+  • Sodium, Na: 10.3 mg
+  • Zinc, Zn: 0.122 mg
+  • Vitamin C, total ascorbic acid: 0.0 mg
+  • Calcium, Ca: 16.2 mg
+  • Protein: 0.423 g
+
+---
+
+FOOD: Juice, pomegranate, from concentrate, shelf-stable
+Category: Fruits and Fruit Juices
+Nutrients per 100g:
+  • Iron, Fe: 0.031 mg
+  • Magnesium, Mg: 6.86 mg
+  • Potassium, K: 166 mg
+  • Sodium, Na: 4.04 mg
+  • Zinc, Zn: 0.082 mg
+  • Vitamin C, total ascorbic acid: 0.0 mg
+  • Calcium, Ca: 11.0 mg
+  • Protein: 0.0 g
+
+---
+
+FOOD: Juice, tart cherry, from concentrate, shelf-stable
+Category: Fruits and Fruit Juices
+Nutrients per 100g:
+  • Iron, Fe: 0.203 mg
+  • Magnesium, Mg: 12.1 mg
+  • Potassium, K: 170 mg
+  • Sodium, Na: 1.36 mg
+  • Zinc, Zn: 0.033 mg
+  • Vitamin C, total ascorbic acid: 0.0 mg
+  • Calcium, Ca: 16.2 mg
+  • Protein: 0.147 g
+
+---
+
+FOOD: Anchovies, canned in olive oil, with salt, drained
+Category: Finfish and Shellfish Products
+Nutrients per 100g:
+  • Iron, Fe: 2.69 mg
+  • Magnesium, Mg: 228 mg
+  • Potassium, K: 298 mg
+  • Sodium, Na: 5400.0 mg
+  • Zinc, Zn: 2.54 mg
+  • Total lipid (fat): 9.85 g
+  • Calcium, Ca: 240 mg
+  • Protein: 26.9 g
+  • Carbohydrate, by difference: 2.41 g
+
+---
+
+FOOD: Beet greens, raw
+Category: Vegetables and Vegetable Products
+Nutrients per 100g:
+  • Iron, Fe: 3.16 mg
+  • Magnesium, Mg: 74.4 mg
+  • Potassium, K: 369 mg
+  • Sodium, Na: 280 mg
+  • Zinc, Zn: 0.315 mg
+  • Vitamin C, total ascorbic acid: 8.58 mg
+  • Total lipid (fat): 0.144 g
+  • Fiber, total dietary: 2.58 g
+  • Calcium, Ca: 72.8 mg
+  • Protein: 1.61 g
+  • Carbohydrate, by difference: 4.66 g
+
+---
+
+FOOD: Cod, Pacific or Alaskan, frozen, wild caught
+Category: Finfish and Shellfish Products
+Nutrients per 100g:
+  • Iron, Fe: 0.0 mg
+  • Magnesium, Mg: 17.9 mg
+  • Potassium, K: 192 mg
+  • Sodium, Na: 354 mg
+  • Zinc, Zn: 0.269 mg
+  • Total lipid (fat): 0.216 g
+  • Calcium, Ca: 9.01 mg
+  • Protein: 14.2 g
+  • Carbohydrate, by difference: 0.524 g
+
+---
+
+FOOD: Fennel, bulb, raw
+Category: Vegetables and Vegetable Products
+Nutrients per 100g:
+  • Iron, Fe: 0.0 mg
+  • Magnesium, Mg: 15.0 mg
+  • Potassium, K: 332 mg
+  • Sodium, Na: 49.0 mg
+  • Zinc, Zn: 0.141 mg
+  • Vitamin C, total ascorbic acid: 14.7 mg
+  • Total lipid (fat): 0.14 g
+  • Fiber, total dietary: 2.05 g
+  • Calcium, Ca: 41.3 mg
+  • Protein: 0.922 g
+  • Carbohydrate, by difference: 5.49 g
+
+---
+
+FOOD: Halibut, frozen, wild caught
+Category: Finfish and Shellfish Products
+Nutrients per 100g:
+  • Iron, Fe: 0.0 mg
+  • Magnesium, Mg: 23.1 mg
+  • Potassium, K: 430 mg
+  • Sodium, Na: 108 mg
+  • Zinc, Zn: 0.327 mg
+  • Total lipid (fat): 0.592 g
+  • Calcium, Ca: 4.1 mg
+  • Carbohydrate, by difference: -0.06 g
+  • Protein: 19.1 g
+
+---
+
+FOOD: Lobster, tail only, frozen, wild caught
+Category: Finfish and Shellfish Products
+Nutrients per 100g:
+  • Iron, Fe: 0.173 mg
+  • Magnesium, Mg: 39.0 mg
+  • Potassium, K: 213 mg
+  • Sodium, Na: 509 mg
+  • Zinc, Zn: 1.54 mg
+  • Total lipid (fat): 0.367 g
+  • Calcium, Ca: 71.6 mg
+  • Protein: 13.0 g
+  • Carbohydrate, by difference: 0.886 g
+
+---
+
+FOOD: Mahi mahi, frozen, wild caught
+Category: Finfish and Shellfish Products
+Nutrients per 100g:
+  • Iron, Fe: 0.052 mg
+  • Magnesium, Mg: 28.0 mg
+  • Potassium, K: 408 mg
+  • Sodium, Na: 51.9 mg
+  • Zinc, Zn: 0.296 mg
+  • Total lipid (fat): 0.377 g
+  • Calcium, Ca: 6.0 mg
+  • Protein: 19.8 g
+  • Carbohydrate, by difference: 0.287 g
+
+---
+
+FOOD: Parsnips, raw
+Category: Vegetables and Vegetable Products
+Nutrients per 100g:
+  • Iron, Fe: 0.505 mg
+  • Magnesium, Mg: 22.0 mg
+  • Potassium, K: 493 mg
+  • Sodium, Na: 0.491 mg
+  • Zinc, Zn: 0.328 mg
+  • Vitamin C, total ascorbic acid: 11.8 mg
+  • Total lipid (fat): 0.538 g
+  • Fiber, total dietary: 5.35 g
+  • Calcium, Ca: 44.2 mg
+  • Protein: 1.27 g
+  • Carbohydrate, by difference: 19.3 g
+
+---
+
+FOOD: Peppers, banana or Hungarian wax, seeded, raw
+Category: Vegetables and Vegetable Products
+Nutrients per 100g:
+  • Iron, Fe: 0.162 mg
+  • Magnesium, Mg: 10.2 mg
+  • Potassium, K: 177 mg
+  • Sodium, Na: 0.0 mg
+  • Zinc, Zn: 0.13 mg
+  • Vitamin C, total ascorbic acid: 112 mg
+  • Total lipid (fat): 0.131 g
+  • Fiber, total dietary: 1.79 g
+  • Calcium, Ca: 9.82 mg
+  • Protein: 0.723 g
+  • Carbohydrate, by difference: 4.97 g
+
+---
+
+FOOD: Peppers, jalapeno, seeded, raw
+Category: Vegetables and Vegetable Products
+Nutrients per 100g:
+  • Iron, Fe: 0.038 mg
+  • Magnesium, Mg: 8.95 mg
+  • Potassium, K: 167 mg
+  • Sodium, Na: 0.0 mg
+  • Zinc, Zn: 0.094 mg
+  • Vitamin C, total ascorbic acid: 89.9 mg
+  • Total lipid (fat): 0.149 g
+  • Fiber, total dietary: 1.72 g
+  • Calcium, Ca: 10.1 mg
+  • Carbohydrate, by difference: 5.08 g
+  • Protein: 0.621 g

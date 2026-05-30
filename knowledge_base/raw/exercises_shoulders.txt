@@ -1,0 +1,98 @@
+SOURCE: APEX AI Curated Exercise Database
+BASED ON: NSCA Essentials of Strength & Conditioning
+Muscle Group: Shoulders — 4 exercises
+============================================================
+
+EXERCISE: Overhead Press
+Muscle Group: Shoulders
+Type: Compound
+Primary Muscles: Anterior deltoid, Lateral deltoid
+Secondary Muscles: Triceps, Upper trapezius, Core
+Equipment: Barbell
+
+Execution:
+Bar at shoulder height in rack. Press overhead to full lockout. Bar travels in slight arc around face. Brace core throughout. Dumbbell variation: more range of motion, greater stability demand.
+
+Prescription by goal:
+  • Strength: 4 sets × 3–5 reps | Rest: 180s | Tempo: 2-0-X-0
+  • Hypertrophy: 4 sets × 8–12 reps | Rest: 90s | Tempo: 3-0-1-0
+  • Fat_loss: 3 sets × 10–15 reps | Rest: 60s | Tempo: 2-0-1-0
+  • Endurance: 3 sets × 15–20 reps | Rest: 45s | Tempo: 2-0-1-0
+  • General: 3 sets × 10–12 reps | Rest: 75s | Tempo: 2-0-1-0
+
+Progressive overload:
+  • Beginner: +1.25kg when top of rep range hit | Deload every 6 weeks
+  • Intermediate: +1.25kg when top of rep range hit | Deload every 4 weeks
+  • Advanced: +0.5kg when top of rep range hit | Deload every 4 weeks
+
+---
+
+EXERCISE: Lateral Raise
+Muscle Group: Shoulders
+Type: Isolation
+Primary Muscles: Lateral deltoid
+Secondary Muscles: Supraspinatus
+Equipment: Dumbbell
+
+Execution:
+Stand with dumbbells at sides. Raise arms to shoulder height in arc. Slight forward lean and thumb-down position to bias lateral head. Control descent — 3 seconds down.
+
+Prescription by goal:
+  • Strength: 3 sets × 5–8 reps | Rest: 120s | Tempo: 2-0-1-0
+  • Hypertrophy: 3 sets × 10–15 reps | Rest: 60s | Tempo: 2-0-1-0
+  • Fat_loss: 3 sets × 12–15 reps | Rest: 45s | Tempo: 2-0-1-0
+  • Endurance: 2 sets × 15–20 reps | Rest: 30s | Tempo: 2-0-1-0
+  • General: 3 sets × 12–15 reps | Rest: 60s | Tempo: 2-0-1-0
+
+Progressive overload:
+  • Beginner: +1.25kg when top of rep range hit | Deload every 6 weeks
+  • Intermediate: +1.25kg when top of rep range hit | Deload every 4 weeks
+  • Advanced: +0.5kg when top of rep range hit | Deload every 4 weeks
+
+---
+
+EXERCISE: Arnold Press
+Muscle Group: Shoulders
+Type: Compound
+Primary Muscles: Anterior deltoid, Lateral deltoid, Posterior deltoid
+Secondary Muscles: Triceps, Upper trapezius
+Equipment: Dumbbell
+
+Execution:
+Start with palms facing you at shoulder height. Rotate palms outward as you press overhead. Reverse on descent. Full range of motion hits all three deltoid heads.
+
+Prescription by goal:
+  • Strength: 4 sets × 3–5 reps | Rest: 180s | Tempo: 2-0-X-0
+  • Hypertrophy: 4 sets × 8–12 reps | Rest: 90s | Tempo: 3-0-1-0
+  • Fat_loss: 3 sets × 10–15 reps | Rest: 60s | Tempo: 2-0-1-0
+  • Endurance: 3 sets × 15–20 reps | Rest: 45s | Tempo: 2-0-1-0
+  • General: 3 sets × 10–12 reps | Rest: 75s | Tempo: 2-0-1-0
+
+Progressive overload:
+  • Beginner: +1.25kg when top of rep range hit | Deload every 6 weeks
+  • Intermediate: +1.25kg when top of rep range hit | Deload every 4 weeks
+  • Advanced: +0.5kg when top of rep range hit | Deload every 4 weeks
+
+---
+
+EXERCISE: Rear Delt Fly
+Muscle Group: Shoulders
+Type: Isolation
+Primary Muscles: Posterior deltoid, Rhomboids
+Secondary Muscles: Middle trapezius
+Equipment: Dumbbell
+
+Execution:
+Hinge forward 45-90°. Raise dumbbells in wide arc to shoulder height. Pinch shoulder blades. Critical for posture and shoulder balance.
+
+Prescription by goal:
+  • Strength: 3 sets × 5–8 reps | Rest: 120s | Tempo: 2-0-1-0
+  • Hypertrophy: 3 sets × 10–15 reps | Rest: 60s | Tempo: 2-0-1-0
+  • Fat_loss: 3 sets × 12–15 reps | Rest: 45s | Tempo: 2-0-1-0
+  • Endurance: 2 sets × 15–20 reps | Rest: 30s | Tempo: 2-0-1-0
+  • General: 3 sets × 12–15 reps | Rest: 60s | Tempo: 2-0-1-0
+
+Progressive overload:
+  • Beginner: +1.25kg when top of rep range hit | Deload every 6 weeks
+  • Intermediate: +1.25kg when top of rep range hit | Deload every 4 weeks
+  • Advanced: +0.5kg when top of rep range hit | Deload every 4 weeks

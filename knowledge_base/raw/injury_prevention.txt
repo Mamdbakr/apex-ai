@@ -1,0 +1,32 @@
+SOURCE: APEX AI Curated Knowledge Base
+TOPIC: Common Gym Injuries — Prevention and Management
+============================================================
+
+# Injury Prevention and Management
+
+## Shoulder Injuries
+Cause: Overuse, poor form, muscle imbalance (push:pull > 1:1).
+Prevention: Face pulls 3x/week, external rotation work, 1:1 push:pull ratio.
+Management: Reduce overhead pressing, add band pull-aparts daily.
+
+## Hip Flexor Strain
+Cause: Tight hip flexors from sitting + explosive movements.
+Prevention: Hip flexor stretching post-workout, glute activation warm-up.
+Management: Avoid deep squats, add couch stretch and pigeon pose.
+
+## Wrist Pain (Bench/Overhead Press)
+Cause: Wrists extended under load.
+Prevention: Keep wrists neutral (straight), use wrist wraps if needed.
+Management: Reduce load, try neutral grip alternatives.
+
+## General Injury Prevention Principles
+1. Warm-up: 5 min cardio + dynamic stretching before every session
+2. Progressive overload: max 5-10% volume increase per week
+3. Sleep 7-9 hours — connective tissue repairs during sleep
+4. Deload every 4-6 weeks
+5. When in doubt, reduce load not volume
+6. Sharp pain = stop immediately. Consult physiotherapist.
+
+## RICE Protocol for Acute Injuries
+Rest, Ice (15-20 min), Compression, Elevation — first 48 hours.
+After 48 hours: gentle movement, heat therapy for blood flow.

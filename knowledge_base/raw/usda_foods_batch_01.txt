@@ -1,0 +1,1175 @@
+SOURCE: USDA FoodData Central
+LICENSE: Public domain
+Batch 1 (foods 1–50)
+============================================================
+
+FOOD: Hummus, commercial
+Category: Legumes and Legume Products
+Nutrients per 100g:
+  • Vitamin C, total ascorbic acid: 0.0 mg
+  • Fatty acids, total saturated: 2.22 g
+  • Protein: 7.35 g
+  • Energy: 960 kJ
+  • Fiber, total dietary: 5.4 g
+  • Iron, Fe: 2.41 mg
+  • Magnesium, Mg: 71.1 mg
+  • Sodium, Na: 438 mg
+  • Fatty acids, total monounsaturated: 6.37 g
+  • Fatty acids, total polyunsaturated: 7.48 g
+  • Total lipid (fat): 17.1 g
+  • Carbohydrate, by difference: 14.9 g
+  • Energy: 229 kcal
+  • Calcium, Ca: 41.0 mg
+  • Potassium, K: 289 mg
+  • Zinc, Zn: 1.38 mg
+Common portions:
+  • : 33.9g
+  • serving: 30.0g
+
+---
+
+FOOD: Tomatoes, grape, raw
+Category: Vegetables and Vegetable Products
+Nutrients per 100g:
+  • Vitamin C, total ascorbic acid: 27.2 mg
+  • Total lipid (fat): 0.63 g
+  • Calcium, Ca: 11.0 mg
+  • Iron, Fe: 0.33 mg
+  • Magnesium, Mg: 11.9 mg
+  • Potassium, K: 260 mg
+  • Sodium, Na: 6.0 mg
+  • Zinc, Zn: 0.2 mg
+  • Fiber, total dietary: 2.1 g
+  • Protein: 0.83 g
+  • Carbohydrate, by difference: 5.51 g
+  • Energy: 27.0 kcal
+  • Energy: 113 kJ
+Common portions:
+  • : 49.7g
+  • : 152.0g
+  • serving: 85.0g
+
+---
+
+FOOD: Beans, snap, green, canned, regular pack, drained solids
+Category: Vegetables and Vegetable Products
+Nutrients per 100g:
+  • Zinc, Zn: 0.19 mg
+  • Calcium, Ca: 36.0 mg
+  • Total lipid (fat): 0.39 g
+  • Carbohydrate, by difference: 4.11 g
+  • Energy: 21.0 kcal
+  • Energy: 86.0 kJ
+  • Sodium, Na: 282 mg
+  • Iron, Fe: 0.78 mg
+  • Protein: 1.04 g
+  • Magnesium, Mg: 12.7 mg
+  • Potassium, K: 97.0 mg
+Common portions:
+  • drained: 129.0g
+  • serving: 130.0g
+
+---
+
+FOOD: Frankfurter, beef, unheated
+Category: Sausages and Luncheon Meats
+Nutrients per 100g:
+  • Total lipid (fat): 28.0 g
+  • Carbohydrate, by difference: 2.89 g
+  • Energy: 314 kcal
+  • Calcium, Ca: 15.0 mg
+  • Potassium, K: 343 mg
+  • Zinc, Zn: 2.06 mg
+  • Fatty acids, total monounsaturated: 12.1 g
+  • Fatty acids, total polyunsaturated: 0.954 g
+  • Fatty acids, total saturated: 11.4 g
+  • Energy: 1310.0 kJ
+  • Protein: 11.7 g
+  • Iron, Fe: 1.14 mg
+  • Magnesium, Mg: 11.5 mg
+  • Sodium, Na: 872 mg
+Common portions:
+  • : 48.6g
+  • serving: 85.0g
+
+---
+
+FOOD: Nuts, almonds, dry roasted, with salt added
+Category: Nut and Seed Products
+Nutrients per 100g:
+  • Vitamin C, total ascorbic acid: 0.0 mg
+  • Fatty acids, total monounsaturated: 34.2 g
+  • Fatty acids, total polyunsaturated: 14.5 g
+  • Calcium, Ca: 273 mg
+  • Potassium, K: 684 mg
+  • Zinc, Zn: 2.8 mg
+  • Total lipid (fat): 57.8 g
+  • Carbohydrate, by difference: 16.2 g
+  • Energy: 620 kcal
+  • Energy: 2590.0 kJ
+  • Iron, Fe: 3.17 mg
+  • Magnesium, Mg: 258 mg
+  • Protein: 20.4 g
+  • Fatty acids, total saturated: 4.56 g
+  • Fiber, total dietary: 11.0 g
+  • Sodium, Na: 256 mg
+Common portions:
+  • whole: 135.0g
+  • serving: 30.0g
+
+---
+
+FOOD: Kale, raw
+Category: Vegetables and Vegetable Products
+Nutrients per 100g:
+  • Protein: 2.92 g
+  • Vitamin C, total ascorbic acid: 93.4 mg
+  • Energy: 148 kJ
+  • Fiber, total dietary: 4.1 g
+  • Iron, Fe: 1.6 mg
+  • Magnesium, Mg: 32.7 mg
+  • Sodium, Na: 53.0 mg
+  • Total lipid (fat): 1.49 g
+  • Carbohydrate, by difference: 4.42 g
+  • Energy: 35.0 kcal
+  • Calcium, Ca: 254 mg
+  • Potassium, K: 348 mg
+  • Zinc, Zn: 0.39 mg
+Common portions:
+  • pieces of ~1": 20.6g
+  • serving: 85.0g
+
+---
+
+FOOD: Egg, whole, raw, frozen, pasteurized
+Category: Dairy and Egg Products
+Nutrients per 100g:
+  • Magnesium, Mg: 11.2 mg
+  • Potassium, K: 117 mg
+  • Zinc, Zn: 1.2 mg
+  • Sodium, Na: 121 mg
+  • Iron, Fe: 1.77 mg
+  • Energy: 627 kJ
+  • Protein: 12.3 g
+  • Calcium, Ca: 55.0 mg
+  • Total lipid (fat): 10.3 g
+  • Carbohydrate, by difference: 0.91 g
+  • Energy: 150 kcal
+  • Vitamin D (D2 + D3): 2.3 µg
+  • Cholesterol: 420 mg
+Common portions:
+  • : 28.4g
+  • serving: 50.0g
+
+---
+
+FOOD: Egg, white, raw, frozen, pasteurized
+Category: Dairy and Egg Products
+Nutrients per 100g:
+  • Potassium, K: 130 mg
+  • Zinc, Zn: 0.02 mg
+  • Sodium, Na: 144 mg
+  • Magnesium, Mg: 10.6 mg
+  • Vitamin D (D2 + D3): 0.0 µg
+  • Calcium, Ca: 9.0 mg
+  • Total lipid (fat): 0.16 g
+  • Carbohydrate, by difference: 0.74 g
+  • Energy: 48.0 kcal
+  • Energy: 201 kJ
+  • Protein: 10.1 g
+  • Iron, Fe: 0.18 mg
+  • Cholesterol: 3.0 mg
+Common portions:
+  • : 28.4g
+
+---
+
+FOOD: Egg, white, dried
+Category: Dairy and Egg Products
+Nutrients per 100g:
+  • Energy: 1570.0 kJ
+  • Protein: 79.9 g
+  • Iron, Fe: 0.0 mg
+  • Magnesium, Mg: 87.6 mg
+  • Sodium, Na: 1250.0 mg
+  • Cholesterol: 17.0 mg
+  • Calcium, Ca: 104 mg
+  • Potassium, K: 959 mg
+  • Zinc, Zn: 0.43 mg
+  • Total lipid (fat): 0.65 g
+  • Carbohydrate, by difference: 6.02 g
+  • Energy: 376 kcal
+  • Vitamin D (D2 + D3): 0.0 µg
+Common portions:
+  • : 7.0g
+  • sifted: 107.0g
+
+---
+
+FOOD: Onion rings, breaded, par fried, frozen, prepared, heated in oven
+Category: Vegetables and Vegetable Products
+Nutrients per 100g:
+  • Potassium, K: 135 mg
+  • Total lipid (fat): 14.4 g
+  • Carbohydrate, by difference: 36.3 g
+  • Energy: 288 kcal
+  • Fatty acids, total monounsaturated: 2.87 g
+  • Fatty acids, total polyunsaturated: 7.58 g
+  • Vitamin C, total ascorbic acid: 1.6 mg
+  • Fatty acids, total saturated: 2.15 g
+  • Magnesium, Mg: 20.4 mg
+  • Sodium, Na: 374 mg
+  • Energy: 1210.0 kJ
+  • Fiber, total dietary: 2.4 g
+  • Iron, Fe: 1.14 mg
+  • Protein: 4.52 g
+  • Calcium, Ca: 28.0 mg
+  • Zinc, Zn: 0.59 mg
+Common portions:
+  • serving: 20.2g
+  • serving: 85.0g
+
+---
+
+FOOD: Pickles, cucumber, dill or kosher dill
+Category: Vegetables and Vegetable Products
+Nutrients per 100g:
+  • Energy: 50.0 kJ
+  • Sodium, Na: 808 mg
+  • Calcium, Ca: 54.0 mg
+  • Potassium, K: 112 mg
+  • Zinc, Zn: 0.11 mg
+  • Total lipid (fat): 0.43 g
+  • Carbohydrate, by difference: 1.99 g
+  • Protein: 0.48 g
+  • Fiber, total dietary: 1.0 g
+  • Iron, Fe: 0.23 mg
+  • Magnesium, Mg: 7.1 mg
+  • Vitamin C, total ascorbic acid: 2.1 mg
+  • Energy: 12.0 kcal
+Common portions:
+  • : 40.4g
+  • serving: 30.0g
+
+---
+
+FOOD: Cheese, parmesan, grated
+Category: Dairy and Egg Products
+Nutrients per 100g:
+  • Total lipid (fat): 28.0 g
+  • Carbohydrate, by difference: 12.4 g
+  • Energy: 421 kcal
+  • Calcium, Ca: 884 mg
+  • Potassium, K: 184 mg
+  • Zinc, Zn: 4.33 mg
+  • Fatty acids, total monounsaturated: 6.4 g
+  • Fatty acids, total polyunsaturated: 1.2 g
+  • Protein: 29.6 g
+  • Energy: 1760.0 kJ
+  • Iron, Fe: 0.45 mg
+  • Magnesium, Mg: 34.9 mg
+  • Sodium, Na: 1750.0 mg
+  • Cholesterol: 87.0 mg
+  • Fatty acids, total saturated: 15.5 g
+Common portions:
+  • serving: 7.6g
+  • serving: 5.0g
+
+---
+
+FOOD: Cheese, pasteurized process, American, vitamin D fortified
+Category: Dairy and Egg Products
+Nutrients per 100g:
+  • Calcium, Ca: 866 mg
+  • Potassium, K: 149 mg
+  • Zinc, Zn: 2.42 mg
+  • Fatty acids, total monounsaturated: 7.3 g
+  • Fatty acids, total polyunsaturated: 1.09 g
+  • Cholesterol: 98.0 mg
+  • Fatty acids, total saturated: 18.1 g
+  • Protein: 18.0 g
+  • Iron, Fe: 0.48 mg
+  • Magnesium, Mg: 25.1 mg
+  • Sodium, Na: 1660.0 mg
+  • Vitamin D (D2 + D3): 7.5 µg
+  • Energy: 1530.0 kJ
+  • Total lipid (fat): 30.6 g
+  • Carbohydrate, by difference: 5.27 g
+  • Energy: 366 kcal
+
+---
+
+FOOD: Grapefruit juice, white, canned or bottled, unsweetened
+Category: Fruits and Fruit Juices
+Nutrients per 100g:
+  • Vitamin C, total ascorbic acid: 39.4 mg
+  • Protein: 0.55 g
+  • Energy: 157 kJ
+  • Fiber, total dietary: 0.2 g
+  • Iron, Fe: 0.07 mg
+  • Magnesium, Mg: 9.6 mg
+  • Sodium, Na: 1.0 mg
+  • Total lipid (fat): 0.7 g
+  • Carbohydrate, by difference: 7.59 g
+  • Energy: 37.0 kcal
+  • Calcium, Ca: 16.0 mg
+  • Potassium, K: 141 mg
+  • Zinc, Zn: 0.04 mg
+Common portions:
+  • : 257.0g
+
+---
+
+FOOD: Peaches, yellow, raw
+Category: Fruits and Fruit Juices
+Nutrients per 100g:
+  • Carbohydrate, by difference: 10.1 g
+  • Energy: 42.0 kcal
+  • Energy: 174 kJ
+  • Potassium, K: 122 mg
+  • Sodium, Na: 13.0 mg
+  • Vitamin C, total ascorbic acid: 4.1 mg
+  • Fiber, total dietary: 1.5 g
+  • Iron, Fe: 0.34 mg
+  • Magnesium, Mg: 8.0 mg
+  • Protein: 0.91 g
+  • Total lipid (fat): 0.27 g
+  • Calcium, Ca: 4.0 mg
+  • Zinc, Zn: 0.23 mg
+Common portions:
+  • small (2-1/2" dia): 147.0g
+  • slices with skin: 154.0g
+  • large (2-3/4" dia): 173.0g
+
+---
+
+FOOD: Seeds, sunflower seed kernels, dry roasted, with salt added
+Category: Nut and Seed Products
+Nutrients per 100g:
+  • Fiber, total dietary: 10.3 g
+  • Sodium, Na: 532 mg
+  • Fatty acids, total monounsaturated: 33.4 g
+  • Fatty acids, total polyunsaturated: 13.0 g
+  • Total lipid (fat): 56.1 g
+  • Carbohydrate, by difference: 17.1 g
+  • Energy: 612 kcal
+  • Calcium, Ca: 78.0 mg
+  • Potassium, K: 689 mg
+  • Zinc, Zn: 6.0 mg
+  • Fatty acids, total saturated: 5.36 g
+  • Vitamin C, total ascorbic acid: 0.0 mg
+  • Iron, Fe: 5.21 mg
+  • Magnesium, Mg: 358 mg
+  • Protein: 21.0 g
+  • Energy: 2560.0 kJ
+Common portions:
+  • : 127.0g
+  • serving: 30.0g
+
+---
+
+FOOD: Bread, white, commercially prepared
+Category: Baked Products
+Nutrients per 100g:
+  • Fatty acids, total monounsaturated: 0.717 g
+  • Fatty acids, total polyunsaturated: 1.87 g
+  • Fatty acids, total saturated: 0.821 g
+  • Fiber, total dietary: 2.3 g
+  • Total lipid (fat): 3.59 g
+  • Carbohydrate, by difference: 49.2 g
+  • Energy: 270 kcal
+  • Calcium, Ca: 211 mg
+  • Potassium, K: 117 mg
+  • Zinc, Zn: 0.88 mg
+  • Protein: 9.43 g
+  • Iron, Fe: 3.36 mg
+  • Magnesium, Mg: 26.9 mg
+  • Sodium, Na: 477 mg
+  • Energy: 1130.0 kJ
+Common portions:
+  • serving: 27.3g
+  • serving: 50.0g
+
+---
+
+FOOD: Kale, frozen, cooked, boiled, drained, without salt
+Category: Vegetables and Vegetable Products
+Nutrients per 100g:
+  • Total lipid (fat): 1.21 g
+  • Carbohydrate, by difference: 5.3 g
+  • Energy: 36.0 kcal
+  • Calcium, Ca: 150 mg
+  • Potassium, K: 144 mg
+  • Zinc, Zn: 0.27 mg
+  • Protein: 2.94 g
+  • Energy: 151 kJ
+  • Iron, Fe: 0.84 mg
+  • Magnesium, Mg: 25.0 mg
+  • Sodium, Na: 16.0 mg
+  • Vitamin C, total ascorbic acid: 17.8 mg
+Common portions:
+  • cooked: 118.0g
+  • serving: 85.0g
+
+---
+
+FOOD: Mustard, prepared, yellow
+Category: Spices and Herbs
+Nutrients per 100g:
+  • Zinc, Zn: 0.64 mg
+  • Protein: 4.25 g
+  • Vitamin C, total ascorbic acid: 0.4 mg
+  • Energy: 254 kJ
+  • Fiber, total dietary: 4.3 g
+  • Iron, Fe: 1.59 mg
+  • Magnesium, Mg: 47.7 mg
+  • Sodium, Na: 1100.0 mg
+  • Fatty acids, total saturated: 0.252 g
+  • Total lipid (fat): 3.38 g
+  • Carbohydrate, by difference: 5.3 g
+  • Energy: 61.0 kcal
+  • Calcium, Ca: 63.0 mg
+  • Potassium, K: 150 mg
+  • Fatty acids, total monounsaturated: 2.59 g
+  • Fatty acids, total polyunsaturated: 0.903 g
+Common portions:
+  • serving: 249.0g
+  • serving: 6.0g
+
+---
+
+FOOD: Kiwifruit, green, raw
+Category: Fruits and Fruit Juices
+Nutrients per 100g:
+  • Total lipid (fat): 0.44 g
+  • Calcium, Ca: 35.0 mg
+  • Iron, Fe: 0.24 mg
+  • Magnesium, Mg: 15.7 mg
+  • Potassium, K: 198 mg
+  • Sodium, Na: 5.0 mg
+  • Zinc, Zn: 0.14 mg
+  • Vitamin C, total ascorbic acid: 74.7 mg
+  • Fiber, total dietary: 3.0 g
+  • Protein: 1.06 g
+  • Carbohydrate, by difference: 14.0 g
+  • Energy: 58.0 kcal
+  • Energy: 241 kJ
+Common portions:
+  • serving: 140.0g
+
+---
+
+FOOD: Nectarines, raw
+Category: Fruits and Fruit Juices
+Nutrients per 100g:
+  • Potassium, K: 131 mg
+  • Sodium, Na: 13.0 mg
+  • Vitamin C, total ascorbic acid: 2.9 mg
+  • Fatty acids, total saturated: 0.0 g
+  • Energy: 163 kJ
+  • Fatty acids, total monounsaturated: 0.0 g
+  • Fatty acids, total polyunsaturated: 0.0 g
+  • Carbohydrate, by difference: 9.18 g
+  • Energy: 39.0 kcal
+  • Total lipid (fat): 0.28 g
+  • Calcium, Ca: 2.0 mg
+  • Zinc, Zn: 0.21 mg
+  • Fiber, total dietary: 1.5 g
+  • Iron, Fe: 0.3 mg
+  • Magnesium, Mg: 8.8 mg
+  • Protein: 1.06 g
+Common portions:
+  • 2-1/3" dia: 129.0g
+  • 2-3/4" dia: 156.0g
+  •  2-1/2" dia: 142.0g
+
+---
+
+FOOD: Cheese, cheddar
+Category: Dairy and Egg Products
+Nutrients per 100g:
+  • Fatty acids, total polyunsaturated: 1.18 g
+  • Calcium, Ca: 707 mg
+  • Potassium, K: 77.0 mg
+  • Zinc, Zn: 3.67 mg
+  • Carbohydrate, by difference: 2.44 g
+  • Energy: 408 kcal
+  • Protein: 23.3 g
+  • Energy: 1710.0 kJ
+  • Total lipid (fat): 34.0 g
+  • Cholesterol: 100 mg
+  • Fatty acids, total saturated: 19.2 g
+  • Sodium, Na: 654 mg
+  • Iron, Fe: 0.16 mg
+  • Magnesium, Mg: 26.8 mg
+  • Fatty acids, total monounsaturated: 7.44 g
+Common portions:
+  • serving: 17.0g
+  • shredded: 105.0g
+  • serving: 30.0g
+
+---
+
+FOOD: Cheese, cottage, lowfat, 2% milkfat
+Category: Dairy and Egg Products
+Nutrients per 100g:
+  • Total lipid (fat): 2.3 g
+  • Carbohydrate, by difference: 4.31 g
+  • Energy: 84.0 kcal
+  • Calcium, Ca: 103 mg
+  • Potassium, K: 120 mg
+  • Zinc, Zn: 0.61 mg
+  • Fatty acids, total monounsaturated: 0.469 g
+  • Fatty acids, total polyunsaturated: 0.072 g
+  • Energy: 352 kJ
+  • Protein: 11.0 g
+  • Cholesterol: 12.0 mg
+  • Fatty acids, total saturated: 1.26 g
+  • Iron, Fe: 0.13 mg
+  • Magnesium, Mg: 8.9 mg
+  • Sodium, Na: 321 mg
+Common portions:
+  • serving: 220.0g
+  • serving: 55.0g
+
+---
+
+FOOD: Cheese, mozzarella, low moisture, part-skim
+Category: Dairy and Egg Products
+Nutrients per 100g:
+  • Magnesium, Mg: 27.2 mg
+  • Sodium, Na: 699 mg
+  • Energy: 1240.0 kJ
+  • Iron, Fe: 0.2 mg
+  • Protein: 23.7 g
+  • Fatty acids, total saturated: 11.7 g
+  • Cholesterol: 65.0 mg
+  • Total lipid (fat): 20.4 g
+  • Carbohydrate, by difference: 4.44 g
+  • Energy: 298 kcal
+  • Calcium, Ca: 693 mg
+  • Potassium, K: 116 mg
+  • Zinc, Zn: 3.62 mg
+  • Fatty acids, total monounsaturated: 4.65 g
+  • Fatty acids, total polyunsaturated: 0.744 g
+
+---
+
+FOOD: Egg, whole, dried
+Category: Dairy and Egg Products
+Nutrients per 100g:
+  • Potassium, K: 468 mg
+  • Zinc, Zn: 5.02 mg
+  • Iron, Fe: 6.97 mg
+  • Protein: 48.1 g
+  • Sodium, Na: 485 mg
+  • Total lipid (fat): 39.8 g
+  • Carbohydrate, by difference: 1.87 g
+  • Calcium, Ca: 220 mg
+  • Energy: 2410.0 kJ
+  • Vitamin D (D2 + D3): 9.7 µg
+  • Energy: 575 kcal
+  • Cholesterol: 1700.0 mg
+  • Magnesium, Mg: 44.6 mg
+Common portions:
+  • sifted: 85.0g
+  • : 5.0g
+  • : 28.4g
+
+---
+
+FOOD: Egg, yolk, raw, frozen, pasteurized
+Category: Dairy and Egg Products
+Nutrients per 100g:
+  • Potassium, K: 102 mg
+  • Zinc, Zn: 2.93 mg
+  • Magnesium, Mg: 11.2 mg
+  • Total lipid (fat): 25.1 g
+  • Carbohydrate, by difference: 0.59 g
+  • Calcium, Ca: 119 mg
+  • Protein: 15.6 g
+  • Sodium, Na: 66.0 mg
+  • Iron, Fe: 4.13 mg
+  • Energy: 296 kcal
+  • Energy: 1240.0 kJ
+  • Vitamin D (D2 + D3): 5.8 µg
+  • Cholesterol: 1000.0 mg
+Common portions:
+  • : 28.4g
+
+---
+
+FOOD: Egg, yolk, dried
+Category: Dairy and Egg Products
+Nutrients per 100g:
+  • Magnesium, Mg: 26.0 mg
+  • Potassium, K: 231 mg
+  • Zinc, Zn: 7.11 mg
+  • Calcium, Ca: 270 mg
+  • Total lipid (fat): 55.5 g
+  • Carbohydrate, by difference: 1.07 g
+  • Protein: 34.2 g
+  • Sodium, Na: 149 mg
+  • Iron, Fe: 9.28 mg
+  • Energy: 654 kcal
+  • Energy: 2740.0 kJ
+  • Vitamin D (D2 + D3): 15.7 µg
+  • Cholesterol: 2340.0 mg
+Common portions:
+  • : 4.0g
+  • sifted: 67.0g
+  • : 28.4g
+
+---
+
+FOOD: Yogurt, Greek, plain, nonfat
+Category: Dairy and Egg Products
+Nutrients per 100g:
+  • Magnesium, Mg: 10.7 mg
+  • Iron, Fe: 0.07 mg
+  • Protein: 10.3 g
+  • Energy: 256 kJ
+  • Cholesterol: 5.0 mg
+  • Fatty acids, total saturated: 0.108 g
+  • Sodium, Na: 36.0 mg
+  • Vitamin D (D2 + D3): 0.0 µg
+  • Fatty acids, total monounsaturated: 0.043 g
+  • Fatty acids, total polyunsaturated: 0.011 g
+  • Total lipid (fat): 0.37 g
+  • Carbohydrate, by difference: 3.64 g
+  • Energy: 61.0 kcal
+  • Calcium, Ca: 111 mg
+  • Potassium, K: 141 mg
+  • Zinc, Zn: 0.53 mg
+Common portions:
+  • serving: 156.0g
+  • serving: 170.0g
+
+---
+
+FOOD: Yogurt, Greek, strawberry, nonfat
+Category: Dairy and Egg Products
+Nutrients per 100g:
+  • Total lipid (fat): 0.15 g
+  • Carbohydrate, by difference: 12.2 g
+  • Energy: 83.0 kcal
+  • Calcium, Ca: 97.0 mg
+  • Potassium, K: 133 mg
+  • Zinc, Zn: 0.46 mg
+  • Fatty acids, total monounsaturated: 0.029 g
+  • Fatty acids, total polyunsaturated: 0.021 g
+  • Protein: 8.06 g
+  • Energy: 347 kJ
+  • Fiber, total dietary: 0.6 g
+  • Iron, Fe: 0.09 mg
+  • Magnesium, Mg: 10.4 mg
+  • Sodium, Na: 32.0 mg
+  • Vitamin D (D2 + D3): 1.0 µg
+  • Vitamin C, total ascorbic acid: 0.2 mg
+  • Cholesterol: 4.0 mg
+  • Fatty acids, total saturated: 0.103 g
+Common portions:
+  • 5.3 oz: 150.0g
+  • serving: 170.0g
+
+---
+
+FOOD: Oil, coconut
+Category: Fats and Oils
+Nutrients per 100g:
+  • Fatty acids, total saturated: 82.5 g
+  • Protein: 0.0 g
+  • Iron, Fe: 0.05 mg
+  • Energy: 3480.0 kJ
+  • Total lipid (fat): 99.1 g
+  • Energy: 833 kcal
+  • Calcium, Ca: 1.0 mg
+  • Zinc, Zn: 0.02 mg
+  • Fatty acids, total monounsaturated: 6.31 g
+  • Fatty acids, total polyunsaturated: 1.7 g
+  • Carbohydrate, by difference: 0.84 g
+  • Potassium, K: 0.0 mg
+  • Magnesium, Mg: 0.0 mg
+  • Sodium, Na: 0.0 mg
+Common portions:
+  • liquid oil: 11.6g
+
+---
+
+FOOD: Chicken, broilers or fryers, drumstick, meat only, cooked, braised
+Category: Poultry Products
+Nutrients per 100g:
+  • Cholesterol: 127 mg
+  • Fatty acids, total saturated: 1.6 g
+  • Protein: 23.9 g
+  • Energy: 652 kJ
+  • Iron, Fe: 0.94 mg
+  • Magnesium, Mg: 22.4 mg
+  • Sodium, Na: 117 mg
+  • Vitamin D (D2 + D3): 0.1 µg
+  • Total lipid (fat): 5.95 g
+  • Carbohydrate, by difference: 0.0 g
+  • Energy: 156 kcal
+  • Calcium, Ca: 12.0 mg
+  • Potassium, K: 239 mg
+  • Zinc, Zn: 2.54 mg
+  • Fatty acids, total monounsaturated: 2.35 g
+  • Fatty acids, total polyunsaturated: 1.24 g
+Common portions:
+  • with skin: 104.0g
+  • without skin: 94.7g
+  • serving: 114.0g
+
+---
+
+FOOD: Chicken, broiler or fryers, breast, skinless, boneless, meat only, cooked, braised
+Category: Poultry Products
+Nutrients per 100g:
+  • Total lipid (fat): 3.24 g
+  • Carbohydrate, by difference: 0.0 g
+  • Energy: 166 kcal
+  • Calcium, Ca: 6.0 mg
+  • Potassium, K: 343 mg
+  • Zinc, Zn: 0.96 mg
+  • Fatty acids, total monounsaturated: 1.26 g
+  • Fatty acids, total polyunsaturated: 0.766 g
+  • Cholesterol: 116 mg
+  • Fatty acids, total saturated: 1.01 g
+  • Protein: 32.1 g
+  • Energy: 695 kJ
+  • Iron, Fe: 0.49 mg
+  • Magnesium, Mg: 32.0 mg
+  • Sodium, Na: 47.0 mg
+Common portions:
+  • serving: 174.0g
+  • serving: 114.0g
+
+---
+
+FOOD: Sauce, pasta, spaghetti/marinara, ready-to-serve
+Category: Soups, Sauces, and Gravies
+Nutrients per 100g:
+  • Magnesium, Mg: 18.5 mg
+  • Fiber, total dietary: 1.8 g
+  • Zinc, Zn: 0.2 mg
+  • Calcium, Ca: 27.0 mg
+  • Potassium, K: 319 mg
+  • Total lipid (fat): 1.48 g
+  • Carbohydrate, by difference: 8.05 g
+  • Energy: 45.0 kcal
+  • Fatty acids, total monounsaturated: 0.376 g
+  • Fatty acids, total polyunsaturated: 0.504 g
+  • Fatty acids, total saturated: 0.17 g
+  • Iron, Fe: 0.78 mg
+  • Sodium, Na: 419 mg
+  • Protein: 1.41 g
+  • Energy: 186 kJ
+
+---
+
+FOOD: Ham, sliced, pre-packaged, deli meat (96%fat free, water added)
+Category: Sausages and Luncheon Meats
+Nutrients per 100g:
+  • Fatty acids, total saturated: 1.12 g
+  • Energy: 443 kJ
+  • Iron, Fe: 0.58 mg
+  • Magnesium, Mg: 18.8 mg
+  • Sodium, Na: 1040.0 mg
+  • Protein: 16.7 g
+  • Total lipid (fat): 3.73 g
+  • Carbohydrate, by difference: 0.27 g
+  • Energy: 106 kcal
+  • Potassium, K: 425 mg
+  • Zinc, Zn: 1.52 mg
+  • Fatty acids, total monounsaturated: 1.47 g
+  • Fatty acids, total polyunsaturated: 0.544 g
+  • Calcium, Ca: 5.0 mg
+Common portions:
+  • : 13.5g
+  • serving: 85.0g
+
+---
+
+FOOD: Olives, green, Manzanilla, stuffed with pimiento
+Category: Fruits and Fruit Juices
+Nutrients per 100g:
+  • Potassium, K: 43.0 mg
+  • Sodium, Na: 1620.0 mg
+  • Zinc, Zn: 0.09 mg
+  • Calcium, Ca: 121 mg
+  • Iron, Fe: 0.31 mg
+  • Magnesium, Mg: 12.4 mg
+  • Total lipid (fat): 12.9 g
+  • Fiber, total dietary: 4.0 g
+  • Vitamin C, total ascorbic acid: 0.0 mg
+  • Protein: 1.15 g
+  • Fatty acids, total saturated: 2.3 g
+  • Fatty acids, total monounsaturated: 8.86 g
+  • Fatty acids, total polyunsaturated: 0.661 g
+  • Carbohydrate, by difference: 4.96 g
+  • Energy: 130 kcal
+  • Energy: 543 kJ
+Common portions:
+  • : 3.2g
+  • serving: 40.0g
+
+---
+
+FOOD: Cookies, oatmeal, soft, with raisins
+Category: Baked Products
+Nutrients per 100g:
+  • Total lipid (fat): 14.3 g
+  • Calcium, Ca: 29.0 mg
+  • Iron, Fe: 2.28 mg
+  • Magnesium, Mg: 32.4 mg
+  • Potassium, K: 245 mg
+  • Sodium, Na: 314 mg
+  • Zinc, Zn: 0.62 mg
+  • Fiber, total dietary: 3.3 g
+  • Protein: 5.79 g
+  • Fatty acids, total saturated: 4.78 g
+  • Fatty acids, total monounsaturated: 4.0 g
+  • Fatty acids, total polyunsaturated: 4.89 g
+  • Carbohydrate, by difference: 69.6 g
+  • Energy: 430 kcal
+  • Energy: 1800.0 kJ
+Common portions:
+  • : 27.0g
+  • serving: 30.0g
+
+---
+
+FOOD: Tomatoes, canned, red, ripe, diced
+Category: Vegetables and Vegetable Products
+Nutrients per 100g:
+  • Calcium, Ca: 30.0 mg
+  • Iron, Fe: 0.57 mg
+  • Magnesium, Mg: 9.8 mg
+  • Potassium, K: 198 mg
+  • Sodium, Na: 125 mg
+  • Zinc, Zn: 0.12 mg
+  • Total lipid (fat): 0.5 g
+  • Protein: 0.84 g
+  • Carbohydrate, by difference: 3.32 g
+  • Energy: 18.0 kcal
+  • Energy: 76.0 kJ
+Common portions:
+  • : 245.0g
+  • serving: 130.0g
+
+---
+
+FOOD: Fish, haddock, raw
+Category: Finfish and Shellfish Products
+Nutrients per 100g:
+  • Fatty acids, total monounsaturated: 0.057 g
+  • Fatty acids, total polyunsaturated: 0.163 g
+  • Calcium, Ca: 11.0 mg
+  • Potassium, K: 286 mg
+  • Zinc, Zn: 0.32 mg
+  • Total lipid (fat): 0.45 g
+  • Energy: 74.0 kcal
+  • Energy: 308 kJ
+  • Vitamin D (D2 + D3): 0.5 µg
+  • Protein: 16.3 g
+  • Iron, Fe: 0.17 mg
+  • Magnesium, Mg: 21.1 mg
+  • Sodium, Na: 213 mg
+  • Cholesterol: 54.0 mg
+  • Fatty acids, total saturated: 0.093 g
+  • Carbohydrate, by difference: 0.0 g
+Common portions:
+  • serving: 176.0g
+  • serving: 115.0g
+
+---
+
+FOOD: Fish, pollock, raw
+Category: Finfish and Shellfish Products
+Nutrients per 100g:
+  • Energy: 56.0 kcal
+  • Total lipid (fat): 0.41 g
+  • Fatty acids, total monounsaturated: 0.073 g
+  • Fatty acids, total polyunsaturated: 0.182 g
+  • Calcium, Ca: 15.0 mg
+  • Potassium, K: 160 mg
+  • Zinc, Zn: 0.31 mg
+  • Vitamin D (D2 + D3): 0.2 µg
+  • Energy: 235 kJ
+  • Protein: 12.3 g
+  • Iron, Fe: 0.22 mg
+  • Magnesium, Mg: 16.1 mg
+  • Sodium, Na: 333 mg
+  • Cholesterol: 46.0 mg
+  • Fatty acids, total saturated: 0.128 g
+  • Carbohydrate, by difference: 0.0 g
+  • Vitamin C, total ascorbic acid: 0.0 mg
+Common portions:
+  • serving: 177.0g
+  • serving: 115.0g
+
+---
+
+FOOD: Fish, tuna, light, canned in water, drained solids
+Category: Finfish and Shellfish Products
+Nutrients per 100g:
+  • Calcium, Ca: 18.0 mg
+  • Potassium, K: 176 mg
+  • Zinc, Zn: 0.66 mg
+  • Total lipid (fat): 0.94 g
+  • Energy: 90.0 kcal
+  • Fatty acids, total monounsaturated: 0.114 g
+  • Fatty acids, total polyunsaturated: 0.259 g
+  • Vitamin D (D2 + D3): 1.2 µg
+  • Cholesterol: 36.0 mg
+  • Fatty acids, total saturated: 0.224 g
+  • Protein: 19.0 g
+  • Energy: 376 kJ
+  • Iron, Fe: 1.67 mg
+  • Magnesium, Mg: 22.7 mg
+  • Sodium, Na: 219 mg
+  • Carbohydrate, by difference: 0.08 g
+Common portions:
+  • total can contents: 142.0g
+  • drained solids: 107.0g
+  • serving: 85.0g
+
+---
+
+FOOD: Restaurant, Chinese, fried rice, without meat
+Category: Restaurant Foods
+Nutrients per 100g:
+  • Magnesium, Mg: 9.7 mg
+  • Fatty acids, total monounsaturated: 0.588 g
+  • Fatty acids, total polyunsaturated: 1.13 g
+  • Calcium, Ca: 11.0 mg
+  • Potassium, K: 69.0 mg
+  • Zinc, Zn: 0.69 mg
+  • Total lipid (fat): 3.19 g
+  • Carbohydrate, by difference: 32.5 g
+  • Energy: 174 kcal
+  • Vitamin D (D2 + D3): 0.0 µg
+  • Sodium, Na: 361 mg
+  • Fatty acids, total saturated: 0.493 g
+  • Energy: 729 kJ
+  • Protein: 3.84 g
+  • Iron, Fe: 0.46 mg
+Common portions:
+  • serving: 133.0g
+  • serving: 85.0g
+
+---
+
+FOOD: Restaurant, Latino, tamale, pork
+Category: Restaurant Foods
+Nutrients per 100g:
+  • Protein: 7.38 g
+  • Energy: 728 kJ
+  • Fiber, total dietary: 2.4 g
+  • Iron, Fe: 0.87 mg
+  • Magnesium, Mg: 26.2 mg
+  • Sodium, Na: 473 mg
+  • Cholesterol: 20.0 mg
+  • Fatty acids, total saturated: 2.69 g
+  • Total lipid (fat): 9.04 g
+  • Carbohydrate, by difference: 15.8 g
+  • Energy: 174 kcal
+  • Calcium, Ca: 75.0 mg
+  • Potassium, K: 152 mg
+  • Zinc, Zn: 1.2 mg
+  • Fatty acids, total monounsaturated: 3.2 g
+  • Fatty acids, total polyunsaturated: 2.03 g
+Common portions:
+  • serving: 142.0g
+  • serving: 140.0g
+
+---
+
+FOOD: Restaurant, Latino, pupusas con frijoles (pupusas, bean)
+Category: Restaurant Foods
+Nutrients per 100g:
+  • Protein: 5.59 g
+  • Energy: 959 kJ
+  • Fiber, total dietary: 5.8 g
+  • Iron, Fe: 1.46 mg
+  • Magnesium, Mg: 53.6 mg
+  • Sodium, Na: 305 mg
+  • Fatty acids, total saturated: 2.19 g
+  • Total lipid (fat): 9.01 g
+  • Carbohydrate, by difference: 31.5 g
+  • Energy: 229 kcal
+  • Calcium, Ca: 51.0 mg
+  • Potassium, K: 305 mg
+  • Zinc, Zn: 0.94 mg
+  • Fatty acids, total monounsaturated: 2.95 g
+  • Fatty acids, total polyunsaturated: 2.88 g
+Common portions:
+  • serving: 126.0g
+  • serving: 140.0g
+
+---
+
+FOOD: Bread, whole-wheat, commercially prepared
+Category: Baked Products
+Nutrients per 100g:
+  • Total lipid (fat): 3.55 g
+  • Carbohydrate, by difference: 43.1 g
+  • Energy: 254 kcal
+  • Calcium, Ca: 163 mg
+  • Potassium, K: 250 mg
+  • Zinc, Zn: 1.76 mg
+  • Fatty acids, total monounsaturated: 0.616 g
+  • Fatty acids, total polyunsaturated: 1.61 g
+  • Protein: 12.3 g
+  • Energy: 1060.0 kJ
+  • Fiber, total dietary: 6.0 g
+  • Iron, Fe: 2.56 mg
+  • Magnesium, Mg: 76.6 mg
+  • Sodium, Na: 450 mg
+  • Fatty acids, total saturated: 0.732 g
+Common portions:
+  • serving: 32.1g
+  • serving: 50.0g
+
+---
+
+FOOD: Beef, loin, tenderloin roast, separable lean only, boneless, trimmed to 0" fat, select, cooked, roasted
+Category: Beef Products
+Nutrients per 100g:
+  • Total lipid (fat): 6.36 g
+  • Carbohydrate, by difference: 0.0 g
+  • Energy: 176 kcal
+  • Calcium, Ca: 13.0 mg
+  • Potassium, K: 352 mg
+  • Zinc, Zn: 3.7 mg
+  • Fatty acids, total monounsaturated: 2.26 g
+  • Fatty acids, total polyunsaturated: 0.472 g
+  • Protein: 27.7 g
+  • Energy: 735 kJ
+  • Iron, Fe: 3.04 mg
+  • Magnesium, Mg: 13.7 mg
+  • Sodium, Na: 54.0 mg
+  • Cholesterol: 85.0 mg
+  • Fatty acids, total saturated: 2.47 g
+Common portions:
+  • cooked: 462.0g
+  • serving: 114.0g
+
+---
+
+FOOD: Beef, loin, top loin steak, boneless, lip-on, separable lean only, trimmed to 1/8" fat, choice, raw
+Category: Beef Products
+Nutrients per 100g:
+  • Fatty acids, total monounsaturated: 2.71 g
+  • Fatty acids, total polyunsaturated: 0.364 g
+  • Total lipid (fat): 6.39 g
+  • Carbohydrate, by difference: 0.0 g
+  • Energy: 155 kcal
+  • Calcium, Ca: 15.0 mg
+  • Potassium, K: 282 mg
+  • Zinc, Zn: 3.76 mg
+  • Protein: 22.8 g
+  • Energy: 648 kJ
+  • Iron, Fe: 1.9 mg
+  • Magnesium, Mg: 11.3 mg
+  • Sodium, Na: 45.0 mg
+  • Cholesterol: 58.0 mg
+  • Fatty acids, total saturated: 2.56 g
+  • Vitamin D (D2 + D3): 0.0 µg
+
+---
+
+FOOD: Beef, round, eye of round roast, boneless, separable lean only, trimmed to 0" fat, select, raw
+Category: Beef Products
+Nutrients per 100g:
+  • Protein: 23.4 g
+  • Energy: 512 kJ
+  • Iron, Fe: 1.37 mg
+  • Magnesium, Mg: 11.4 mg
+  • Sodium, Na: 50.0 mg
+  • Cholesterol: 62.0 mg
+  • Fatty acids, total saturated: 0.953 g
+  • Total lipid (fat): 2.48 g
+  • Carbohydrate, by difference: 0.0 g
+  • Energy: 122 kcal
+  • Calcium, Ca: 13.0 mg
+  • Potassium, K: 312 mg
+  • Zinc, Zn: 3.38 mg
+  • Fatty acids, total monounsaturated: 0.951 g
+  • Fatty acids, total polyunsaturated: 0.192 g
+Common portions:
+  • raw: 690.0g
+  • serving: 114.0g
+
+---
+
+FOOD: Beef, round, top round roast, boneless, separable lean only, trimmed to 0" fat, select, raw
+Category: Beef Products
+Nutrients per 100g:
+  • Total lipid (fat): 2.41 g
+  • Carbohydrate, by difference: 0.0 g
+  • Energy: 123 kcal
+  • Calcium, Ca: 13.0 mg
+  • Potassium, K: 316 mg
+  • Zinc, Zn: 3.54 mg
+  • Fatty acids, total monounsaturated: 0.886 g
+  • Fatty acids, total polyunsaturated: 0.208 g
+  • Protein: 23.7 g
+  • Energy: 514 kJ
+  • Iron, Fe: 2.34 mg
+  • Magnesium, Mg: 11.9 mg
+  • Sodium, Na: 55.0 mg
+  • Vitamin D (D2 + D3): 0.0 µg
+  • Cholesterol: 63.0 mg
+  • Fatty acids, total saturated: 0.924 g
+Common portions:
+  • raw: 788.0g
+  • serving: 114.0g
+
+---
+
+FOOD: Beef, short loin, porterhouse steak, separable lean only, trimmed to 1/8" fat, select, raw
+Category: Beef Products
+Nutrients per 100g:
+  • Total lipid (fat): 5.32 g
+  • Fatty acids, total monounsaturated: 1.9 g
+  • Calcium, Ca: 19.0 mg
+  • Potassium, K: 266 mg
+  • Zinc, Zn: 3.52 mg
+  • Energy: 145 kcal
+  • Protein: 22.7 g
+  • Iron, Fe: 2.26 mg
+  • Magnesium, Mg: 10.7 mg
+  • Sodium, Na: 43.0 mg
+  • Energy: 606 kJ
+  • Cholesterol: 57.0 mg
+  • Fatty acids, total saturated: 2.07 g
+  • Fatty acids, total polyunsaturated: 0.259 g
+  • Carbohydrate, by difference: 0.0 g
+Common portions:
+  • raw: 525.0g
+  • serving: 114.0g
+
+---
+
+FOOD: Beef, short loin, t-bone steak, bone-in, separable lean only, trimmed to 1/8" fat, choice, cooked, grilled
+Category: Beef Products
+Nutrients per 100g:
+  • Protein: 27.3 g
+  • Energy: 918 kJ
+  • Iron, Fe: 3.53 mg
+  • Magnesium, Mg: 20.0 mg
+  • Sodium, Na: 67.0 mg
+  • Cholesterol: 80.0 mg
+  • Fatty acids, total saturated: 4.68 g
+  • Fatty acids, total monounsaturated: 4.67 g
+  • Fatty acids, total polyunsaturated: 0.514 g
+  • Energy: 219 kcal
+  • Calcium, Ca: 19.0 mg
+  • Potassium, K: 283 mg
+  • Zinc, Zn: 4.69 mg
+  • Total lipid (fat): 11.4 g
+  • Carbohydrate, by difference: 0.0 g
+Common portions:
+  • cooked: 360.0g
+  • serving: 114.0g

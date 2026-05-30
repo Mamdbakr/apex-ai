@@ -1,0 +1,335 @@
+SOURCE: APEX AI Generated Meal Plan Templates
+Based on: ISSN sports nutrition guidelines
+Coverage: fat_loss / maintenance / muscle_gain × 3 calorie levels × 3 diet types
+Total templates: 30
+============================================================
+
+MEAL PLAN: Fat Loss | 1400 kcal | Standard diet
+Daily macros: 122g protein | 140g carbs | 39g fat
+  Breakfast: Oats with salmon and fruit
+    → ~30g protein, ~35g carbs, ~350 kcal
+  Lunch: Chicken Breast with white rice and broccoli
+    → ~30g protein, ~35g carbs, ~350 kcal
+  Dinner: Salmon stir-fry with spinach and brown rice
+    → ~30g protein, ~35g carbs, ~350 kcal
+  Snack: High-protein snack
+    → ~21g protein, ~175 kcal
+
+MEAL PLAN: Fat Loss | 1400 kcal | Vegetarian diet
+Daily macros: 122g protein | 140g carbs | 39g fat
+  Breakfast: Oats with cottage cheese and fruit
+    → ~30g protein, ~35g carbs, ~350 kcal
+  Lunch: Eggs with brown rice and broccoli
+    → ~30g protein, ~35g carbs, ~350 kcal
+  Dinner: Cottage Cheese stir-fry with spinach and oats
+    → ~30g protein, ~35g carbs, ~350 kcal
+  Snack: High-protein snack
+    → ~21g protein, ~175 kcal
+
+MEAL PLAN: Fat Loss | 1400 kcal | Vegan diet
+Daily macros: 122g protein | 140g carbs | 39g fat
+  Breakfast: Oats with lentils and fruit
+    → ~30g protein, ~35g carbs, ~350 kcal
+  Lunch: Tofu with brown rice and broccoli
+    → ~30g protein, ~35g carbs, ~350 kcal
+  Dinner: Lentils stir-fry with spinach and oats
+    → ~30g protein, ~35g carbs, ~350 kcal
+  Snack: High-protein snack
+    → ~21g protein, ~175 kcal
+
+MEAL PLAN: Fat Loss | 1600 kcal | Standard diet
+Daily macros: 140g protein | 160g carbs | 44g fat
+  Breakfast: Oats with salmon and fruit
+    → ~35g protein, ~40g carbs, ~400 kcal
+  Lunch: Chicken Breast with white rice and broccoli
+    → ~35g protein, ~40g carbs, ~400 kcal
+  Dinner: Salmon stir-fry with spinach and brown rice
+    → ~35g protein, ~40g carbs, ~400 kcal
+  Snack: High-protein snack
+    → ~24g protein, ~200 kcal
+
+MEAL PLAN: Fat Loss | 1600 kcal | Vegetarian diet
+Daily macros: 140g protein | 160g carbs | 44g fat
+  Breakfast: Oats with cottage cheese and fruit
+    → ~35g protein, ~40g carbs, ~400 kcal
+  Lunch: Eggs with brown rice and broccoli
+    → ~35g protein, ~40g carbs, ~400 kcal
+  Dinner: Cottage Cheese stir-fry with spinach and oats
+    → ~35g protein, ~40g carbs, ~400 kcal
+  Snack: High-protein snack
+    → ~24g protein, ~200 kcal
+
+MEAL PLAN: Fat Loss | 1600 kcal | Vegan diet
+Daily macros: 140g protein | 160g carbs | 44g fat
+  Breakfast: Oats with lentils and fruit
+    → ~35g protein, ~40g carbs, ~400 kcal
+  Lunch: Tofu with brown rice and broccoli
+    → ~35g protein, ~40g carbs, ~400 kcal
+  Dinner: Lentils stir-fry with spinach and oats
+    → ~35g protein, ~40g carbs, ~400 kcal
+  Snack: High-protein snack
+    → ~24g protein, ~200 kcal
+
+MEAL PLAN: Fat Loss | 1800 kcal | Standard diet
+Daily macros: 158g protein | 180g carbs | 50g fat
+  Breakfast: Oats with salmon and fruit
+    → ~40g protein, ~45g carbs, ~450 kcal
+  Lunch: Chicken Breast with white rice and broccoli
+    → ~40g protein, ~45g carbs, ~450 kcal
+  Dinner: Salmon stir-fry with spinach and brown rice
+    → ~40g protein, ~45g carbs, ~450 kcal
+  Snack: High-protein snack
+    → ~28g protein, ~225 kcal
+
+MEAL PLAN: Fat Loss | 1800 kcal | Vegetarian diet
+Daily macros: 158g protein | 180g carbs | 50g fat
+  Breakfast: Oats with cottage cheese and fruit
+    → ~40g protein, ~45g carbs, ~450 kcal
+  Lunch: Eggs with brown rice and broccoli
+    → ~40g protein, ~45g carbs, ~450 kcal
+  Dinner: Cottage Cheese stir-fry with spinach and oats
+    → ~40g protein, ~45g carbs, ~450 kcal
+  Snack: High-protein snack
+    → ~28g protein, ~225 kcal
+
+MEAL PLAN: Fat Loss | 1800 kcal | Vegan diet
+Daily macros: 158g protein | 180g carbs | 50g fat
+  Breakfast: Oats with lentils and fruit
+    → ~40g protein, ~45g carbs, ~450 kcal
+  Lunch: Tofu with brown rice and broccoli
+    → ~40g protein, ~45g carbs, ~450 kcal
+  Dinner: Lentils stir-fry with spinach and oats
+    → ~40g protein, ~45g carbs, ~450 kcal
+  Snack: High-protein snack
+    → ~28g protein, ~225 kcal
+
+MEAL PLAN: Fat Loss | 2000 kcal | Standard diet
+Daily macros: 175g protein | 200g carbs | 56g fat
+  Breakfast: Oats with salmon and fruit
+    → ~44g protein, ~50g carbs, ~500 kcal
+  Lunch: Chicken Breast with white rice and broccoli
+    → ~44g protein, ~50g carbs, ~500 kcal
+  Dinner: Salmon stir-fry with spinach and brown rice
+    → ~44g protein, ~50g carbs, ~500 kcal
+  Snack: High-protein snack
+    → ~31g protein, ~250 kcal
+
+MEAL PLAN: Fat Loss | 2000 kcal | Vegetarian diet
+Daily macros: 175g protein | 200g carbs | 56g fat
+  Breakfast: Oats with cottage cheese and fruit
+    → ~44g protein, ~50g carbs, ~500 kcal
+  Lunch: Eggs with brown rice and broccoli
+    → ~44g protein, ~50g carbs, ~500 kcal
+  Dinner: Cottage Cheese stir-fry with spinach and oats
+    → ~44g protein, ~50g carbs, ~500 kcal
+  Snack: High-protein snack
+    → ~31g protein, ~250 kcal
+
+MEAL PLAN: Fat Loss | 2000 kcal | Vegan diet
+Daily macros: 175g protein | 200g carbs | 56g fat
+  Breakfast: Oats with lentils and fruit
+    → ~44g protein, ~50g carbs, ~500 kcal
+  Lunch: Tofu with brown rice and broccoli
+    → ~44g protein, ~50g carbs, ~500 kcal
+  Dinner: Lentils stir-fry with spinach and oats
+    → ~44g protein, ~50g carbs, ~500 kcal
+  Snack: High-protein snack
+    → ~31g protein, ~250 kcal
+
+MEAL PLAN: Maintenance | 2000 kcal | Standard diet
+Daily macros: 150g protein | 225g carbs | 56g fat
+  Breakfast: Oats with salmon and fruit
+    → ~38g protein, ~56g carbs, ~500 kcal
+  Lunch: Chicken Breast with white rice and broccoli
+    → ~38g protein, ~56g carbs, ~500 kcal
+  Dinner: Salmon stir-fry with spinach and brown rice
+    → ~38g protein, ~56g carbs, ~500 kcal
+  Snack: High-protein snack
+    → ~27g protein, ~250 kcal
+
+MEAL PLAN: Maintenance | 2000 kcal | Vegetarian diet
+Daily macros: 150g protein | 225g carbs | 56g fat
+  Breakfast: Oats with cottage cheese and fruit
+    → ~38g protein, ~56g carbs, ~500 kcal
+  Lunch: Eggs with brown rice and broccoli
+    → ~38g protein, ~56g carbs, ~500 kcal
+  Dinner: Cottage Cheese stir-fry with spinach and oats
+    → ~38g protein, ~56g carbs, ~500 kcal
+  Snack: High-protein snack
+    → ~27g protein, ~250 kcal
+
+MEAL PLAN: Maintenance | 2000 kcal | Vegan diet
+Daily macros: 150g protein | 225g carbs | 56g fat
+  Breakfast: Oats with lentils and fruit
+    → ~38g protein, ~56g carbs, ~500 kcal
+  Lunch: Tofu with brown rice and broccoli
+    → ~38g protein, ~56g carbs, ~500 kcal
+  Dinner: Lentils stir-fry with spinach and oats
+    → ~38g protein, ~56g carbs, ~500 kcal
+  Snack: High-protein snack
+    → ~27g protein, ~250 kcal
+
+MEAL PLAN: Maintenance | 2200 kcal | Standard diet
+Daily macros: 165g protein | 248g carbs | 61g fat
+  Breakfast: Oats with salmon and fruit
+    → ~41g protein, ~62g carbs, ~550 kcal
+  Lunch: Chicken Breast with white rice and broccoli
+    → ~41g protein, ~62g carbs, ~550 kcal
+  Dinner: Salmon stir-fry with spinach and brown rice
+    → ~41g protein, ~62g carbs, ~550 kcal
+  Snack: High-protein snack
+    → ~29g protein, ~275 kcal
+
+MEAL PLAN: Maintenance | 2200 kcal | Vegetarian diet
+Daily macros: 165g protein | 248g carbs | 61g fat
+  Breakfast: Oats with cottage cheese and fruit
+    → ~41g protein, ~62g carbs, ~550 kcal
+  Lunch: Eggs with brown rice and broccoli
+    → ~41g protein, ~62g carbs, ~550 kcal
+  Dinner: Cottage Cheese stir-fry with spinach and oats
+    → ~41g protein, ~62g carbs, ~550 kcal
+  Snack: High-protein snack
+    → ~29g protein, ~275 kcal
+
+MEAL PLAN: Maintenance | 2200 kcal | Vegan diet
+Daily macros: 165g protein | 248g carbs | 61g fat
+  Breakfast: Oats with lentils and fruit
+    → ~41g protein, ~62g carbs, ~550 kcal
+  Lunch: Tofu with brown rice and broccoli
+    → ~41g protein, ~62g carbs, ~550 kcal
+  Dinner: Lentils stir-fry with spinach and oats
+    → ~41g protein, ~62g carbs, ~550 kcal
+  Snack: High-protein snack
+    → ~29g protein, ~275 kcal
+
+MEAL PLAN: Maintenance | 2400 kcal | Standard diet
+Daily macros: 180g protein | 270g carbs | 67g fat
+  Breakfast: Oats with salmon and fruit
+    → ~45g protein, ~68g carbs, ~600 kcal
+  Lunch: Chicken Breast with white rice and broccoli
+    → ~45g protein, ~68g carbs, ~600 kcal
+  Dinner: Salmon stir-fry with spinach and brown rice
+    → ~45g protein, ~68g carbs, ~600 kcal
+  Snack: High-protein snack
+    → ~31g protein, ~300 kcal
+
+MEAL PLAN: Maintenance | 2400 kcal | Vegetarian diet
+Daily macros: 180g protein | 270g carbs | 67g fat
+  Breakfast: Oats with cottage cheese and fruit
+    → ~45g protein, ~68g carbs, ~600 kcal
+  Lunch: Eggs with brown rice and broccoli
+    → ~45g protein, ~68g carbs, ~600 kcal
+  Dinner: Cottage Cheese stir-fry with spinach and oats
+    → ~45g protein, ~68g carbs, ~600 kcal
+  Snack: High-protein snack
+    → ~31g protein, ~300 kcal
+
+MEAL PLAN: Maintenance | 2400 kcal | Vegan diet
+Daily macros: 180g protein | 270g carbs | 67g fat
+  Breakfast: Oats with lentils and fruit
+    → ~45g protein, ~68g carbs, ~600 kcal
+  Lunch: Tofu with brown rice and broccoli
+    → ~45g protein, ~68g carbs, ~600 kcal
+  Dinner: Lentils stir-fry with spinach and oats
+    → ~45g protein, ~68g carbs, ~600 kcal
+  Snack: High-protein snack
+    → ~31g protein, ~300 kcal
+
+MEAL PLAN: Muscle Gain | 2500 kcal | Standard diet
+Daily macros: 188g protein | 281g carbs | 69g fat
+  Breakfast: Oats with salmon and fruit
+    → ~47g protein, ~70g carbs, ~625 kcal
+  Lunch: Chicken Breast with white rice and broccoli
+    → ~47g protein, ~70g carbs, ~625 kcal
+  Dinner: Salmon stir-fry with spinach and brown rice
+    → ~47g protein, ~70g carbs, ~625 kcal
+  Snack: High-protein snack
+    → ~33g protein, ~312 kcal
+
+MEAL PLAN: Muscle Gain | 2500 kcal | Vegetarian diet
+Daily macros: 188g protein | 281g carbs | 69g fat
+  Breakfast: Oats with cottage cheese and fruit
+    → ~47g protein, ~70g carbs, ~625 kcal
+  Lunch: Eggs with brown rice and broccoli
+    → ~47g protein, ~70g carbs, ~625 kcal
+  Dinner: Cottage Cheese stir-fry with spinach and oats
+    → ~47g protein, ~70g carbs, ~625 kcal
+  Snack: High-protein snack
+    → ~33g protein, ~312 kcal
+
+MEAL PLAN: Muscle Gain | 2500 kcal | Vegan diet
+Daily macros: 188g protein | 281g carbs | 69g fat
+  Breakfast: Oats with lentils and fruit
+    → ~47g protein, ~70g carbs, ~625 kcal
+  Lunch: Tofu with brown rice and broccoli
+    → ~47g protein, ~70g carbs, ~625 kcal
+  Dinner: Lentils stir-fry with spinach and oats
+    → ~47g protein, ~70g carbs, ~625 kcal
+  Snack: High-protein snack
+    → ~33g protein, ~312 kcal
+
+MEAL PLAN: Muscle Gain | 2800 kcal | Standard diet
+Daily macros: 210g protein | 315g carbs | 78g fat
+  Breakfast: Oats with salmon and fruit
+    → ~52g protein, ~79g carbs, ~700 kcal
+  Lunch: Chicken Breast with white rice and broccoli
+    → ~52g protein, ~79g carbs, ~700 kcal
+  Dinner: Salmon stir-fry with spinach and brown rice
+    → ~52g protein, ~79g carbs, ~700 kcal
+  Snack: High-protein snack
+    → ~36g protein, ~350 kcal
+
+MEAL PLAN: Muscle Gain | 2800 kcal | Vegetarian diet
+Daily macros: 210g protein | 315g carbs | 78g fat
+  Breakfast: Oats with cottage cheese and fruit
+    → ~52g protein, ~79g carbs, ~700 kcal
+  Lunch: Eggs with brown rice and broccoli
+    → ~52g protein, ~79g carbs, ~700 kcal
+  Dinner: Cottage Cheese stir-fry with spinach and oats
+    → ~52g protein, ~79g carbs, ~700 kcal
+  Snack: High-protein snack
+    → ~36g protein, ~350 kcal
+
+MEAL PLAN: Muscle Gain | 2800 kcal | Vegan diet
+Daily macros: 210g protein | 315g carbs | 78g fat
+  Breakfast: Oats with lentils and fruit
+    → ~52g protein, ~79g carbs, ~700 kcal
+  Lunch: Tofu with brown rice and broccoli
+    → ~52g protein, ~79g carbs, ~700 kcal
+  Dinner: Lentils stir-fry with spinach and oats
+    → ~52g protein, ~79g carbs, ~700 kcal
+  Snack: High-protein snack
+    → ~36g protein, ~350 kcal
+
+MEAL PLAN: Muscle Gain | 3200 kcal | Standard diet
+Daily macros: 240g protein | 360g carbs | 89g fat
+  Breakfast: Oats with salmon and fruit
+    → ~60g protein, ~90g carbs, ~800 kcal
+  Lunch: Chicken Breast with white rice and broccoli
+    → ~60g protein, ~90g carbs, ~800 kcal
+  Dinner: Salmon stir-fry with spinach and brown rice
+    → ~60g protein, ~90g carbs, ~800 kcal
+  Snack: High-protein snack
+    → ~42g protein, ~400 kcal
+
+MEAL PLAN: Muscle Gain | 3200 kcal | Vegetarian diet
+Daily macros: 240g protein | 360g carbs | 89g fat
+  Breakfast: Oats with cottage cheese and fruit
+    → ~60g protein, ~90g carbs, ~800 kcal
+  Lunch: Eggs with brown rice and broccoli
+    → ~60g protein, ~90g carbs, ~800 kcal
+  Dinner: Cottage Cheese stir-fry with spinach and oats
+    → ~60g protein, ~90g carbs, ~800 kcal
+  Snack: High-protein snack
+    → ~42g protein, ~400 kcal
+
+MEAL PLAN: Muscle Gain | 3200 kcal | Vegan diet
+Daily macros: 240g protein | 360g carbs | 89g fat
+  Breakfast: Oats with lentils and fruit
+    → ~60g protein, ~90g carbs, ~800 kcal
+  Lunch: Tofu with brown rice and broccoli
+    → ~60g protein, ~90g carbs, ~800 kcal
+  Dinner: Lentils stir-fry with spinach and oats
+    → ~60g protein, ~90g carbs, ~800 kcal
+  Snack: High-protein snack
+    → ~42g protein, ~400 kcal

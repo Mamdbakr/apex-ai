@@ -1,0 +1,31 @@
+
+╔══════════════════════════════════════════════════════════════╗
+║  MODEL 2: Weight Change Prediction (Random Forest)          ║
+╚══════════════════════════════════════════════════════════════╝
+
+ALGORITHM : Random Forest Regressor (150 trees, max_depth=8)
+INPUT     : Age, Weight, Height, Activity Level, Gender, TDEE Calories
+OUTPUT    : Predicted weight change over 30 days (kg)
+
+PERFORMANCE METRICS (Test Set — 400 samples):
+  Mean Absolute Error  (MAE) : 0.2524 kg
+  R² Score                   : 0.9824
+
+RANDOM FOREST DETAILS:
+  Number of trees    : 150
+  Max tree depth     : 8
+  Min samples split  : 2
+  Features per split : sqrt(n_features)
+
+FEATURE IMPORTANCES (how much each variable matters):
+  calories_tdee            : 0.9941  █████████████████████████████████████████████████
+  weight_kg                : 0.0018  
+  height_cm                : 0.0018  
+  age                      : 0.0016  
+  activity_level           : 0.0003  
+  gender                   : 0.0003  
+
+INTERPRETATION:
+  → Model can predict monthly weight change to within 0.25 kg
+  → Useful for setting realistic 30-day weight loss/gain expectations
+  → Based on calorie deficit/surplus: 7,700 kcal deficit ≈ 1 kg fat loss

@@ -1,0 +1,24 @@
+{
+  "model": "calorie_regression",
+  "algorithm": "Ridge + StandardScaler",
+  "best_alpha": 0.1,
+  "cv_r2": 0.9999996919079738,
+  "test_mae": 0.21959502855154484,
+  "test_rmse": 0.2778101259349695,
+  "test_r2": 0.9999997938885647,
+  "features": [
+    "age",
+    "weight_kg",
+    "height_cm",
+    "activity_level",
+    "gender",
+    "bmi",
+    "bmr",
+    "age_squared",
+    "weight_height",
+    "calories_tdee"
+  ],
+  "n_train": 1600,
+  "n_test": 400,
+  "trained_at": "2026-05-07T11:25:23"
+}

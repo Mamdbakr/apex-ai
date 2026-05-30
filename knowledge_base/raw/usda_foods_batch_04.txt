@@ -1,0 +1,941 @@
+SOURCE: USDA FoodData Central
+LICENSE: Public domain
+Batch 4 (foods 151–200)
+============================================================
+
+FOOD: Orange juice, no pulp, not fortified, not from concentrate, refrigerated
+Category: Fruits and Fruit Juices
+Nutrients per 100g:
+  • Iron, Fe: 0.071 mg
+  • Magnesium, Mg: 10.3 mg
+  • Potassium, K: 183 mg
+  • Sodium, Na: 0.075 mg
+  • Zinc, Zn: 0.032 mg
+  • Vitamin C, total ascorbic acid: 30.5 mg
+  • Total lipid (fat): 0.356 g
+  • Calcium, Ca: 9.29 mg
+  • Protein: 0.812 g
+  • Carbohydrate, by difference: 10.0 g
+
+---
+
+FOOD: Mushroom, portabella
+Category: Vegetables and Vegetable Products
+Nutrients per 100g:
+  • Iron, Fe: 0.139 mg
+  • Magnesium, Mg: 9.04 mg
+  • Potassium, K: 349 mg
+  • Sodium, Na: 5.31 mg
+  • Zinc, Zn: 0.389 mg
+  • Total lipid (fat): 0.312 g
+  • Calcium, Ca: 3.24 mg
+  • Protein: 2.75 g
+  • Carbohydrate, by difference: 4.66 g
+  • Vitamin D (D2 + D3): 0.0 µg
+  • Fiber, total dietary: 1.88 g
+Common portions:
+  • serving: 85.0g
+
+---
+
+FOOD: Mushroom, king oyster
+Category: Vegetables and Vegetable Products
+Nutrients per 100g:
+  • Iron, Fe: 0.338 mg
+  • Magnesium, Mg: 13.5 mg
+  • Potassium, K: 294 mg
+  • Sodium, Na: 0.771 mg
+  • Zinc, Zn: 0.625 mg
+  • Total lipid (fat): 0.308 g
+  • Calcium, Ca: 0.0 mg
+  • Protein: 2.41 g
+  • Carbohydrate, by difference: 8.5 g
+  • Vitamin D (D2 + D3): 0.07 µg
+  • Fiber, total dietary: 3.01 g
+Common portions:
+  • serving: 85.0g
+
+---
+
+FOOD: Mushroom, enoki
+Category: Vegetables and Vegetable Products
+Nutrients per 100g:
+  • Iron, Fe: 1.28 mg
+  • Magnesium, Mg: 12.8 mg
+  • Potassium, K: 402 mg
+  • Sodium, Na: 0.417 mg
+  • Zinc, Zn: 0.482 mg
+  • Total lipid (fat): 0.245 g
+  • Calcium, Ca: 1.43 mg
+  • Protein: 2.42 g
+  • Carbohydrate, by difference: 8.14 g
+  • Vitamin D (D2 + D3): 0.0 µg
+  • Fiber, total dietary: 2.94 g
+Common portions:
+  • serving: 85.0g
+
+---
+
+FOOD: Mushroom, crimini
+Category: Vegetables and Vegetable Products
+Nutrients per 100g:
+  • Iron, Fe: 0.312 mg
+  • Magnesium, Mg: 10.2 mg
+  • Potassium, K: 380 mg
+  • Sodium, Na: 4.57 mg
+  • Zinc, Zn: 0.512 mg
+  • Total lipid (fat): 0.197 g
+  • Calcium, Ca: 4.1 mg
+  • Protein: 3.09 g
+  • Carbohydrate, by difference: 4.01 g
+  • Vitamin D (D2 + D3): 0.0 µg
+  • Fiber, total dietary: 1.78 g
+Common portions:
+  • serving: 85.0g
+
+---
+
+FOOD: Mushroom, maitake
+Category: Vegetables and Vegetable Products
+Nutrients per 100g:
+  • Iron, Fe: 0.209 mg
+  • Magnesium, Mg: 11.0 mg
+  • Potassium, K: 260 mg
+  • Sodium, Na: 0.345 mg
+  • Zinc, Zn: 0.763 mg
+  • Total lipid (fat): 0.265 g
+  • Calcium, Ca: 0.0 mg
+  • Protein: 2.2 g
+  • Carbohydrate, by difference: 6.6 g
+  • Vitamin D (D2 + D3): 1.6 µg
+  • Fiber, total dietary: 3.07 g
+Common portions:
+  • serving: 85.0g
+
+---
+
+FOOD: Mushroom, beech
+Category: Vegetables and Vegetable Products
+Nutrients per 100g:
+  • Iron, Fe: 0.739 mg
+  • Magnesium, Mg: 10.5 mg
+  • Potassium, K: 376 mg
+  • Sodium, Na: 0.891 mg
+  • Zinc, Zn: 0.498 mg
+  • Total lipid (fat): 0.449 g
+  • Calcium, Ca: 0.432 mg
+  • Protein: 2.18 g
+  • Carbohydrate, by difference: 6.76 g
+  • Vitamin D (D2 + D3): 0.37 µg
+  • Fiber, total dietary: 3.14 g
+Common portions:
+  • serving: 85.0g
+
+---
+
+FOOD: Mushroom, pioppini
+Category: Vegetables and Vegetable Products
+Nutrients per 100g:
+  • Iron, Fe: 0.486 mg
+  • Magnesium, Mg: 16.0 mg
+  • Potassium, K: 392 mg
+  • Sodium, Na: 0.0 mg
+  • Zinc, Zn: 0.857 mg
+  • Total lipid (fat): 0.24 g
+  • Calcium, Ca: 0.0 mg
+  • Protein: 3.5 g
+  • Carbohydrate, by difference: 5.76 g
+  • Vitamin D (D2 + D3): 0.0 µg
+  • Fiber, total dietary: 2.75 g
+Common portions:
+  • serving: 85.0g
+
+---
+
+FOOD: Soy milk, sweetened, plain, refrigerated
+Category: Legumes and Legume Products
+Nutrients per 100g:
+  • Fiber, total dietary: 0.0 g
+  • Calcium, Ca: 155 mg
+  • Iron, Fe: 0.367 mg
+  • Magnesium, Mg: 17.5 mg
+  • Potassium, K: 118 mg
+  • Sodium, Na: 39.4 mg
+  • Zinc, Zn: 0.264 mg
+  • Total lipid (fat): 1.96 g
+  • Protein: 2.78 g
+  • Carbohydrate, by difference: 3.0 g
+  • Vitamin D (D2 + D3): 4.63 µg
+
+---
+
+FOOD: Almond milk, unsweetened, plain, refrigerated
+Category: Beverages
+Nutrients per 100g:
+  • Fiber, total dietary: 0.0 g
+  • Calcium, Ca: 158 mg
+  • Iron, Fe: 0.125 mg
+  • Magnesium, Mg: 8.25 mg
+  • Potassium, K: 49.3 mg
+  • Sodium, Na: 59.2 mg
+  • Zinc, Zn: 0.077 mg
+  • Total lipid (fat): 1.56 g
+  • Protein: 0.656 g
+  • Carbohydrate, by difference: 0.671 g
+  • Vitamin D (D2 + D3): 1.59 µg
+
+---
+
+FOOD: Oat milk, unsweetened, plain, refrigerated
+Category: Beverages
+Nutrients per 100g:
+  • Fiber, total dietary: 0.0 g
+  • Calcium, Ca: 148 mg
+  • Iron, Fe: 0.261 mg
+  • Magnesium, Mg: 5.91 mg
+  • Potassium, K: 148 mg
+  • Sodium, Na: 42.0 mg
+  • Zinc, Zn: 0.091 mg
+  • Total lipid (fat): 2.75 g
+  • Protein: 0.797 g
+  • Carbohydrate, by difference: 5.1 g
+  • Vitamin D (D2 + D3): 1.7 µg
+
+---
+
+FOOD: Carrots, mature, raw
+Category: Vegetables and Vegetable Products
+Nutrients per 100g:
+  • Iron, Fe: 0.15 mg
+  • Magnesium, Mg: 12.4 mg
+  • Potassium, K: 280 mg
+  • Sodium, Na: 86.6 mg
+  • Zinc, Zn: 0.236 mg
+  • Total lipid (fat): 0.351 g
+  • Fiber, total dietary: 3.1 g
+  • Calcium, Ca: 30.5 mg
+  • Protein: 0.941 g
+  • Carbohydrate, by difference: 10.3 g
+Common portions:
+  • serving: 85.0g
+
+---
+
+FOOD: Carrots, baby, raw
+Category: Vegetables and Vegetable Products
+Nutrients per 100g:
+  • Iron, Fe: 0.088 mg
+  • Magnesium, Mg: 11.1 mg
+  • Potassium, K: 237 mg
+  • Sodium, Na: 62.7 mg
+  • Zinc, Zn: 0.16 mg
+  • Total lipid (fat): 0.138 g
+  • Fiber, total dietary: 2.69 g
+  • Calcium, Ca: 42.2 mg
+  • Protein: 0.805 g
+  • Carbohydrate, by difference: 9.08 g
+Common portions:
+  • serving: 85.0g
+
+---
+
+FOOD: Peppers, bell, green, raw
+Category: Vegetables and Vegetable Products
+Nutrients per 100g:
+  • Iron, Fe: 0.186 mg
+  • Magnesium, Mg: 9.0 mg
+  • Potassium, K: 163 mg
+  • Sodium, Na: 0.0 mg
+  • Zinc, Zn: 0.126 mg
+  • Vitamin C, total ascorbic acid: 99.5 mg
+  • Total lipid (fat): 0.106 g
+  • Fiber, total dietary: 0.942 g
+  • Calcium, Ca: 7.5 mg
+  • Protein: 0.715 g
+  • Carbohydrate, by difference: 4.78 g
+Common portions:
+  • serving: 85.0g
+
+---
+
+FOOD: Peppers, bell, yellow, raw
+Category: Vegetables and Vegetable Products
+Nutrients per 100g:
+  • Iron, Fe: 0.36 mg
+  • Magnesium, Mg: 10.3 mg
+  • Potassium, K: 197 mg
+  • Sodium, Na: 0.0 mg
+  • Zinc, Zn: 0.193 mg
+  • Vitamin C, total ascorbic acid: 139 mg
+  • Total lipid (fat): 0.121 g
+  • Fiber, total dietary: 1.07 g
+  • Calcium, Ca: 6.69 mg
+  • Carbohydrate, by difference: 6.6 g
+  • Protein: 0.819 g
+Common portions:
+  • serving: 85.0g
+
+---
+
+FOOD: Peppers, bell, red, raw
+Category: Vegetables and Vegetable Products
+Nutrients per 100g:
+  • Iron, Fe: 0.353 mg
+  • Magnesium, Mg: 11.0 mg
+  • Potassium, K: 213 mg
+  • Sodium, Na: 0.0 mg
+  • Zinc, Zn: 0.202 mg
+  • Vitamin C, total ascorbic acid: 142 mg
+  • Total lipid (fat): 0.126 g
+  • Fiber, total dietary: 1.16 g
+  • Calcium, Ca: 6.36 mg
+  • Carbohydrate, by difference: 6.65 g
+  • Protein: 0.896 g
+Common portions:
+  • serving: 85.0g
+
+---
+
+FOOD: Peppers, bell, orange, raw
+Category: Vegetables and Vegetable Products
+Nutrients per 100g:
+  • Iron, Fe: 0.365 mg
+  • Magnesium, Mg: 10.4 mg
+  • Potassium, K: 201 mg
+  • Sodium, Na: 0.0 mg
+  • Zinc, Zn: 0.242 mg
+  • Vitamin C, total ascorbic acid: 158 mg
+  • Total lipid (fat): 0.156 g
+  • Fiber, total dietary: 0.967 g
+  • Calcium, Ca: 4.9 mg
+  • Protein: 0.882 g
+  • Carbohydrate, by difference: 6.7 g
+Common portions:
+  • serving: 85.0g
+
+---
+
+FOOD: Buttermilk, low fat
+Category: Dairy and Egg Products
+Nutrients per 100g:
+  • Iron, Fe: 0.013 mg
+  • Magnesium, Mg: 11.0 mg
+  • Potassium, K: 158 mg
+  • Sodium, Na: 92.5 mg
+  • Zinc, Zn: 0.426 mg
+  • Fatty acids, total monounsaturated: 0.199 g
+  • Cholesterol: 4.79 mg
+  • Fatty acids, total saturated: 0.552 g
+  • Total lipid (fat): 1.08 g
+  • Calcium, Ca: 120 mg
+  • Protein: 3.46 g
+  • Carbohydrate, by difference: 4.81 g
+  • Vitamin D (D2 + D3): 0.543 µg
+
+---
+
+FOOD: Yogurt, plain, whole milk
+Category: Dairy and Egg Products
+Nutrients per 100g:
+  • Iron, Fe: 0.0 mg
+  • Magnesium, Mg: 11.4 mg
+  • Potassium, K: 164 mg
+  • Sodium, Na: 41.8 mg
+  • Zinc, Zn: 0.428 mg
+  • Fatty acids, total monounsaturated: 0.874 g
+  • Cholesterol: 14.2 mg
+  • Fatty acids, total saturated: 2.32 g
+  • Total lipid (fat): 4.48 g
+  • Calcium, Ca: 127 mg
+  • Carbohydrate, by difference: 5.57 g
+  • Protein: 3.82 g
+  • Vitamin D (D2 + D3): 0.778 µg
+Common portions:
+  • serving: 170.0g
+
+---
+
+FOOD: Yogurt, Greek, plain, whole milk
+Category: Dairy and Egg Products
+Nutrients per 100g:
+  • Iron, Fe: 0.0 mg
+  • Magnesium, Mg: 10.7 mg
+  • Potassium, K: 147 mg
+  • Sodium, Na: 33.8 mg
+  • Zinc, Zn: 0.473 mg
+  • Fatty acids, total monounsaturated: 0.958 g
+  • Cholesterol: 16.8 mg
+  • Fatty acids, total saturated: 2.39 g
+  • Total lipid (fat): 4.39 g
+  • Calcium, Ca: 111 mg
+  • Carbohydrate, by difference: 4.75 g
+  • Protein: 8.78 g
+  • Vitamin D (D2 + D3): 0.0 µg
+Common portions:
+  • serving: 170.0g
+
+---
+
+FOOD: Cheese, parmesan, grated, refrigerated
+Category: Dairy and Egg Products
+Nutrients per 100g:
+  • Iron, Fe: 0.14 mg
+  • Magnesium, Mg: 35.4 mg
+  • Potassium, K: 74.0 mg
+  • Sodium, Na: 1050.0 mg
+  • Zinc, Zn: 4.62 mg
+  • Fatty acids, total monounsaturated: 6.02 g
+  • Cholesterol: 86.0 mg
+  • Fatty acids, total saturated: 17.2 g
+  • Total lipid (fat): 29.5 g
+  • Calcium, Ca: 950 mg
+  • Carbohydrate, by difference: 4.33 g
+  • Protein: 30.1 g
+  • Vitamin D (D2 + D3): 0.0 µg
+Common portions:
+  • serving: 5.0g
+
+---
+
+FOOD: Cheese, feta, whole milk, crumbled
+Category: Dairy and Egg Products
+Nutrients per 100g:
+  • Iron, Fe: 0.068 mg
+  • Magnesium, Mg: 17.7 mg
+  • Potassium, K: 105 mg
+  • Sodium, Na: 1030.0 mg
+  • Zinc, Zn: 2.35 mg
+  • Fatty acids, total monounsaturated: 4.18 g
+  • Cholesterol: 57.5 mg
+  • Fatty acids, total saturated: 11.2 g
+  • Total lipid (fat): 19.1 g
+  • Calcium, Ca: 371 mg
+  • Carbohydrate, by difference: 5.58 g
+  • Protein: 19.7 g
+  • Vitamin D (D2 + D3): 0.0 µg
+Common portions:
+  • serving: 30.0g
+
+---
+
+FOOD: Flour, almond
+Category: Nut and Seed Products
+Nutrients per 100g:
+  • Iron, Fe: 3.22 mg
+  • Magnesium, Mg: 251 mg
+  • Potassium, K: 667 mg
+  • Sodium, Na: 0.894 mg
+  • Zinc, Zn: 2.8 mg
+  • Total lipid (fat): 50.2 g
+  • Fiber, total dietary: 9.27 g
+  • Calcium, Ca: 232 mg
+  • Protein: 26.2 g
+  • Carbohydrate, by difference: 16.2 g
+Common portions:
+  • serving: 15.0g
+
+---
+
+FOOD: Flour, oat, whole grain
+Category: Cereal Grains and Pasta
+Nutrients per 100g:
+  • Iron, Fe: 4.0 mg
+  • Magnesium, Mg: 125 mg
+  • Potassium, K: 373 mg
+  • Sodium, Na: 3.62 mg
+  • Zinc, Zn: 2.75 mg
+  • Total lipid (fat): 6.31 g
+  • Fiber, total dietary: 10.5 g
+  • Calcium, Ca: 42.8 mg
+  • Carbohydrate, by difference: 69.9 g
+  • Protein: 13.2 g
+Common portions:
+  • serving: 30.0g
+
+---
+
+FOOD: Flour, potato
+Category: Vegetables and Vegetable Products
+Nutrients per 100g:
+  • Iron, Fe: 12.0 mg
+  • Magnesium, Mg: 73.6 mg
+  • Potassium, K: 1270.0 mg
+  • Sodium, Na: 47.7 mg
+  • Zinc, Zn: 0.9 mg
+  • Total lipid (fat): 0.951 g
+  • Fiber, total dietary: 5.4 g
+  • Calcium, Ca: 44.1 mg
+  • Carbohydrate, by difference: 79.9 g
+  • Protein: 8.11 g
+Common portions:
+  • serving: 85.0g
+
+---
+
+FOOD: Peanut butter, creamy
+Category: Legumes and Legume Products
+Nutrients per 100g:
+  • Fatty acids, total monounsaturated: 30.7 g
+  • Fatty acids, total polyunsaturated: 9.78 g
+  • Fiber, total dietary: 6.32 g
+  • Calcium, Ca: 49.8 mg
+  • Iron, Fe: 1.85 mg
+  • Magnesium, Mg: 193 mg
+  • Potassium, K: 654 mg
+  • Sodium, Na: 221 mg
+  • Zinc, Zn: 3.06 mg
+  • Fatty acids, total saturated: 8.42 g
+  • Total lipid (fat): 49.4 g
+  • Protein: 24.0 g
+  • Carbohydrate, by difference: 22.7 g
+
+---
+
+FOOD: Sesame butter, creamy
+Category: Nut and Seed Products
+Nutrients per 100g:
+  • Fatty acids, total monounsaturated: 22.6 g
+  • Fatty acids, total polyunsaturated: 26.4 g
+  • Fiber, total dietary: 8.37 g
+  • Calcium, Ca: 116 mg
+  • Iron, Fe: 7.0 mg
+  • Magnesium, Mg: 357 mg
+  • Potassium, K: 408 mg
+  • Sodium, Na: 63.6 mg
+  • Zinc, Zn: 6.04 mg
+  • Fatty acids, total saturated: 8.97 g
+  • Total lipid (fat): 62.4 g
+  • Carbohydrate, by difference: 14.2 g
+  • Protein: 19.7 g
+
+---
+
+FOOD: Almond butter, creamy
+Category: Nut and Seed Products
+Nutrients per 100g:
+  • Fatty acids, total monounsaturated: 34.7 g
+  • Fatty acids, total polyunsaturated: 12.6 g
+  • Fiber, total dietary: 9.72 g
+  • Calcium, Ca: 264 mg
+  • Iron, Fe: 4.11 mg
+  • Magnesium, Mg: 268 mg
+  • Potassium, K: 745 mg
+  • Sodium, Na: 0.996 mg
+  • Zinc, Zn: 3.18 mg
+  • Fatty acids, total saturated: 4.25 g
+  • Total lipid (fat): 53.0 g
+  • Carbohydrate, by difference: 21.2 g
+  • Protein: 20.8 g
+
+---
+
+FOOD: Flaxseed, ground
+Category: Nut and Seed Products
+Nutrients per 100g:
+  • Fatty acids, total monounsaturated: 5.94 g
+  • Fatty acids, total polyunsaturated: 24.7 g
+  • Fiber, total dietary: 23.1 g
+  • Calcium, Ca: 230 mg
+  • Iron, Fe: 5.78 mg
+  • Magnesium, Mg: 372 mg
+  • Potassium, K: 793 mg
+  • Sodium, Na: 36.7 mg
+  • Zinc, Zn: 4.74 mg
+  • Fatty acids, total saturated: 3.28 g
+  • Total lipid (fat): 37.3 g
+  • Carbohydrate, by difference: 34.4 g
+  • Protein: 18.0 g
+Common portions:
+  • serving: 15.0g
+
+---
+
+FOOD: Cottage cheese, full fat, large or small curd
+Category: Dairy and Egg Products
+Nutrients per 100g:
+  • Iron, Fe: 0.0 mg
+  • Magnesium, Mg: 9.19 mg
+  • Potassium, K: 124 mg
+  • Sodium, Na: 350 mg
+  • Zinc, Zn: 0.454 mg
+  • Fatty acids, total monounsaturated: 0.916 g
+  • Cholesterol: 18.0 mg
+  • Fatty acids, total saturated: 2.6 g
+  • Total lipid (fat): 4.22 g
+  • Calcium, Ca: 88.3 mg
+  • Protein: 11.6 g
+  • Carbohydrate, by difference: 4.6 g
+Common portions:
+  • serving: 110.0g
+
+---
+
+FOOD: Cream cheese, full fat, block
+Category: Dairy and Egg Products
+Nutrients per 100g:
+  • Iron, Fe: 0.0 mg
+  • Magnesium, Mg: 8.91 mg
+  • Potassium, K: 125 mg
+  • Sodium, Na: 368 mg
+  • Zinc, Zn: 0.589 mg
+  • Fatty acids, total monounsaturated: 6.92 g
+  • Cholesterol: 101 mg
+  • Fatty acids, total saturated: 19.7 g
+  • Total lipid (fat): 33.5 g
+  • Calcium, Ca: 97.1 mg
+  • Carbohydrate, by difference: 4.56 g
+  • Protein: 5.79 g
+Common portions:
+  • serving: 30.0g
+
+---
+
+FOOD: Cream, heavy
+Category: Dairy and Egg Products
+Nutrients per 100g:
+  • Iron, Fe: 0.0 mg
+  • Magnesium, Mg: 5.97 mg
+  • Potassium, K: 96.9 mg
+  • Sodium, Na: 20.6 mg
+  • Zinc, Zn: 0.223 mg
+  • Fatty acids, total monounsaturated: 7.34 g
+  • Cholesterol: 103 mg
+  • Fatty acids, total saturated: 20.4 g
+  • Total lipid (fat): 35.6 g
+  • Calcium, Ca: 61.2 mg
+  • Protein: 2.02 g
+  • Carbohydrate, by difference: 3.8 g
+Common portions:
+  • serving: 15.0g
+
+---
+
+FOOD: Cream, sour, full fat
+Category: Dairy and Egg Products
+Nutrients per 100g:
+  • Iron, Fe: 0.0 mg
+  • Magnesium, Mg: 10.1 mg
+  • Potassium, K: 154 mg
+  • Sodium, Na: 50.0 mg
+  • Zinc, Zn: 0.392 mg
+  • Fatty acids, total monounsaturated: 3.8 g
+  • Cholesterol: 52.7 mg
+  • Fatty acids, total saturated: 10.7 g
+  • Total lipid (fat): 18.0 g
+  • Calcium, Ca: 107 mg
+  • Protein: 3.07 g
+  • Carbohydrate, by difference: 5.56 g
+Common portions:
+  • serving: 30.0g
+
+---
+
+FOOD: Lettuce, iceberg, raw
+Category: Vegetables and Vegetable Products
+Nutrients per 100g:
+  • Iron, Fe: 0.033 mg
+  • Magnesium, Mg: 6.31 mg
+  • Potassium, K: 139 mg
+  • Sodium, Na: 16.1 mg
+  • Zinc, Zn: 0.173 mg
+  • Total lipid (fat): 0.074 g
+  • Calcium, Ca: 14.2 mg
+  • Protein: 0.742 g
+  • Carbohydrate, by difference: 3.37 g
+Common portions:
+  • serving: 85.0g
+
+---
+
+FOOD: Lettuce, romaine, green, raw
+Category: Vegetables and Vegetable Products
+Nutrients per 100g:
+  • Iron, Fe: 0.267 mg
+  • Magnesium, Mg: 12.0 mg
+  • Potassium, K: 260 mg
+  • Sodium, Na: 23.0 mg
+  • Zinc, Zn: 0.252 mg
+  • Total lipid (fat): 0.071 g
+  • Calcium, Ca: 27.6 mg
+  • Protein: 0.977 g
+  • Carbohydrate, by difference: 4.06 g
+Common portions:
+  • serving: 85.0g
+
+---
+
+FOOD: Lettuce, leaf, red, raw
+Category: Vegetables and Vegetable Products
+Nutrients per 100g:
+  • Iron, Fe: 0.402 mg
+  • Magnesium, Mg: 12.4 mg
+  • Potassium, K: 321 mg
+  • Sodium, Na: 24.9 mg
+  • Zinc, Zn: 0.303 mg
+  • Vitamin C, total ascorbic acid: 9.34 mg
+  • Total lipid (fat): 0.106 g
+  • Calcium, Ca: 42.6 mg
+  • Protein: 0.883 g
+  • Carbohydrate, by difference: 3.26 g
+Common portions:
+  • serving: 85.0g
+
+---
+
+FOOD: Lettuce, leaf, green, raw
+Category: Vegetables and Vegetable Products
+Nutrients per 100g:
+  • Iron, Fe: 0.32 mg
+  • Magnesium, Mg: 12.8 mg
+  • Potassium, K: 277 mg
+  • Sodium, Na: 28.9 mg
+  • Zinc, Zn: 0.31 mg
+  • Vitamin C, total ascorbic acid: 15.2 mg
+  • Total lipid (fat): 0.156 g
+  • Calcium, Ca: 39.8 mg
+  • Carbohydrate, by difference: 4.07 g
+  • Protein: 1.09 g
+Common portions:
+  • serving: 85.0g
+
+---
+
+FOOD: Nuts, pine nuts, raw
+Category: Nut and Seed Products
+Nutrients per 100g:
+  • Iron, Fe: 5.36 mg
+  • Magnesium, Mg: 206 mg
+  • Potassium, K: 655 mg
+  • Sodium, Na: 0.0 mg
+  • Zinc, Zn: 5.71 mg
+  • Total lipid (fat): 61.3 g
+  • Fiber, total dietary: 3.94 g
+  • Calcium, Ca: 8.74 mg
+  • Carbohydrate, by difference: 18.6 g
+  • Protein: 15.7 g
+Common portions:
+  • serving: 30.0g
+
+---
+
+FOOD: Nuts, almonds, whole, raw
+Category: Nut and Seed Products
+Nutrients per 100g:
+  • Iron, Fe: 3.74 mg
+  • Magnesium, Mg: 258 mg
+  • Potassium, K: 733 mg
+  • Sodium, Na: 0.0 mg
+  • Zinc, Zn: 2.86 mg
+  • Total lipid (fat): 51.1 g
+  • Fiber, total dietary: 10.8 g
+  • Calcium, Ca: 254 mg
+  • Carbohydrate, by difference: 20.0 g
+  • Protein: 21.5 g
+  • Fatty acids, total polyunsaturated: 11.2 g
+  • Fatty acids, total monounsaturated: 31.3 g
+  • Fatty acids, total saturated: 3.78 g
+Common portions:
+  • serving: 30.0g
+
+---
+
+FOOD: Nuts, walnuts, English, halves, raw
+Category: Nut and Seed Products
+Nutrients per 100g:
+  • Iron, Fe: 2.24 mg
+  • Magnesium, Mg: 142 mg
+  • Potassium, K: 424 mg
+  • Sodium, Na: 0.0 mg
+  • Zinc, Zn: 2.76 mg
+  • Total lipid (fat): 69.7 g
+  • Fiber, total dietary: 5.21 g
+  • Calcium, Ca: 88.3 mg
+  • Carbohydrate, by difference: 10.9 g
+  • Protein: 14.6 g
+  • Fatty acids, total polyunsaturated: 49.3 g
+  • Fatty acids, total monounsaturated: 9.62 g
+  • Fatty acids, total saturated: 6.05 g
+Common portions:
+  • serving: 30.0g
+
+---
+
+FOOD: Nuts, pecans, halves, raw
+Category: Nut and Seed Products
+Nutrients per 100g:
+  • Iron, Fe: 2.37 mg
+  • Magnesium, Mg: 103 mg
+  • Potassium, K: 360 mg
+  • Sodium, Na: 0.0 mg
+  • Zinc, Zn: 3.93 mg
+  • Total lipid (fat): 73.3 g
+  • Fiber, total dietary: 5.79 g
+  • Calcium, Ca: 54.8 mg
+  • Carbohydrate, by difference: 12.7 g
+  • Protein: 9.96 g
+  • Fatty acids, total polyunsaturated: 22.9 g
+  • Fatty acids, total monounsaturated: 39.3 g
+  • Fatty acids, total saturated: 6.46 g
+Common portions:
+  • serving: 30.0g
+
+---
+
+FOOD: Oats, whole grain, rolled, old fashioned
+Category: Cereal Grains and Pasta
+Nutrients per 100g:
+  • Iron, Fe: 4.34 mg
+  • Magnesium, Mg: 126 mg
+  • Potassium, K: 350 mg
+  • Sodium, Na: 0.668 mg
+  • Zinc, Zn: 2.74 mg
+  • Total lipid (fat): 5.89 g
+  • Calcium, Ca: 45.5 mg
+  • Carbohydrate, by difference: 68.7 g
+  • Protein: 13.5 g
+Common portions:
+  • serving: 40.0g
+
+---
+
+FOOD: Oats, whole grain, steel cut
+Category: Cereal Grains and Pasta
+Nutrients per 100g:
+  • Iron, Fe: 3.8 mg
+  • Magnesium, Mg: 129 mg
+  • Potassium, K: 376 mg
+  • Sodium, Na: 0.311 mg
+  • Zinc, Zn: 2.84 mg
+  • Total lipid (fat): 5.8 g
+  • Calcium, Ca: 51.3 mg
+  • Carbohydrate, by difference: 69.8 g
+  • Protein: 12.5 g
+Common portions:
+  • serving: 40.0g
+
+---
+
+FOOD: Pineapple, raw
+Category: Fruits and Fruit Juices
+Nutrients per 100g:
+  • Iron, Fe: 0.054 mg
+  • Magnesium, Mg: 13.4 mg
+  • Potassium, K: 137 mg
+  • Sodium, Na: 0.0 mg
+  • Zinc, Zn: 0.107 mg
+  • Vitamin C, total ascorbic acid: 58.6 mg
+  • Total lipid (fat): 0.211 g
+  • Fiber, total dietary: 0.935 g
+  • Calcium, Ca: 12.5 mg
+  • Carbohydrate, by difference: 14.1 g
+  • Protein: 0.461 g
+Common portions:
+  • serving: 140.0g
+
+---
+
+FOOD: Cherries, sweet, dark red, raw
+Category: Fruits and Fruit Juices
+Nutrients per 100g:
+  • Iron, Fe: 0.105 mg
+  • Magnesium, Mg: 12.1 mg
+  • Potassium, K: 230 mg
+  • Sodium, Na: 0.0 mg
+  • Zinc, Zn: 0.065 mg
+  • Vitamin C, total ascorbic acid: 10.4 mg
+  • Total lipid (fat): 0.192 g
+  • Calcium, Ca: 12.3 mg
+  • Protein: 1.04 g
+  • Carbohydrate, by difference: 16.2 g
+Common portions:
+  • serving: 140.0g
+
+---
+
+FOOD: Beans, snap, green, raw
+Category: Vegetables and Vegetable Products
+Nutrients per 100g:
+  • Iron, Fe: 0.652 mg
+  • Magnesium, Mg: 28.2 mg
+  • Potassium, K: 290 mg
+  • Sodium, Na: 0.0 mg
+  • Zinc, Zn: 0.35 mg
+  • Total lipid (fat): 0.275 g
+  • Fiber, total dietary: 3.01 g
+  • Calcium, Ca: 40.0 mg
+  • Protein: 1.97 g
+  • Carbohydrate, by difference: 7.41 g
+Common portions:
+  • serving: 85.0g
+
+---
+
+FOOD: Potatoes, russet, without skin, raw
+Category: Vegetables and Vegetable Products
+Nutrients per 100g:
+  • Iron, Fe: 0.384 mg
+  • Magnesium, Mg: 25.6 mg
+  • Potassium, K: 450 mg
+  • Sodium, Na: 2.74 mg
+  • Zinc, Zn: 0.378 mg
+  • Vitamin C, total ascorbic acid: 10.9 mg
+  • Total lipid (fat): 0.36 g
+  • Calcium, Ca: 7.8 mg
+  • Carbohydrate, by difference: 17.8 g
+  • Protein: 2.27 g
+Common portions:
+  • serving: 110.0g
+
+---
+
+FOOD: Potatoes, red, without skin, raw
+Category: Vegetables and Vegetable Products
+Nutrients per 100g:
+  • Iron, Fe: 0.391 mg
+  • Magnesium, Mg: 23.6 mg
+  • Potassium, K: 472 mg
+  • Sodium, Na: 2.86 mg
+  • Zinc, Zn: 0.392 mg
+  • Vitamin C, total ascorbic acid: 21.3 mg
+  • Total lipid (fat): 0.248 g
+  • Calcium, Ca: 5.13 mg
+  • Protein: 2.06 g
+  • Carbohydrate, by difference: 16.3 g
+Common portions:
+  • serving: 110.0g
+
+---
+
+FOOD: Potatoes, gold, without skin, raw
+Category: Vegetables and Vegetable Products
+Nutrients per 100g:
+  • Iron, Fe: 0.373 mg
+  • Magnesium, Mg: 22.3 mg
+  • Potassium, K: 446 mg
+  • Sodium, Na: 2.24 mg
+  • Zinc, Zn: 0.374 mg
+  • Vitamin C, total ascorbic acid: 23.3 mg
+  • Total lipid (fat): 0.264 g
+  • Calcium, Ca: 5.94 mg
+  • Protein: 1.81 g
+  • Carbohydrate, by difference: 16.0 g
+Common portions:
+  • serving: 110.0g
+
+---
+
+FOOD: Sweet potatoes, orange flesh, without skin, raw
+Category: Vegetables and Vegetable Products
+Nutrients per 100g:
+  • Iron, Fe: 0.398 mg
+  • Magnesium, Mg: 19.1 mg
+  • Potassium, K: 486 mg
+  • Sodium, Na: 0.0 mg
+  • Zinc, Zn: 0.337 mg
+  • Vitamin C, total ascorbic acid: 14.8 mg
+  • Total lipid (fat): 0.375 g
+  • Calcium, Ca: 22.3 mg
+  • Carbohydrate, by difference: 17.3 g
+  • Protein: 1.58 g
+Common portions:
+  • serving: 110.0g

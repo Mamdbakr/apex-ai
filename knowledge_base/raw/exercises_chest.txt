@@ -1,0 +1,122 @@
+SOURCE: APEX AI Curated Exercise Database
+BASED ON: NSCA Essentials of Strength & Conditioning
+Muscle Group: Chest — 5 exercises
+============================================================
+
+EXERCISE: Barbell Bench Press
+Muscle Group: Chest
+Type: Compound
+Primary Muscles: Pectoralis major
+Secondary Muscles: Anterior deltoid, Triceps brachii
+Equipment: Barbell
+
+Execution:
+Lie flat on bench. Grip bar slightly wider than shoulder-width. Lower bar to mid-chest with elbows at ~45°. Press back up to full extension. Keep feet flat, slight arch in lower back, shoulder blades retracted.
+
+Prescription by goal:
+  • Strength: 4 sets × 3–5 reps | Rest: 180s | Tempo: 2-0-X-0
+  • Hypertrophy: 4 sets × 8–12 reps | Rest: 90s | Tempo: 3-0-1-0
+  • Fat_loss: 3 sets × 10–15 reps | Rest: 60s | Tempo: 2-0-1-0
+  • Endurance: 3 sets × 15–20 reps | Rest: 45s | Tempo: 2-0-1-0
+  • General: 3 sets × 10–12 reps | Rest: 75s | Tempo: 2-0-1-0
+
+Progressive overload:
+  • Beginner: +1.25kg when top of rep range hit | Deload every 6 weeks
+  • Intermediate: +1.25kg when top of rep range hit | Deload every 4 weeks
+  • Advanced: +0.5kg when top of rep range hit | Deload every 4 weeks
+
+---
+
+EXERCISE: Incline Dumbbell Press
+Muscle Group: Chest
+Type: Compound
+Primary Muscles: Pectoralis major (upper), Anterior deltoid
+Secondary Muscles: Triceps
+Equipment: Dumbbell
+
+Execution:
+Set bench to 30-45°. Press dumbbells from shoulder height to lockout. Targets upper chest. Control the descent.
+
+Prescription by goal:
+  • Strength: 4 sets × 3–5 reps | Rest: 180s | Tempo: 2-0-X-0
+  • Hypertrophy: 4 sets × 8–12 reps | Rest: 90s | Tempo: 3-0-1-0
+  • Fat_loss: 3 sets × 10–15 reps | Rest: 60s | Tempo: 2-0-1-0
+  • Endurance: 3 sets × 15–20 reps | Rest: 45s | Tempo: 2-0-1-0
+  • General: 3 sets × 10–12 reps | Rest: 75s | Tempo: 2-0-1-0
+
+Progressive overload:
+  • Beginner: +1.25kg when top of rep range hit | Deload every 6 weeks
+  • Intermediate: +1.25kg when top of rep range hit | Deload every 4 weeks
+  • Advanced: +0.5kg when top of rep range hit | Deload every 4 weeks
+
+---
+
+EXERCISE: Cable Fly
+Muscle Group: Chest
+Type: Isolation
+Primary Muscles: Pectoralis major
+Secondary Muscles: Anterior deltoid
+Equipment: Cables
+
+Execution:
+Stand between cable stations. Pull handles together in a wide arc, meeting at chest height. Maintain slight elbow bend throughout.
+
+Prescription by goal:
+  • Strength: 3 sets × 5–8 reps | Rest: 120s | Tempo: 2-0-1-0
+  • Hypertrophy: 3 sets × 10–15 reps | Rest: 60s | Tempo: 2-0-1-0
+  • Fat_loss: 3 sets × 12–15 reps | Rest: 45s | Tempo: 2-0-1-0
+  • Endurance: 2 sets × 15–20 reps | Rest: 30s | Tempo: 2-0-1-0
+  • General: 3 sets × 12–15 reps | Rest: 60s | Tempo: 2-0-1-0
+
+Progressive overload:
+  • Beginner: +1.25kg when top of rep range hit | Deload every 6 weeks
+  • Intermediate: +1.25kg when top of rep range hit | Deload every 4 weeks
+  • Advanced: +0.5kg when top of rep range hit | Deload every 4 weeks
+
+---
+
+EXERCISE: Push-up
+Muscle Group: Chest
+Type: Compound
+Primary Muscles: Pectoralis major
+Secondary Muscles: Triceps, Anterior deltoid, Core
+Equipment: Bodyweight
+
+Execution:
+Hands slightly wider than shoulder-width. Body forms straight line. Lower chest to within 2cm of floor. Push back up. Regress: knees down. Progress: feet elevated, archer push-up.
+
+Prescription by goal:
+  • Strength: 4 sets × 3–5 reps | Rest: 180s | Tempo: 2-0-X-0
+  • Hypertrophy: 4 sets × 8–12 reps | Rest: 90s | Tempo: 3-0-1-0
+  • Fat_loss: 3 sets × 10–15 reps | Rest: 60s | Tempo: 2-0-1-0
+  • Endurance: 3 sets × 15–20 reps | Rest: 45s | Tempo: 2-0-1-0
+  • General: 3 sets × 10–12 reps | Rest: 75s | Tempo: 2-0-1-0
+
+Progressive overload:
+  • Beginner: +1.25kg when top of rep range hit | Deload every 6 weeks
+  • Intermediate: +1.25kg when top of rep range hit | Deload every 4 weeks
+  • Advanced: +0.5kg when top of rep range hit | Deload every 4 weeks
+
+---
+
+EXERCISE: Dumbbell Pullover
+Muscle Group: Chest
+Type: Isolation
+Primary Muscles: Pectoralis major, Serratus anterior
+Secondary Muscles: Latissimus dorsi
+Equipment: Dumbbell
+
+Execution:
+Lie across bench. Hold dumbbell overhead with both hands. Lower behind head in arc, return to start. Stretches chest and lats.
+
+Prescription by goal:
+  • Strength: 3 sets × 5–8 reps | Rest: 120s | Tempo: 2-0-1-0
+  • Hypertrophy: 3 sets × 10–15 reps | Rest: 60s | Tempo: 2-0-1-0
+  • Fat_loss: 3 sets × 12–15 reps | Rest: 45s | Tempo: 2-0-1-0
+  • Endurance: 2 sets × 15–20 reps | Rest: 30s | Tempo: 2-0-1-0
+  • General: 3 sets × 12–15 reps | Rest: 60s | Tempo: 2-0-1-0
+
+Progressive overload:
+  • Beginner: +1.25kg when top of rep range hit | Deload every 6 weeks
+  • Intermediate: +1.25kg when top of rep range hit | Deload every 4 weeks
+  • Advanced: +0.5kg when top of rep range hit | Deload every 4 weeks

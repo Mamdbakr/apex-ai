@@ -1,0 +1,28 @@
+# apex_ml extra requirements
+# ----------------------------------------------------------------------
+# These are ON TOP of whatever the host project already has.
+# Most will likely already be present (numpy, fastapi, mediapipe).
+# Versions are lower bounds — pin tighter if your project requires it.
+
+numpy>=1.21
+# pydantic >=2 is required for the FastAPI router models. If the host
+# project pins pydantic<2, the router falls back gracefully (router=None)
+# and the rest of apex_ml continues to work — just import from
+# apex_ml.temporal_pose, apex_ml.form_correction, apex_ml.recommendation
+# and wire your own endpoints.
+pydantic>=2.0
+fastapi>=0.100               # OPTIONAL — only required if you mount api.router
+
+# OPTIONAL — required only if you train/run the deep sequence models.
+# Skip if you only need the rule-based feedback engine + recommender.
+torch>=2.0
+
+# OPTIONAL — for end-to-end testing of the FastAPI router
+# httpx>=0.24
+
+# OPTIONAL accelerators (NOT used by default; drop in via your own code
+# if you want them — apex_ml does not import these):
+# xgboost>=1.7
+# lightgbm>=4.0
+# faiss-cpu>=1.7
+# mlflow>=2.7

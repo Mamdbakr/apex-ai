@@ -1,0 +1,68 @@
+SOURCE: APEX AI Curated Knowledge Base
+TOPIC: Women-Specific Training and Nutrition
+LICENSE: Internal
+============================================================
+
+# Women-Specific Fitness: Training and Nutrition
+
+Women are not smaller men. Key physiological differences require
+adjusted training and nutrition approaches.
+
+## Hormonal Considerations
+
+### Menstrual Cycle and Performance
+- Follicular phase (days 1-14): Rising estrogen, better strength and power output
+  Best time for: high-intensity training, heavy lifts, new PRs
+- Luteal phase (days 15-28): Rising progesterone, higher core temperature,
+  increased perceived effort, higher fat oxidation
+  Best time for: moderate intensity, technique work, endurance
+
+### Estrogen Effects on Training
+- Estrogen has anabolic properties — helps muscle protein synthesis
+- Provides greater resistance to muscle damage vs men
+- Supports collagen synthesis (important for ligament/tendon health)
+- Perimenopause/menopause: estrogen decline increases injury risk,
+  especially ACL and bone stress fractures
+
+## Strength Training Recommendations
+
+### Volume and Intensity
+- Women can tolerate higher training volumes relative to body size
+- Similar strength gains to men relative to muscle cross-sectional area
+- Benefit from slightly higher rep ranges (10-15) for lower body
+- Full body training 3x/week is highly effective for women
+
+### Body Composition
+- Women have 6-11% essential body fat (vs 2-5% for men)
+- Healthy athletic range: 16-25% body fat
+- Avoid excessively low body fat — disrupts hormonal function
+- Female Athlete Triad: low energy availability + menstrual dysfunction + low bone density
+
+## Nutrition
+
+### Calorie Needs
+- BMR is typically 5-10% lower than men at same body weight
+- Use Mifflin-St Jeor with female constant (-161 instead of +5)
+- Do not undereat — insufficient energy impairs hormones, recovery, and performance
+
+### Protein
+- Same recommendation as men: 1.6-2.2g per kg bodyweight
+- Higher protein especially important perimenopausal women to offset muscle loss
+
+### Iron
+- Premenopausal women need 18mg/day (vs 8mg for men)
+- Athletes lose additional iron through sweat and foot-strike hemolysis
+- Low iron = fatigue, poor endurance, impaired cognitive function
+- Best sources: red meat, lentils, spinach + vitamin C for absorption
+
+### Calcium and Vitamin D
+- Essential for bone density — especially important in women
+- Calcium: 1000-1200mg/day
+- Vitamin D: 1500-2000 IU/day — most women are deficient
+
+## Common Mistakes
+1. Under-eating to stay lean — leads to hormonal disruption
+2. Avoiding heavy lifting — fear of "bulking up" (women lack testosterone for this)
+3. Only doing cardio — resistance training is more effective for body composition
+4. Ignoring menstrual cycle in training programming
+5. Not consuming enough iron and calcium

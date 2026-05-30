@@ -1,0 +1,65 @@
+# APEX AI v8 — .gitignore
+
+# ── Python ──────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyc
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# ── Virtualenvs ────────────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+
+# ── IDE ────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# ── Secrets ────────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── DB / storage ───────────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+apex_ai.db
+
+# ── Logs ───────────────────────────────────────────
+logs/*.log
+logs/*.zip
+
+# ── Runtime artefacts ──────────────────────────────
+data/events/*.jsonl
+data/raw/*
+data/processed/*
+snapshots/
+ai_models/vector_store/*
+!ai_models/vector_store/.gitkeep
+
+# ── Large artefacts kept out of git (use Git LFS or release assets) ──
+# ai_models/ml_models/*.pkl
+# ai_models/dl_models/*.pth
+
+# ── Frontend ───────────────────────────────────────
+node_modules/
+frontend-react/node_modules/
+frontend-react/dist/
+frontend-react/.vite/
+
+# ── Jupyter ────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── Testing / coverage ─────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/

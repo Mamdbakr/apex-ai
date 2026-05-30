@@ -1,0 +1,238 @@
+SOURCE: USDA FoodData Central
+LICENSE: Public domain
+Batch 8 (foods 351–365)
+============================================================
+
+FOOD: Peppers, poblano, seeded, raw
+Category: Vegetables and Vegetable Products
+Nutrients per 100g:
+  • Iron, Fe: 0.117 mg
+  • Magnesium, Mg: 10.7 mg
+  • Potassium, K: 192 mg
+  • Sodium, Na: 0.0 mg
+  • Zinc, Zn: 0.128 mg
+  • Vitamin C, total ascorbic acid: 128 mg
+  • Total lipid (fat): 0.191 g
+  • Fiber, total dietary: 2.07 g
+  • Calcium, Ca: 8.37 mg
+  • Carbohydrate, by difference: 5.14 g
+  • Protein: 1.43 g
+
+---
+
+FOOD: Peppers, serrano, seeded, raw
+Category: Vegetables and Vegetable Products
+Nutrients per 100g:
+  • Iron, Fe: 0.057 mg
+  • Magnesium, Mg: 12.7 mg
+  • Potassium, K: 224 mg
+  • Sodium, Na: 0.0 mg
+  • Zinc, Zn: 0.138 mg
+  • Vitamin C, total ascorbic acid: 94.6 mg
+  • Total lipid (fat): 0.141 g
+  • Fiber, total dietary: 2.52 g
+  • Calcium, Ca: 12.9 mg
+  • Carbohydrate, by difference: 6.14 g
+  • Protein: 0.856 g
+
+---
+
+FOOD: Radicchio, raw
+Category: Vegetables and Vegetable Products
+Nutrients per 100g:
+  • Iron, Fe: 0.401 mg
+  • Magnesium, Mg: 13.0 mg
+  • Potassium, K: 335 mg
+  • Sodium, Na: 8.08 mg
+  • Zinc, Zn: 0.2 mg
+  • Vitamin C, total ascorbic acid: 6.18 mg
+  • Total lipid (fat): 0.143 g
+  • Fiber, total dietary: 2.11 g
+  • Calcium, Ca: 30.9 mg
+  • Protein: 1.31 g
+  • Carbohydrate, by difference: 4.96 g
+
+---
+
+FOOD: Radishes, red, raw
+Category: Vegetables and Vegetable Products
+Nutrients per 100g:
+  • Iron, Fe: 0.0 mg
+  • Magnesium, Mg: 8.94 mg
+  • Potassium, K: 198 mg
+  • Sodium, Na: 51.2 mg
+  • Zinc, Zn: 0.104 mg
+  • Vitamin C, total ascorbic acid: 17.8 mg
+  • Total lipid (fat): 0.083 g
+  • Fiber, total dietary: 1.31 g
+  • Calcium, Ca: 21.5 mg
+  • Carbohydrate, by difference: 4.06 g
+  • Protein: 0.656 g
+
+---
+
+FOOD: Scallops, bay, Patagonian, frozen, wild caught
+Category: Finfish and Shellfish Products
+Nutrients per 100g:
+  • Iron, Fe: 0.172 mg
+  • Magnesium, Mg: 46.4 mg
+  • Potassium, K: 292 mg
+  • Sodium, Na: 252 mg
+  • Zinc, Zn: 1.02 mg
+  • Total lipid (fat): 0.419 g
+  • Calcium, Ca: 14.0 mg
+  • Protein: 16.4 g
+  • Carbohydrate, by difference: 2.28 g
+
+---
+
+FOOD: Scallops, sea, frozen, wild caught
+Category: Finfish and Shellfish Products
+Nutrients per 100g:
+  • Iron, Fe: 0.213 mg
+  • Magnesium, Mg: 30.6 mg
+  • Potassium, K: 245 mg
+  • Sodium, Na: 313 mg
+  • Zinc, Zn: 1.0 mg
+  • Total lipid (fat): 0.493 g
+  • Calcium, Ca: 10.5 mg
+  • Protein: 13.5 g
+  • Carbohydrate, by difference: 1.97 g
+
+---
+
+FOOD: Sea bass, Chilean, frozen, wild caught
+Category: Finfish and Shellfish Products
+Nutrients per 100g:
+  • Iron, Fe: 0.0 mg
+  • Magnesium, Mg: 16.6 mg
+  • Potassium, K: 236 mg
+  • Sodium, Na: 109 mg
+  • Zinc, Zn: 0.295 mg
+  • Total lipid (fat): 16.6 g
+  • Calcium, Ca: 6.82 mg
+  • Protein: 14.9 g
+  • Carbohydrate, by difference: 0.139 g
+
+---
+
+FOOD: Snapper, frozen, wild caught
+Category: Finfish and Shellfish Products
+Nutrients per 100g:
+  • Iron, Fe: 0.201 mg
+  • Magnesium, Mg: 27.5 mg
+  • Potassium, K: 349 mg
+  • Sodium, Na: 93.1 mg
+  • Zinc, Zn: 0.364 mg
+  • Total lipid (fat): 0.569 g
+  • Calcium, Ca: 13.9 mg
+  • Protein: 20.7 g
+  • Carbohydrate, by difference: 0.441 g
+
+---
+
+FOOD: Snow crab, legs only, frozen  
+Category: Finfish and Shellfish Products
+Nutrients per 100g:
+  • Iron, Fe: 0.276 mg
+  • Magnesium, Mg: 58.4 mg
+  • Potassium, K: 193 mg
+  • Sodium, Na: 728 mg
+  • Zinc, Zn: 3.37 mg
+  • Total lipid (fat): 0.294 g
+  • Calcium, Ca: 97.8 mg
+  • Protein: 15.5 g
+  • Carbohydrate, by difference: 1.11 g
+
+---
+
+FOOD: Squid (calamari), frozen, tubes only
+Category: Finfish and Shellfish Products
+Nutrients per 100g:
+  • Iron, Fe: 0.0 mg
+  • Magnesium, Mg: 10.5 mg
+  • Potassium, K: 9.48 mg
+  • Sodium, Na: 272 mg
+  • Zinc, Zn: 0.527 mg
+  • Total lipid (fat): 0.551 g
+  • Calcium, Ca: 10.6 mg
+  • Protein: 8.81 g
+  • Carbohydrate, by difference: 0.932 g
+
+---
+
+FOOD: Swordfish, frozen, wild caught
+Category: Finfish and Shellfish Products
+Nutrients per 100g:
+  • Iron, Fe: 0.096 mg
+  • Magnesium, Mg: 26.7 mg
+  • Potassium, K: 414 mg
+  • Sodium, Na: 56.9 mg
+  • Zinc, Zn: 0.541 mg
+  • Total lipid (fat): 8.12 g
+  • Calcium, Ca: 3.62 mg
+  • Protein: 19.2 g
+  • Carbohydrate, by difference: 0.45 g
+
+---
+
+FOOD: Tuna, ahi or yellowfin, frozen, wild caught
+Category: Finfish and Shellfish Products
+Nutrients per 100g:
+  • Iron, Fe: 0.591 mg
+  • Magnesium, Mg: 35.5 mg
+  • Potassium, K: 420 mg
+  • Sodium, Na: 94.4 mg
+  • Zinc, Zn: 0.352 mg
+  • Total lipid (fat): 0.388 g
+  • Calcium, Ca: 3.19 mg
+  • Protein: 24.7 g
+  • Carbohydrate, by difference: -0.104 g
+
+---
+
+FOOD: Turnips, raw
+Category: Vegetables and Vegetable Products
+Nutrients per 100g:
+  • Iron, Fe: 0.0 mg
+  • Magnesium, Mg: 10.4 mg
+  • Potassium, K: 262 mg
+  • Sodium, Na: 12.8 mg
+  • Zinc, Zn: 0.156 mg
+  • Vitamin C, total ascorbic acid: 26.8 mg
+  • Total lipid (fat): 0.119 g
+  • Fiber, total dietary: 1.92 g
+  • Calcium, Ca: 32.7 mg
+  • Carbohydrate, by difference: 7.27 g
+  • Protein: 0.953 g
+
+---
+
+FOOD: Watermelon, seedless, flesh only, raw
+Category: Fruits and Fruit Juices
+Nutrients per 100g:
+  • Iron, Fe: 0.021 mg
+  • Magnesium, Mg: 11.4 mg
+  • Potassium, K: 117 mg
+  • Sodium, Na: 0.0 mg
+  • Zinc, Zn: 0.102 mg
+  • Vitamin C, total ascorbic acid: 6.46 mg
+  • Calcium, Ca: 7.86 mg
+  • Protein: 0.871 g
+
+---
+
+FOOD: Watermelon, seedless, rind only, raw
+Category: Fruits and Fruit Juices
+Nutrients per 100g:
+  • Iron, Fe: 0.0 mg
+  • Magnesium, Mg: 9.67 mg
+  • Potassium, K: 272 mg
+  • Sodium, Na: 3.76 mg
+  • Zinc, Zn: 0.121 mg
+  • Vitamin C, total ascorbic acid: 7.09 mg
+  • Total lipid (fat): 0.966 g
+  • Fiber, total dietary: 1.54 g
+  • Calcium, Ca: 16.9 mg
+  • Protein: 0.531 g
+  • Carbohydrate, by difference: 3.27 g

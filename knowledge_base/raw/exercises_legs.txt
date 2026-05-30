@@ -1,0 +1,169 @@
+SOURCE: APEX AI Curated Exercise Database
+BASED ON: NSCA Essentials of Strength & Conditioning
+Muscle Group: Legs — 7 exercises
+============================================================
+
+EXERCISE: Barbell Squat
+Muscle Group: Legs
+Type: Compound
+Primary Muscles: Quadriceps, Gluteus maximus, Hamstrings
+Secondary Muscles: Adductors, Core, Erector spinae
+Equipment: Barbell
+
+Execution:
+Bar on upper traps (high bar) or rear delts (low bar). Feet shoulder-width, toes slightly out. Break at hips and knees simultaneously. Descend until hips below knees. Drive through full foot on ascent. Keep chest up, knees tracking toes.
+
+Prescription by goal:
+  • Strength: 4 sets × 3–5 reps | Rest: 180s | Tempo: 2-0-X-0
+  • Hypertrophy: 4 sets × 8–12 reps | Rest: 90s | Tempo: 3-0-1-0
+  • Fat_loss: 3 sets × 10–15 reps | Rest: 60s | Tempo: 2-0-1-0
+  • Endurance: 3 sets × 15–20 reps | Rest: 45s | Tempo: 2-0-1-0
+  • General: 3 sets × 10–12 reps | Rest: 75s | Tempo: 2-0-1-0
+
+Progressive overload:
+  • Beginner: +2.5kg when top of rep range hit | Deload every 6 weeks
+  • Intermediate: +2.5kg when top of rep range hit | Deload every 4 weeks
+  • Advanced: +1.25kg when top of rep range hit | Deload every 4 weeks
+
+---
+
+EXERCISE: Romanian Deadlift (RDL)
+Muscle Group: Legs
+Type: Compound
+Primary Muscles: Hamstrings, Gluteus maximus
+Secondary Muscles: Erector spinae, Adductors
+Equipment: Barbell
+
+Execution:
+Start standing with barbell. Hinge at hips, pushing them back. Lower bar along legs until strong stretch in hamstrings (~shin level). Drive hips forward to return. Knees slightly bent throughout.
+
+Prescription by goal:
+  • Strength: 4 sets × 3–5 reps | Rest: 180s | Tempo: 2-0-X-0
+  • Hypertrophy: 4 sets × 8–12 reps | Rest: 90s | Tempo: 3-0-1-0
+  • Fat_loss: 3 sets × 10–15 reps | Rest: 60s | Tempo: 2-0-1-0
+  • Endurance: 3 sets × 15–20 reps | Rest: 45s | Tempo: 2-0-1-0
+  • General: 3 sets × 10–12 reps | Rest: 75s | Tempo: 2-0-1-0
+
+Progressive overload:
+  • Beginner: +2.5kg when top of rep range hit | Deload every 6 weeks
+  • Intermediate: +2.5kg when top of rep range hit | Deload every 4 weeks
+  • Advanced: +1.25kg when top of rep range hit | Deload every 4 weeks
+
+---
+
+EXERCISE: Leg Press
+Muscle Group: Legs
+Type: Compound
+Primary Muscles: Quadriceps, Gluteus maximus
+Secondary Muscles: Hamstrings, Adductors
+Equipment: Machine
+
+Execution:
+Feet shoulder-width on platform. Lower until 90° knee angle. Press to near-lockout (don't lock knees). High foot placement = more glutes/hamstrings. Low foot placement = more quads.
+
+Prescription by goal:
+  • Strength: 4 sets × 3–5 reps | Rest: 180s | Tempo: 2-0-X-0
+  • Hypertrophy: 4 sets × 8–12 reps | Rest: 90s | Tempo: 3-0-1-0
+  • Fat_loss: 3 sets × 10–15 reps | Rest: 60s | Tempo: 2-0-1-0
+  • Endurance: 3 sets × 15–20 reps | Rest: 45s | Tempo: 2-0-1-0
+  • General: 3 sets × 10–12 reps | Rest: 75s | Tempo: 2-0-1-0
+
+Progressive overload:
+  • Beginner: +2.5kg when top of rep range hit | Deload every 6 weeks
+  • Intermediate: +2.5kg when top of rep range hit | Deload every 4 weeks
+  • Advanced: +1.25kg when top of rep range hit | Deload every 4 weeks
+
+---
+
+EXERCISE: Bulgarian Split Squat
+Muscle Group: Legs
+Type: Compound
+Primary Muscles: Quadriceps, Gluteus maximus
+Secondary Muscles: Hamstrings, Adductors, Core
+Equipment: Dumbbell
+
+Execution:
+Rear foot elevated on bench. Front foot forward enough to maintain vertical shin. Lower rear knee toward floor. Loaded with dumbbells or barbell. Excellent unilateral leg developer.
+
+Prescription by goal:
+  • Strength: 4 sets × 3–5 reps | Rest: 180s | Tempo: 2-0-X-0
+  • Hypertrophy: 4 sets × 8–12 reps | Rest: 90s | Tempo: 3-0-1-0
+  • Fat_loss: 3 sets × 10–15 reps | Rest: 60s | Tempo: 2-0-1-0
+  • Endurance: 3 sets × 15–20 reps | Rest: 45s | Tempo: 2-0-1-0
+  • General: 3 sets × 10–12 reps | Rest: 75s | Tempo: 2-0-1-0
+
+Progressive overload:
+  • Beginner: +2.5kg when top of rep range hit | Deload every 6 weeks
+  • Intermediate: +2.5kg when top of rep range hit | Deload every 4 weeks
+  • Advanced: +1.25kg when top of rep range hit | Deload every 4 weeks
+
+---
+
+EXERCISE: Glute Bridge / Hip Thrust
+Muscle Group: Legs
+Type: Isolation
+Primary Muscles: Gluteus maximus, Gluteus medius
+Secondary Muscles: Hamstrings, Core
+Equipment: Barbell
+
+Execution:
+Back on bench, barbell across hips. Drive hips up to full extension. Squeeze glutes at top. Hold 1 second. Best exercise for glute isolation.
+
+Prescription by goal:
+  • Strength: 3 sets × 5–8 reps | Rest: 120s | Tempo: 2-0-1-0
+  • Hypertrophy: 3 sets × 10–15 reps | Rest: 60s | Tempo: 2-0-1-0
+  • Fat_loss: 3 sets × 12–15 reps | Rest: 45s | Tempo: 2-0-1-0
+  • Endurance: 2 sets × 15–20 reps | Rest: 30s | Tempo: 2-0-1-0
+  • General: 3 sets × 12–15 reps | Rest: 60s | Tempo: 2-0-1-0
+
+Progressive overload:
+  • Beginner: +2.5kg when top of rep range hit | Deload every 6 weeks
+  • Intermediate: +2.5kg when top of rep range hit | Deload every 4 weeks
+  • Advanced: +1.25kg when top of rep range hit | Deload every 4 weeks
+
+---
+
+EXERCISE: Leg Curl
+Muscle Group: Legs
+Type: Isolation
+Primary Muscles: Hamstrings (biceps femoris)
+Secondary Muscles: Gastrocnemius
+Equipment: Machine
+
+Execution:
+Lie prone on machine. Curl heels toward glutes. Slow eccentric (3 seconds) for maximum hamstring development.
+
+Prescription by goal:
+  • Strength: 3 sets × 5–8 reps | Rest: 120s | Tempo: 2-0-1-0
+  • Hypertrophy: 3 sets × 10–15 reps | Rest: 60s | Tempo: 2-0-1-0
+  • Fat_loss: 3 sets × 12–15 reps | Rest: 45s | Tempo: 2-0-1-0
+  • Endurance: 2 sets × 15–20 reps | Rest: 30s | Tempo: 2-0-1-0
+  • General: 3 sets × 12–15 reps | Rest: 60s | Tempo: 2-0-1-0
+
+Progressive overload:
+  • Beginner: +2.5kg when top of rep range hit | Deload every 6 weeks
+  • Intermediate: +2.5kg when top of rep range hit | Deload every 4 weeks
+  • Advanced: +1.25kg when top of rep range hit | Deload every 4 weeks
+
+---
+
+EXERCISE: Calf Raise
+Muscle Group: Legs
+Type: Isolation
+Primary Muscles: Gastrocnemius, Soleus
+Equipment: Machine
+
+Execution:
+Full range of motion — deep stretch at bottom, full plantar flexion at top. 3-second hold at top. Seat calf raises target soleus; standing targets gastrocnemius.
+
+Prescription by goal:
+  • Strength: 3 sets × 5–8 reps | Rest: 120s | Tempo: 2-0-1-0
+  • Hypertrophy: 3 sets × 10–15 reps | Rest: 60s | Tempo: 2-0-1-0
+  • Fat_loss: 3 sets × 12–15 reps | Rest: 45s | Tempo: 2-0-1-0
+  • Endurance: 2 sets × 15–20 reps | Rest: 30s | Tempo: 2-0-1-0
+  • General: 3 sets × 12–15 reps | Rest: 60s | Tempo: 2-0-1-0
+
+Progressive overload:
+  • Beginner: +2.5kg when top of rep range hit | Deload every 6 weeks
+  • Intermediate: +2.5kg when top of rep range hit | Deload every 4 weeks
+  • Advanced: +1.25kg when top of rep range hit | Deload every 4 weeks

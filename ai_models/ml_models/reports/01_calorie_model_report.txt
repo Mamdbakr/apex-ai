@@ -1,0 +1,40 @@
+
+╔══════════════════════════════════════════════════════════════╗
+║  MODEL 1: Calorie Prediction (Linear Regression)            ║
+╚══════════════════════════════════════════════════════════════╝
+
+ALGORITHM : Linear Regression (with StandardScaler preprocessing)
+INPUT     : Age, Weight (kg), Height (cm), Activity Level (1-5), Gender
+OUTPUT    : Daily TDEE Calories (kcal)
+
+PERFORMANCE METRICS (Test Set — 400 samples):
+  Mean Absolute Error  (MAE) : 70.75 kcal
+  Root Mean Sq. Error  (RMSE): 89.50 kcal
+  R² Score                   : 0.9786  (1.0 = perfect)
+  Explained Variance         : 97.9%
+
+INTERPRETATION:
+  → The model explains 97.9% of variance in daily calorie needs
+  → Average prediction error is only 71 kcal
+  → Compare: manual Mifflin-St Jeor formula has ~100-150 kcal MAE
+
+FEATURE WEIGHTS (coefficients):
+  age                  : -108.3844
+  weight_kg            : +424.2207
+  height_cm            : +143.9910
+  activity_level       : +425.4270
+  gender               : +124.8758
+
+SAMPLE PREDICTIONS vs ACTUAL:
+   Age  Weight  Height  Act  Gen |   Actual |  Predicted |   Error
+  -----------------------------------------------------------------
+    53    45.8   156.0    4    0 |     1664 |       1863 |     199
+    59    65.1   159.5    2    0 |     1589 |       1545 |      44
+    61    62.7   159.7    1    0 |     1390 |       1192 |     198
+    62   123.3   153.7    2    1 |     2663 |       2615 |      48
+    29    89.4   189.4    4    1 |     3319 |       3305 |      14
+    28   132.1   160.3    1    1 |     2732 |       2776 |      44
+    60    89.1   193.6    1    0 |     1996 |       1946 |      50
+    56   104.9   188.7    2    0 |     2563 |       2475 |      88
+    57   101.9   191.2    3    1 |     2982 |       2999 |      17
+    48    55.0   179.9    5    1 |     2685 |       2835 |     150

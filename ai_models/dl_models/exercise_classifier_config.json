@@ -1,0 +1,1 @@
+{"in_dim": 61, "num_classes": 15, "classes": ["barbell_biceps_curl", "bench_press", "deadlift", "lat_pulldown", "lateral_raise", "leg_extension", "leg_raises", "plank", "pull_up", "push_up", "romanian_deadlift", "shoulder_press", "squat", "t_bar_row", "tricep_dips"]}
