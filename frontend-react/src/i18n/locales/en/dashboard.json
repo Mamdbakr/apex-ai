@@ -1,0 +1,100 @@
+{
+  "eyebrow": "Apex Dashboard",
+  "greetMorning": "Good morning",
+  "greetAfternoon": "Good afternoon",
+  "greetEvening": "Good evening",
+  "completeProfile": "Complete your profile to unlock AI insights",
+  "lastComputed": "Real-time predictions · last computed {{time}}",
+  "aiActive": "AI Active",
+  "refreshed": "Dashboard refreshed",
+  "loadError": "Couldn’t load your dashboard: {{error}}",
+  "setupProfile": "Set up your profile to see AI predictions and insights.",
+  "dayStreak_one": "{{count}} day streak",
+  "dayStreak_other": "{{count}} day streak",
+  "sessions7d": "{{count}} sessions / 7d",
+  "class": "{{level}} class",
+  "liveInsights": "{{count}} live insights",
+  "kpi": {
+    "calorieTarget": "Calorie Target",
+    "aiFitnessClass": "AI Fitness Class",
+    "predicted30d": "Predicted 30d",
+    "dayStreak": "Day Streak",
+    "confidence": "{{percent}}% confidence",
+    "sessionsThisWeek": "{{count}} sessions this week",
+    "via": "via {{source}}",
+    "thirtyDay": "30-day",
+    "aiGoalMatched": "AI · matched to your goal",
+    "aiEstimate": "AI estimate",
+    "aiForecast": "AI forecast"
+  },
+  "insights": {
+    "eyebrow": "Generated live",
+    "title": "AI Insight Engine",
+    "liveBadge": "{{count}} live"
+  },
+  "forecast": {
+    "eyebrow": "Multi-model projection",
+    "title": "Weight Forecast",
+    "targetBadge": "target {{weight}} kg",
+    "aiForecast": "AI forecast",
+    "confidence": "Confidence",
+    "trend": "Trend",
+    "aiModel": "AI model",
+    "energyBalance": "Energy balance",
+    "observedTrend": "Observed trend",
+    "in30Days": "in 30 days"
+  },
+  "caloriePlan": {
+    "title": "14-Day Calorie Plan",
+    "deficit": "AI plan: {{diff}} kcal deficit below your {{tdee}} kcal maintenance — tuned for fat loss.",
+    "surplus": "AI plan: {{diff}} kcal surplus above your {{tdee}} kcal maintenance — tuned for muscle gain.",
+    "maintenance": "AI plan: maintenance target, matched to your {{tdee}} kcal daily burn.",
+    "defaultCaption": "Daily target matched to your goal.",
+    "addProfile": "Add your profile to see your calorie schedule"
+  },
+  "timeline": {
+    "title": "Timeline to Goal",
+    "daysRemaining": "Days remaining",
+    "targetDate": "Target date",
+    "gapToTarget": "Gap to target",
+    "trend": "Trend",
+    "feasibility": {
+      "realistic": "realistic",
+      "aggressive": "aggressive",
+      "unrealistic": "unrealistic"
+    },
+    "noTargetWeight": "Set a target weight to see your timeline.",
+    "trendTooFlat": "No detectable weight trend yet — log more weights.",
+    "trendWrongDirection": "Your current trend is moving away from your target.",
+    "computing": "Computing…",
+    "insufficientData": "Insufficient data for timeline."
+  },
+  "anomalies": {
+    "title": "Anomaly Detection",
+    "flags_one": "{{count}} flag",
+    "flags_other": "{{count}} flags"
+  },
+  "recommendations": {
+    "title": "Recommended for {{level}}",
+    "you": "You",
+    "exercises_one": "{{count}} exercise",
+    "exercises_other": "{{count}} exercises"
+  },
+  "cohort": {
+    "title": "Vs Similar Users",
+    "peers": "{{count}} peers",
+    "filters": "Same goal ({{goal}}) · Age {{ageMin}}–{{ageMax}} · BMI {{bmiMin}}–{{bmiMax}}",
+    "workoutsPerWeek": "Workouts / week",
+    "avgFormScore": "Avg form score",
+    "weightDelta30d": "Weight Δ (30d)",
+    "cohortAvg": "cohort avg: {{value}}"
+  },
+  "macros": {
+    "title": "Daily Macro Targets",
+    "protein": "Protein",
+    "carbs": "Carbs",
+    "fats": "Fats",
+    "water": "Water",
+    "derivedFrom": "Derived from {{calories}} kcal target · 2g/kg protein · 0.8g/kg fat"
+  }
+}

@@ -2,11 +2,15 @@ import { useState } from 'react'
 import { Link, useNavigate, useLocation } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { Zap, Eye, EyeOff } from 'lucide-react'
+import { useTranslation } from 'react-i18next'
 import { authAPI } from '../lib/api'
+import { apiErrorMessage } from '../i18n/format'
 import useStore from '../store/useStore'
 import toast from 'react-hot-toast'
+import LanguageSwitcher from '../components/LanguageSwitcher'
 
 export default function Login() {
+  const { t } = useTranslation(['auth', 'common'])
   const [form, setForm]       = useState({ email: '', password: '' })
   const [showPw, setShowPw]   = useState(false)
   const [loading, setLoading] = useState(false)
@@ -35,14 +39,14 @@ export default function Login() {
       const firstName =
         (data.name && String(data.name).split(' ')[0]) ||
         (data.email && String(data.email).split('@')[0]) ||
-        'there'
-      toast.success(`Welcome back, ${firstName}!`)
+        t('auth:there')
+      toast.success(t('auth:welcomeBackName', { name: firstName }))
 
       // Navigate where the user was trying to go, or /dashboard.
       const redirectTo = location.state?.from || '/dashboard'
       navigate(redirectTo, { replace: true })
     } catch (err) {
-      toast.error(err.detail || 'Sign in failed')
+      toast.error(apiErrorMessage(t, err.detail, 'auth:signInFailed'))
     } finally {
       setLoading(false)
     }
@@ -61,6 +65,10 @@ export default function Login() {
              style={{ background:'var(--accent2)', opacity:0.16 }} />
       </div>
 
+      <div className="absolute top-4 end-4">
+        <LanguageSwitcher />
+      </div>
+
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -74,19 +82,19 @@ export default function Login() {
             </div>
             APEX<span style={{ color: 'var(--accent)' }}>AI</span>
           </Link>
-          <h1 className="text-3xl font-bold font-display">Welcome back</h1>
-          <p className="text-white/50 text-sm mt-2">Sign in to your intelligence dashboard</p>
+          <h1 className="text-3xl font-bold font-display">{t('auth:welcomeBack')}</h1>
+          <p className="text-white/50 text-sm mt-2">{t('auth:signInSubtitle')}</p>
         </div>
 
         <form onSubmit={handleSubmit} className="card space-y-5">
           <div>
             <label className="text-xs font-semibold text-white/60 uppercase tracking-wider mb-2 block">
-              Email
+              {t('auth:email')}
             </label>
             <input
               className="input"
               type="email"
-              placeholder="you@example.com"
+              placeholder={t('auth:emailPlaceholder')}
               autoComplete="email"
               required
               value={form.email}
@@ -96,11 +104,11 @@ export default function Login() {
 
           <div>
             <label className="text-xs font-semibold text-white/60 uppercase tracking-wider mb-2 block">
-              Password
+              {t('auth:password')}
             </label>
             <div className="relative">
               <input
-                className="input pr-11"
+                className="input pe-11"
                 type={showPw ? 'text' : 'password'}
                 placeholder="••••••••"
                 autoComplete="current-password"
@@ -111,8 +119,8 @@ export default function Login() {
               <button
                 type="button"
                 onClick={() => setShowPw(!showPw)}
-                className="absolute right-3 top-1/2 -translate-y-1/2 text-white/40 hover:text-white/80 transition-colors"
-                aria-label="Toggle password visibility"
+                className="absolute end-3 top-1/2 -translate-y-1/2 text-white/40 hover:text-white/80 transition-colors"
+                aria-label={t('auth:togglePassword')}
               >
                 {showPw ? <EyeOff size={18} /> : <Eye size={18} />}
               </button>
@@ -120,13 +128,13 @@ export default function Login() {
           </div>
 
           <button type="submit" disabled={loading} className="btn-primary w-full py-3 text-base">
-            {loading ? 'Signing in…' : 'Sign In →'}
+            {loading ? t('auth:signingIn') : t('auth:signInCta')}
           </button>
 
           <p className="text-center text-sm text-white/50 pt-2">
-            No account?{' '}
+            {t('auth:noAccount')}{' '}
             <Link to="/register" className="font-semibold hover:underline" style={{ color: 'var(--accent)' }}>
-              Create one free
+              {t('auth:createOneFree')}
             </Link>
           </p>
         </form>

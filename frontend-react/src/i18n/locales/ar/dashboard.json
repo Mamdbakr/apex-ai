@@ -1,0 +1,112 @@
+{
+  "eyebrow": "لوحة أبيكس",
+  "greetMorning": "صباح الخير",
+  "greetAfternoon": "مساء الخير",
+  "greetEvening": "مساء الخير",
+  "completeProfile": "أكمل ملفك الشخصي لفتح رؤى الذكاء الاصطناعي",
+  "lastComputed": "تنبؤات لحظية · آخر حساب {{time}}",
+  "aiActive": "الذكاء الاصطناعي نشِط",
+  "refreshed": "تم تحديث لوحة التحكم",
+  "loadError": "تعذّر تحميل لوحة التحكم: {{error}}",
+  "setupProfile": "أعدّ ملفك الشخصي لرؤية تنبؤات الذكاء الاصطناعي ورؤاه.",
+  "dayStreak_zero": "لا أيام متتالية",
+  "dayStreak_one": "يوم متتالٍ واحد",
+  "dayStreak_two": "يومان متتاليان",
+  "dayStreak_few": "{{count}} أيام متتالية",
+  "dayStreak_many": "{{count}} يومًا متتاليًا",
+  "dayStreak_other": "{{count}} يوم متتالٍ",
+  "sessions7d": "{{count}} جلسة / ٧ أيام",
+  "class": "فئة {{level}}",
+  "liveInsights": "{{count}} رؤية مباشرة",
+  "kpi": {
+    "calorieTarget": "هدف السعرات",
+    "aiFitnessClass": "فئة اللياقة بالذكاء الاصطناعي",
+    "predicted30d": "توقّع ٣٠ يومًا",
+    "dayStreak": "أيام متتالية",
+    "confidence": "ثقة {{percent}}٪",
+    "sessionsThisWeek": "{{count}} جلسة هذا الأسبوع",
+    "via": "عبر {{source}}",
+    "thirtyDay": "٣٠ يومًا",
+    "aiGoalMatched": "ذكاء اصطناعي · مطابق لهدفك",
+    "aiEstimate": "تقدير الذكاء الاصطناعي",
+    "aiForecast": "توقّع الذكاء الاصطناعي"
+  },
+  "insights": {
+    "eyebrow": "يُولَّد مباشرة",
+    "title": "محرك رؤى الذكاء الاصطناعي",
+    "liveBadge": "{{count}} مباشر"
+  },
+  "forecast": {
+    "eyebrow": "إسقاط متعدد النماذج",
+    "title": "توقّع الوزن",
+    "targetBadge": "الهدف {{weight}} كجم",
+    "aiForecast": "توقّع الذكاء الاصطناعي",
+    "confidence": "الثقة",
+    "trend": "الاتجاه",
+    "aiModel": "نموذج الذكاء الاصطناعي",
+    "energyBalance": "توازن الطاقة",
+    "observedTrend": "الاتجاه الملحوظ",
+    "in30Days": "خلال ٣٠ يومًا"
+  },
+  "caloriePlan": {
+    "title": "خطة السعرات لـ ١٤ يومًا",
+    "deficit": "خطة الذكاء الاصطناعي: عجز {{diff}} سعرة تحت صيانتك البالغة {{tdee}} سعرة — مضبوطة لخسارة الدهون.",
+    "surplus": "خطة الذكاء الاصطناعي: فائض {{diff}} سعرة فوق صيانتك البالغة {{tdee}} سعرة — مضبوطة لبناء العضلات.",
+    "maintenance": "خطة الذكاء الاصطناعي: هدف المحافظة، مطابق لحرقك اليومي البالغ {{tdee}} سعرة.",
+    "defaultCaption": "هدف يومي مطابق لهدفك.",
+    "addProfile": "أضِف ملفك الشخصي لرؤية جدول سعراتك"
+  },
+  "timeline": {
+    "title": "الجدول الزمني للهدف",
+    "daysRemaining": "الأيام المتبقية",
+    "targetDate": "تاريخ الهدف",
+    "gapToTarget": "الفارق عن الهدف",
+    "trend": "الاتجاه",
+    "feasibility": {
+      "realistic": "واقعي",
+      "aggressive": "طموح",
+      "unrealistic": "غير واقعي"
+    },
+    "noTargetWeight": "حدّد وزنًا مستهدفًا لرؤية جدولك الزمني.",
+    "trendTooFlat": "لا يوجد اتجاه وزن ملحوظ بعد — سجّل مزيدًا من الأوزان.",
+    "trendWrongDirection": "اتجاهك الحالي يبتعد عن هدفك.",
+    "computing": "جارٍ الحساب…",
+    "insufficientData": "بيانات غير كافية للجدول الزمني."
+  },
+  "anomalies": {
+    "title": "كشف الحالات الشاذة",
+    "flags_zero": "لا تنبيهات",
+    "flags_one": "تنبيه واحد",
+    "flags_two": "تنبيهان",
+    "flags_few": "{{count}} تنبيهات",
+    "flags_many": "{{count}} تنبيهًا",
+    "flags_other": "{{count}} تنبيه"
+  },
+  "recommendations": {
+    "title": "موصى به لفئة {{level}}",
+    "you": "لك",
+    "exercises_zero": "لا تمارين",
+    "exercises_one": "تمرين واحد",
+    "exercises_two": "تمرينان",
+    "exercises_few": "{{count}} تمارين",
+    "exercises_many": "{{count}} تمرينًا",
+    "exercises_other": "{{count}} تمرين"
+  },
+  "cohort": {
+    "title": "مقارنة بمستخدمين مشابهين",
+    "peers": "{{count}} نظير",
+    "filters": "نفس الهدف ({{goal}}) · العمر {{ageMin}}–{{ageMax}} · مؤشر الكتلة {{bmiMin}}–{{bmiMax}}",
+    "workoutsPerWeek": "تمارين / أسبوع",
+    "avgFormScore": "متوسط درجة الأداء",
+    "weightDelta30d": "تغيّر الوزن (٣٠ يومًا)",
+    "cohortAvg": "متوسط المجموعة: {{value}}"
+  },
+  "macros": {
+    "title": "أهداف الماكروز اليومية",
+    "protein": "بروتين",
+    "carbs": "كربوهيدرات",
+    "fats": "دهون",
+    "water": "ماء",
+    "derivedFrom": "محسوبة من هدف {{calories}} سعرة · ٢ جم/كجم بروتين · ٠٫٨ جم/كجم دهون"
+  }
+}

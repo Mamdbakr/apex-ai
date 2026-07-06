@@ -1,5 +1,6 @@
 import { useEffect } from 'react'
 import { Routes, Route, Navigate, useLocation } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 import useStore from './store/useStore'
 import { authAPI } from './lib/api'
 import Layout from './components/layout/Layout'
@@ -64,6 +65,7 @@ function ThemeEffect() {
 }
 
 function PrivateRoute({ children }) {
+  const { t }     = useTranslation()
   const user      = useStore((s) => s.user)
   const authReady = useStore((s) => s.authReady)
   const location  = useLocation()
@@ -75,7 +77,7 @@ function PrivateRoute({ children }) {
            style={{ background: 'var(--bg-primary)' }}>
         <div className="flex items-center gap-3 text-white/60">
           <div className="w-4 h-4 rounded-full border-2 border-white/20 border-t-white animate-spin" />
-          <span className="text-sm">Loading…</span>
+          <span className="text-sm">{t('common:loading')}</span>
         </div>
       </div>
     )

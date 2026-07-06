@@ -3,12 +3,14 @@ import { motion } from 'framer-motion'
 import { Brain, Flame, Scale, Target, ChevronDown } from 'lucide-react'
 import { RadarChart, Radar, PolarGrid, PolarAngleAxis, ResponsiveContainer,
          BarChart, Bar, XAxis, YAxis, Tooltip, Cell } from 'recharts'
+import { useTranslation } from 'react-i18next'
 import { predictAPI } from '../lib/api'
+import { formatNumber } from '../i18n/format'
 import useStore from '../store/useStore'
 import toast from 'react-hot-toast'
 
-const ACTIVITIES = ['Sedentary 🛌', 'Lightly Active 🚶‍♂️', 'Moderately Active 💪', 'Very Active ⚡', 'Extremely Active 🔥🔥']
-const GOALS      = ['lose','build','maintain']
+const ACTIVITY_LEVELS = [1, 2, 3, 4, 5]
+const GOALS = ['lose','build','maintain']
 
 const CustomTooltip = ({ active, payload, label }) => {
   if (!active || !payload?.length) return null
@@ -35,6 +37,7 @@ function ResultCard({ label, value, sub, color, icon: Icon }) {
 }
 
 export default function Predictions() {
+  const { t } = useTranslation(['predictions', 'common'])
   const { profile, setMLData } = useStore()
   const [form, setForm] = useState({
     age:            profile?.age            || 25,
@@ -75,8 +78,9 @@ export default function Predictions() {
       calories_tdee:         tdee,
       goal_calories:         Math.round(goalCalories),
       bmi:                   parseFloat(bmi.toFixed(1)),
-      bmi_category:          bmi < 18.5 ? 'Underweight' : bmi < 25 ? 'Normal' : bmi < 30 ? 'Overweight' : 'Obese',
-      fitness_level:         fit.level_name         || 'Unknown',
+      // bmi_category holds a stable key; translated at render time
+      bmi_category:          bmi < 18.5 ? 'underweight' : bmi < 25 ? 'normal' : bmi < 30 ? 'overweight' : 'obese',
+      fitness_level:         fit.level_name         || null,
       fitness_level_id:      fit.level_id           ?? 1,
       classifier_confidence: fit.confidence         || 0.5,
       probabilities:         fit.probabilities      || null,
@@ -93,46 +97,46 @@ export default function Predictions() {
 
     setResult(normalized)
     setMLData(normalized)
-    toast.success('Prediction complete! 🤖')
+    toast.success(t('predictions:predictionComplete'))
   } catch (error) {
-    toast.error('Prediction failed: ' + error.message)
+    toast.error(t('predictions:predictionFailed', { error: error.message }))
   } finally {
     setLoading(false)
   }
   }
 
   const macroData = result ? [
-    { name: 'Protein', g: result.macros?.protein_g || result.protein_g, fill: '#7b5cff' },
-    { name: 'Carbs',   g: result.macros?.carbs_g,   fill: '#ffd93d' },
-    { name: 'Fats',    g: result.macros?.fat_g,      fill: '#ff6b35' },
+    { name: t('predictions:macros.protein'), g: result.macros?.protein_g || result.protein_g, fill: '#7b5cff' },
+    { name: t('predictions:macros.carbs'),   g: result.macros?.carbs_g,   fill: '#ffd93d' },
+    { name: t('predictions:macros.fats'),    g: result.macros?.fat_g,      fill: '#ff6b35' },
   ] : []
 
   const radarData = result ? [
-    { subject: 'TDEE',       A: Math.min(100, Math.round((result.calories_tdee / 3500) * 100)) },
-    { subject: 'BMI Score',  A: Math.max(0, 100 - Math.abs(result.bmi - 22) * 5) },
-    { subject: 'Fitness',    A: [25, 50, 75, 100][result.fitness_level_id] || 50 },
-    { subject: 'Hydration',  A: Math.min(100, result.water_l * 30) },
-    { subject: 'Protein',    A: Math.min(100, Math.round((result.protein_g / (form.weight_kg * 2.2)) * 100)) },
-    { subject: 'Goal Align', A: result.weight_change_30d && form.goal === 'lose' && result.weight_change_30d < 0 ? 85 : 60 },
+    { subject: t('predictions:radar.tdee'),      A: Math.min(100, Math.round((result.calories_tdee / 3500) * 100)) },
+    { subject: t('predictions:radar.bmiScore'),  A: Math.max(0, 100 - Math.abs(result.bmi - 22) * 5) },
+    { subject: t('predictions:radar.fitness'),   A: [25, 50, 75, 100][result.fitness_level_id] || 50 },
+    { subject: t('predictions:radar.hydration'), A: Math.min(100, result.water_l * 30) },
+    { subject: t('predictions:radar.protein'),   A: Math.min(100, Math.round((result.protein_g / (form.weight_kg * 2.2)) * 100)) },
+    { subject: t('predictions:radar.goalAlign'), A: result.weight_change_30d && form.goal === 'lose' && result.weight_change_30d < 0 ? 85 : 60 },
   ] : []
 
   return (
     <div className="space-y-6 animate-fade-in">
       {/* Header */}
       <div>
-        <div className="text-xs font-semibold text-[#7b5cff] tracking-widest uppercase mb-1">AI Predictions</div>
-        <h1 className="text-3xl font-bold font-display">your <span className="gradient-text">stats prediction</span></h1>
+        <div className="text-xs font-semibold text-[#7b5cff] tracking-widest uppercase mb-1">{t('predictions:eyebrow')}</div>
+        <h1 className="text-3xl font-bold font-display">{t('predictions:title')} <span className="gradient-text">{t('predictions:titleAccent')}</span></h1>
       </div>
 
       <div className="grid lg:grid-cols-3 gap-5">
         {/* Input Form */}
         <div className="card lg:col-span-1 space-y-4">
-          <h3 className="font-bold font-display mb-2">Your Stats</h3>
+          <h3 className="font-bold font-display mb-2">{t('predictions:yourStats')}</h3>
 
           {[
-            ['Age (years)', 'age', 'number', '25'],
-            ['Weight (kg)',  'weight_kg', 'number', '70'],
-            ['Height (cm)',  'height_cm', 'number', '175'],
+            [t('predictions:ageLabel'), 'age', 'number', '25'],
+            [t('predictions:weightLabel'),  'weight_kg', 'number', '70'],
+            [t('predictions:heightLabel'),  'height_cm', 'number', '175'],
           ].map(([label, key, type, placeholder]) => (
             <div key={key}>
               <label className="text-xs font-semibold text-white/40 uppercase tracking-wider mb-1.5 block">{label}</label>
@@ -142,9 +146,9 @@ export default function Predictions() {
           ))}
 
           <div>
-            <label className="text-xs font-semibold text-white/40 uppercase tracking-wider mb-1.5 block">Gender</label>
+            <label className="text-xs font-semibold text-white/40 uppercase tracking-wider mb-1.5 block">{t('predictions:gender')}</label>
             <div className="grid grid-cols-2 gap-2">
-              {[['Male', 1], ['Female', 0]].map(([l, v]) => (
+              {[[t('common:gender.male'), 1], [t('common:gender.female'), 0]].map(([l, v]) => (
                 <button key={v} onClick={() => set('gender', v)} type="button"
                   className={`py-2 rounded-xl border text-sm font-semibold transition-all ${form.gender === v ? 'border-[#00ff88] bg-[#00ff88]/10 text-[#00ff88]' : 'border-white/10 text-white/40'}`}>
                   {l}
@@ -154,26 +158,26 @@ export default function Predictions() {
           </div>
 
           <div>
-            <label className="text-xs font-semibold text-white/40 uppercase tracking-wider mb-1.5 block">Activity Level</label>
+            <label className="text-xs font-semibold text-white/40 uppercase tracking-wider mb-1.5 block">{t('predictions:activityLevel')}</label>
             <select className="select" value={form.activity_level} onChange={e => set('activity_level', parseInt(e.target.value))}>
-              {ACTIVITIES.map((a, i) => <option key={i} value={i + 1}>{a}</option>)}
+              {ACTIVITY_LEVELS.map(lvl => <option key={lvl} value={lvl}>{t(`common:activities.${lvl}`)}</option>)}
             </select>
           </div>
 
           <div>
-            <label className="text-xs font-semibold text-white/40 uppercase tracking-wider mb-1.5 block">Goal</label>
+            <label className="text-xs font-semibold text-white/40 uppercase tracking-wider mb-1.5 block">{t('predictions:goal')}</label>
             <div className="space-y-1.5">
               {GOALS.map(g => (
                 <button key={g} onClick={() => set('goal', g)} type="button"
-                  className={`w-full py-2 px-3 rounded-xl border text-sm font-semibold text-left transition-all ${form.goal === g ? 'border-[#00ff88] bg-[#00ff88]/10 text-[#00ff88]' : 'border-white/10 text-white/40'}`}>
-                  {g === 'lose' ? '🔥 Lose Fat' : g === 'build' ? '💪 Build Muscle' : '⚖️ Maintain'}
+                  className={`w-full py-2 px-3 rounded-xl border text-sm font-semibold text-start transition-all ${form.goal === g ? 'border-[#00ff88] bg-[#00ff88]/10 text-[#00ff88]' : 'border-white/10 text-white/40'}`}>
+                  {t(`common:goals.${g}`)}
                 </button>
               ))}
             </div>
           </div>
 
           <button onClick={runPrediction} disabled={loading} className="btn-primary w-full py-3 mt-2">
-            {loading ? '🤖 Running Models…' : '⚡ Run Prediction'}
+            {loading ? t('predictions:running') : t('predictions:run')}
           </button>
         </div>
 
@@ -183,35 +187,35 @@ export default function Predictions() {
             <div className="card h-full flex items-center justify-center text-center py-20">
               <div>
                 <Brain size={48} className="text-white/10 mx-auto mb-4" />
-                <p className="text-white/30 text-sm">Fill in your stats and run prediction</p>
+                <p className="text-white/30 text-sm">{t('predictions:emptyState')}</p>
               </div>
             </div>
           ) : (
             <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-5">
               {/* KPI results */}
               <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-                <ResultCard label="TDEE" value={`${result.calories_tdee?.toLocaleString()} kcal`}
-                  color="#ff6b35" icon={Flame} sub="Daily energy expenditure" />
-                <ResultCard label="BMI" value={result.bmi?.toFixed(1)}
-                  color="#00ff88" icon={Scale} sub={result.bmi_category} />
-                <ResultCard label="Fitness Level" value={result.fitness_level}
+                <ResultCard label={t('predictions:tdee')} value={`${formatNumber(result.calories_tdee)} ${t('common:units.kcal')}`}
+                  color="#ff6b35" icon={Flame} sub={t('predictions:tdeeSub')} />
+                <ResultCard label={t('predictions:bmi')} value={formatNumber(result.bmi)}
+                  color="#00ff88" icon={Scale} sub={t(`predictions:bmiCategories.${result.bmi_category}`)} />
+                <ResultCard label={t('predictions:fitnessLevel')} value={result.fitness_level || t('predictions:unknown')}
                   color="#00d4ff" icon={Brain}
-                  sub={`${Math.round((result.classifier_confidence || 0.5) * 100)}% confidence`} />
-                <ResultCard label="Goal Calories" value={`${result.goal_calories?.toLocaleString()}`}
+                  sub={t('predictions:confidenceSub', { percent: formatNumber(Math.round((result.classifier_confidence || 0.5) * 100)) })} />
+                <ResultCard label={t('predictions:goalCalories')} value={formatNumber(result.goal_calories)}
                   color="#7b5cff" icon={Target}
-                  sub={form.goal === 'lose' ? 'Cut −500 kcal' : form.goal === 'build' ? 'Bulk +300 kcal' : 'Maintenance'} />
+                  sub={form.goal === 'lose' ? t('predictions:cut') : form.goal === 'build' ? t('predictions:bulk') : t('predictions:maintenance')} />
               </div>
 
               {/* Confidence probabilities */}
               {result.probabilities && (
                 <div className="card">
-                  <h4 className="font-bold font-display text-sm mb-3">🎯 Classifier Confidence</h4>
+                  <h4 className="font-bold font-display text-sm mb-3">{t('predictions:classifierConfidence')}</h4>
                   <div className="space-y-2">
                     {Object.entries(result.probabilities).sort((a, b) => b[1] - a[1]).map(([label, prob]) => (
                       <div key={label}>
                         <div className="flex justify-between text-xs mb-1">
                           <span className="text-white/60">{label}</span>
-                          <span className="text-[#00ff88] font-semibold">{Math.round(prob * 100)}%</span>
+                          <span className="text-[#00ff88] font-semibold">{formatNumber(Math.round(prob * 100))}%</span>
                         </div>
                         <div className="progress-bar">
                           <motion.div className="progress-fill" initial={{ width: 0 }}
@@ -226,25 +230,25 @@ export default function Predictions() {
               {/* Macro chart + Radar */}
               <div className="grid md:grid-cols-2 gap-5">
                 <div className="card">
-                  <h4 className="font-bold font-display text-sm mb-3">🥗 Macro Targets (g/day)</h4>
+                  <h4 className="font-bold font-display text-sm mb-3">{t('predictions:macroTargets')}</h4>
                   <ResponsiveContainer width="100%" height={160}>
                     <BarChart data={macroData}>
                       <XAxis dataKey="name" tick={{ fill: '#7a9cbf', fontSize: 11 }} axisLine={false} tickLine={false} />
                       <YAxis tick={{ fill: '#7a9cbf', fontSize: 11 }} axisLine={false} tickLine={false} />
                       <Tooltip content={<CustomTooltip />} />
-                      <Bar dataKey="g" radius={[6, 6, 0, 0]} name="grams">
+                      <Bar dataKey="g" radius={[6, 6, 0, 0]} name={t('predictions:grams')}>
                         {macroData.map((d, i) => <Cell key={i} fill={d.fill} />)}
                       </Bar>
                     </BarChart>
                   </ResponsiveContainer>
                 </div>
                 <div className="card">
-                  <h4 className="font-bold font-display text-sm mb-3">📊 Health Radar</h4>
+                  <h4 className="font-bold font-display text-sm mb-3">{t('predictions:healthRadar')}</h4>
                   <ResponsiveContainer width="100%" height={160}>
                     <RadarChart data={radarData}>
                       <PolarGrid stroke="rgba(255,255,255,0.06)" />
                       <PolarAngleAxis dataKey="subject" tick={{ fill: '#7a9cbf', fontSize: 10 }} />
-                      <Radar name="Score" dataKey="A" stroke="#00ff88" fill="#00ff88" fillOpacity={0.15} />
+                      <Radar name={t('predictions:score')} dataKey="A" stroke="#00ff88" fill="#00ff88" fillOpacity={0.15} />
                     </RadarChart>
                   </ResponsiveContainer>
                 </div>
@@ -254,10 +258,10 @@ export default function Predictions() {
               <div className="card card-neon2">
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
                   {[
-                    { label: 'Current Weight', val: `${form.weight_kg} kg`, color: '#e0eeff' },
-                    { label: '30d Projection', val: `${result.new_weight_est} kg`, color: '#00d4ff' },
-                    { label: 'Protein/day',    val: `${result.protein_g} g`, color: '#7b5cff' },
-                    { label: 'Water/day',      val: `${result.water_l} L`, color: '#00ff88' },
+                    { label: t('predictions:currentWeight'), val: `${formatNumber(form.weight_kg)} ${t('common:units.kg')}`, color: '#e0eeff' },
+                    { label: t('predictions:projection30d'), val: `${formatNumber(result.new_weight_est)} ${t('common:units.kg')}`, color: '#00d4ff' },
+                    { label: t('predictions:proteinPerDay'), val: `${formatNumber(result.protein_g)} ${t('common:units.g')}`, color: '#7b5cff' },
+                    { label: t('predictions:waterPerDay'),   val: `${formatNumber(result.water_l)} ${t('common:units.l')}`, color: '#00ff88' },
                   ].map(({ label, val, color }) => (
                     <div key={label}>
                       <div className="text-xl font-bold font-display" style={{ color }}>{val}</div>

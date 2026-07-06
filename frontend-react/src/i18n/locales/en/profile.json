@@ -1,0 +1,38 @@
+{
+  "eyebrow": "Profile Settings",
+  "title": "Your",
+  "titleAccent": "Profile",
+  "subtitle": "Profile changes retrigger all AI models instantly",
+  "noEmail": "No email",
+  "computedBmi": "Computed BMI",
+  "tdee": "TDEE: {{value}} kcal",
+  "tabs": {
+    "profile": "Profile",
+    "goals": "Goals"
+  },
+  "bodyStats": "Body Stats",
+  "fullName": "Full Name",
+  "namePlaceholder": "Your name",
+  "age": "Age",
+  "weightKg": "Weight (kg)",
+  "heightCm": "Height (cm)",
+  "targetKg": "Target (kg)",
+  "gender": "Gender",
+  "activityLevel": "Activity Level",
+  "dietaryPreference": "Dietary Preference",
+  "bmi": "BMI",
+  "bmr": "BMR",
+  "tdeeShort": "TDEE",
+  "kcalValue": "{{value}} kcal",
+  "trainingGoal": "Training Goal",
+  "goalDescs": {
+    "lose": "Caloric deficit + cardio focus",
+    "build": "Caloric surplus + resistance training",
+    "maintain": "Body recomposition at maintenance"
+  },
+  "timeframe": "Timeframe",
+  "saveProfile": "Save Profile",
+  "saving": "Saving…",
+  "saved": "Profile updated! AI models will refresh. 💪",
+  "saveFailed": "Failed to save profile"
+}

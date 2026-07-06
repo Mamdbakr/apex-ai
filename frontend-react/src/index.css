@@ -126,6 +126,20 @@
   --font-mono:      'JetBrains Mono', 'Fira Code', ui-monospace, monospace;
 }
 
+/* ─── ARABIC / RTL ─────────────────────────────────────────────────────────
+   When i18n switches <html lang="ar" dir="rtl">, swap the Latin display/body
+   fonts for Cairo (an Arabic-first face) and relax the tight letter-spacing
+   that only makes sense for Latin type. */
+html[lang="ar"] {
+  --font-display: 'Cairo', 'Space Grotesk', system-ui, sans-serif;
+  --font-body:    'Cairo', 'Inter', system-ui, sans-serif;
+}
+html[lang="ar"] h1,
+html[lang="ar"] h2 { letter-spacing: 0; }
+
+/* Directional icons (chevrons, arrows) mirror in RTL. */
+[dir="rtl"] .rtl-flip { transform: scaleX(-1); }
+
 /* ──────────────────────────────────────────────────────────────────────────
    THEMES — switched by [data-theme] on the <html> element.
    The default :root above is the "masculine" / dark athletic palette.
@@ -636,7 +650,7 @@ input[type="radio"] {
 /* ─── NAV / SIDEBAR ────────────────────────────────────────────────────── */
 .sidebar {
   background: var(--bg-secondary);
-  border-right: 1px solid var(--border);
+  border-inline-end: 1px solid var(--border);
   backdrop-filter: blur(18px);
 }
 
@@ -700,7 +714,7 @@ a.nav-link {
 .nav-link.active::after {
   content: '';
   position: absolute;
-  left: 0; top: 22%; bottom: 22%;
+  inset-inline-start: 0; top: 22%; bottom: 22%;
   width: 3px;
   background: var(--accent);
   border-radius: 0 4px 4px 0;
@@ -995,8 +1009,8 @@ a.nav-link {
 .chat-bubble.user {
   background: var(--grad-accent);
   color: #001a0d;
-  margin-left: auto;
-  border-bottom-right-radius: 6px;
+  margin-inline-start: auto;
+  border-end-end-radius: 6px;
   box-shadow: 0 6px 22px rgba(0,255,136,0.28), inset 0 1px 0 rgba(255,255,255,0.2);
   font-weight: 500;
 }
@@ -1004,7 +1018,7 @@ a.nav-link {
   background: var(--bg-elevated);
   border: 1px solid var(--border);
   color: var(--text-primary);
-  border-bottom-left-radius: 6px;
+  border-end-start-radius: 6px;
   box-shadow: var(--shadow-sm);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
@@ -1197,7 +1211,7 @@ table {
   font-size: 0.92rem;
 }
 thead th {
-  text-align: left;
+  text-align: start;
   font-weight: 700;
   font-size: 0.72rem;
   letter-spacing: 0.10em;
