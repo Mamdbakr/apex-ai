@@ -1,25 +1,18 @@
 /**
- * Vision.jsx — CV Trainer using WebSocket for real-time streaming (30+ FPS)
- * Fixes:
- *   1. HTTP polling (5 FPS) → WebSocket (30+ FPS)
- *   2. Skeleton drawing now correctly maps 17 COCO landmarks every frame
- *   3. Shows phase, stage, angles, top-3 classifier, form cues
+ * Vision.jsx — CV Trainer using WebSocket for real-time streaming (30+ FPS).
+ * Streaming/skeleton logic unchanged; all visible strings come from the
+ * vision i18n namespace. Feedback state stores message KEYS (or raw backend
+ * cues) and translates at render time so live language switches apply.
  */
 import { useEffect, useRef, useState, useCallback } from 'react'
 import { Video, VideoOff, Activity, Target, BarChart2, RefreshCw, AlertCircle, Zap } from 'lucide-react'
+import { useTranslation } from 'react-i18next'
+import { formatNumber } from '../i18n/format'
 
 const BASE_HTTP = (typeof import.meta !== 'undefined' && import.meta.env?.VITE_API_URL) || 'http://localhost:8000'
 const BASE_WS   = BASE_HTTP.replace(/^http/, 'ws')
 
 const EXERCISES = ['squat', 'push_up', 'plank', 'barbell_biceps_curl', 'deadlift', 'shoulder_press']
-const EX_LABELS = {
-  squat:               '🏋️ Squat',
-  push_up:             '💪 Push-Up',
-  plank:               '⏱️ Plank',
-  barbell_biceps_curl: '💪 Biceps Curl',
-  deadlift:            '🔩 Deadlift',
-  shoulder_press:      '🏋️ Shoulder Press',
-}
 
 // COCO-17 skeleton connections
 const CONNECTIONS = [
@@ -68,6 +61,7 @@ function drawSkeleton(canvas, video, landmarks) {
 }
 
 export default function Vision() {
+  const { t } = useTranslation(['vision', 'common'])
   const videoRef    = useRef(null)
   const canvasRef   = useRef(null)
   const streamRef   = useRef(null)   // MediaStream
@@ -81,11 +75,13 @@ export default function Vision() {
   const [exercise,  setExercise]  = useState('squat')
   const [reps,      setReps]      = useState(0)
   const [formScore, setFormScore] = useState(null)
+  // Items are either { key } (translated at render) or { text } (raw backend cue)
   const [feedback,  setFeedback]  = useState([])
   const [fps,       setFps]       = useState(0)
   const [detected,  setDetected]  = useState(false)
   const [phase,     setPhase]     = useState('—')
-  const [error,     setError]     = useState(null)
+  // Error is a translation key (or null)
+  const [errorKey,  setErrorKey]  = useState(null)
   const [top3,      setTop3]      = useState([])
   const [angles,    setAngles]    = useState({})
   const [wsStatus,  setWsStatus]  = useState('disconnected') // 'connecting'|'connected'|'disconnected'
@@ -105,7 +101,7 @@ export default function Vision() {
 
     ws.onopen = () => {
       setWsStatus('connected')
-      setError(null)
+      setErrorKey(null)
     }
 
     ws.onmessage = (evt) => {
@@ -130,7 +126,7 @@ export default function Vision() {
         if (poseOk) {
           setReps(data.rep_count ?? data.reps ?? 0)
           setFormScore(data.form_score ?? null)
-          setFeedback(data.feedback_cues ?? data.form_cues ?? [])
+          setFeedback((data.feedback_cues ?? data.form_cues ?? []).map(text => ({ text })))
           setPhase(data.phase ?? data.stage ?? '—')
           setTop3(data.top_3 ?? [])
           setAngles({
@@ -148,20 +144,20 @@ export default function Vision() {
         } else {
           const ctx = canvasRef.current?.getContext('2d')
           if (ctx) ctx.clearRect(0, 0, canvasRef.current.width, canvasRef.current.height)
-          setFeedback(['No pose detected — step back so your full body is visible'])
+          setFeedback([{ key: 'vision:noPoseFeedback' }])
         }
       } catch (_) {}
     }
 
     ws.onerror = () => {
-      setError('WebSocket error — make sure the backend is running on port 8000.')
+      setErrorKey('vision:wsError')
       setWsStatus('disconnected')
     }
 
     ws.onclose = (evt) => {
       setWsStatus('disconnected')
       if (evt.code === 4401) {
-        setError('Not logged in — please log out and back in.')
+        setErrorKey('vision:notLoggedIn')
         stopCamera()
       }
     }
@@ -198,7 +194,7 @@ export default function Vision() {
   // ── Camera start / stop ─────────────────────────────────────────────────
 
   async function startCamera() {
-    setError(null)
+    setErrorKey(null)
     try {
       const stream = await navigator.mediaDevices.getUserMedia({
         video: { width: { ideal: 640 }, height: { ideal: 480 }, facingMode: 'user' },
@@ -212,9 +208,9 @@ export default function Vision() {
       connectWS(exercise)
       startFrameLoop()
       setActive(true)
-      setFeedback(['Camera active — stand 2–3 m back so your full body is visible'])
+      setFeedback([{ key: 'vision:cameraActive' }])
     } catch (e) {
-      setError('Camera access denied. Please allow camera permissions and try again.')
+      setErrorKey('vision:cameraDenied')
     }
   }
 
@@ -230,7 +226,7 @@ export default function Vision() {
     setDetected(false)
     setFps(0)
     setWsStatus('disconnected')
-    setFeedback(['Session ended. Great work! 💪'])
+    setFeedback([{ key: 'vision:sessionEnded' }])
     // Tell backend to finalize
     try {
       const params = new URLSearchParams({ session_id: sessionRef.current, sets: 1, duration_min: 5 })
@@ -271,23 +267,25 @@ export default function Vision() {
   const scoreColor = formScore >= 85 ? '#00ff88' : formScore >= 65 ? '#ffd93d' : '#ff6b35'
 
   const wsIndicator = {
-    connecting:   { color: '#ffd93d', label: 'Connecting…' },
-    connected:    { color: '#00ff88', label: 'WS Live' },
-    disconnected: { color: '#ff6b35', label: 'Offline' },
+    connecting:   { color: '#ffd93d', label: t('vision:wsConnecting') },
+    connected:    { color: '#00ff88', label: t('vision:wsLive') },
+    disconnected: { color: '#ff6b35', label: t('vision:wsOffline') },
   }[wsStatus]
+
+  const renderFeedback = (f) => (f.key ? t(f.key) : f.text)
 
   return (
     <div className="space-y-6 animate-fade-in">
       <div>
-        <div className="text-xs font-semibold text-[#00d4ff] tracking-widest uppercase mb-1">Camera Trainer</div>
-        <h1 className="text-3xl font-bold font-display">AI personal <span className="gradient-text">Trainer</span></h1>
-        <p className="text-white/40 text-sm mt-1">Good lighting helps · Pick your exercise first, then press Start Camera</p>
+        <div className="text-xs font-semibold text-[#00d4ff] tracking-widest uppercase mb-1">{t('vision:eyebrow')}</div>
+        <h1 className="text-3xl font-bold font-display">{t('vision:title')} <span className="gradient-text">{t('vision:titleAccent')}</span></h1>
+        <p className="text-white/40 text-sm mt-1">{t('vision:subtitle')}</p>
       </div>
 
       <div className="rounded-xl border border-[#00d4ff]/20 bg-[#00d4ff]/05 px-4 py-3 text-xs text-white/60 space-y-1">
-        <p className="font-semibold text-[#00d4ff]">For best results:</p>
-        <p>• Stand 2–3 metres from the camera so your full body (head to feet) is visible</p>
-        <p>• Good lighting · Select your exercise first, then press Start</p>
+        <p className="font-semibold text-[#00d4ff]">{t('vision:tipsTitle')}</p>
+        <p>{t('vision:tipDistance')}</p>
+        <p>{t('vision:tipLighting')}</p>
       </div>
 
       <div className="grid lg:grid-cols-3 gap-5">
@@ -299,24 +297,24 @@ export default function Vision() {
             <canvas ref={canvasRef} className="absolute inset-0 w-full h-full pointer-events-none"
               style={{ transform: 'scaleX(-1)' }} />
 
-            {!active && !error && (
+            {!active && !errorKey && (
               <div className="absolute inset-0 flex flex-col items-center justify-center text-center">
                 <Video size={48} className="text-white/10 mb-4" />
-                <p className="text-white/30 text-sm">Camera feed will appear here</p>
-                <p className="text-white/20 text-xs mt-1">Real-Time Video • not connected</p>
+                <p className="text-white/30 text-sm">{t('vision:cameraPlaceholder')}</p>
+                <p className="text-white/20 text-xs mt-1">{t('vision:notConnected')}</p>
               </div>
             )}
 
             {active && (
               <>
-                {/* Top-left HUD */}
-                <div className="absolute top-3 left-3 glass rounded-xl px-3 py-2 text-xs font-mono space-x-2 flex items-center">
+                {/* Top-start HUD */}
+                <div className="absolute top-3 start-3 glass rounded-xl px-3 py-2 text-xs font-mono gap-2 flex items-center">
                   <span className="font-bold" style={{ color: wsIndicator.color }}>
-                    {fps} FPS
+                    {t('vision:fps', { count: fps })}
                   </span>
                   <span className="text-white/30">·</span>
                   <span className={detected ? 'text-[#00ff88]' : 'text-[#ff6b35]'}>
-                    {detected ? '✓ Pose' : '✗ No pose'}
+                    {detected ? t('vision:poseOk') : t('vision:poseNone')}
                   </span>
                   <span className="text-white/30">·</span>
                   <span style={{ color: wsIndicator.color }}>{wsIndicator.label}</span>
@@ -331,35 +329,35 @@ export default function Vision() {
 
                 {/* Form score */}
                 {formScore !== null && (
-                  <div className="absolute top-3 right-3 glass rounded-xl px-3 py-2 text-xs text-center">
-                    <div className="text-white/40 mb-1">Form</div>
+                  <div className="absolute top-3 end-3 glass rounded-xl px-3 py-2 text-xs text-center">
+                    <div className="text-white/40 mb-1">{t('vision:form')}</div>
                     <div className="text-lg font-bold font-display" style={{ color: scoreColor }}>{formScore}/100</div>
                   </div>
                 )}
 
                 {/* Angles overlay */}
                 {detected && (angles.left || angles.right || angles.primary) && (
-                  <div className="absolute bottom-14 right-3 glass rounded-xl px-3 py-2 text-xs space-y-1">
-                    {angles.primary != null && <div className="text-white/50">Angle: <b className="text-[#00d4ff]">{Math.round(angles.primary)}°</b></div>}
-                    {angles.left    != null && <div className="text-white/50">L: <b className="text-[#7b5cff]">{Math.round(angles.left)}°</b></div>}
-                    {angles.right   != null && <div className="text-white/50">R: <b className="text-[#7b5cff]">{Math.round(angles.right)}°</b></div>}
+                  <div className="absolute bottom-14 end-3 glass rounded-xl px-3 py-2 text-xs space-y-1">
+                    {angles.primary != null && <div className="text-white/50">{t('vision:angle')}: <b className="text-[#00d4ff]">{formatNumber(Math.round(angles.primary))}°</b></div>}
+                    {angles.left    != null && <div className="text-white/50">{t('vision:left')}: <b className="text-[#7b5cff]">{formatNumber(Math.round(angles.left))}°</b></div>}
+                    {angles.right   != null && <div className="text-white/50">{t('vision:right')}: <b className="text-[#7b5cff]">{formatNumber(Math.round(angles.right))}°</b></div>}
                   </div>
                 )}
 
                 {/* Feedback cues */}
                 {feedback.length > 0 && (
-                  <div className="absolute bottom-3 left-3 right-3 glass rounded-xl px-3 py-2 text-xs text-white/70 space-y-0.5">
-                    {feedback.slice(0, 2).map((f, i) => <p key={i}>{f}</p>)}
+                  <div className="absolute bottom-3 start-3 end-3 glass rounded-xl px-3 py-2 text-xs text-white/70 space-y-0.5">
+                    {feedback.slice(0, 2).map((f, i) => <p key={i}>{renderFeedback(f)}</p>)}
                   </div>
                 )}
               </>
             )}
 
-            {error && (
+            {errorKey && (
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="glass rounded-xl px-5 py-4 text-center max-w-xs">
                   <AlertCircle size={28} className="text-[#ff6b35] mx-auto mb-2" />
-                  <p className="text-sm text-white/70">{error}</p>
+                  <p className="text-sm text-white/70">{t(errorKey)}</p>
                 </div>
               </div>
             )}
@@ -369,15 +367,15 @@ export default function Vision() {
           <div className="flex gap-3">
             {!active ? (
               <button onClick={startCamera} className="btn-primary flex items-center gap-2 flex-1 justify-center py-3">
-                <Video size={16} /> Start Camera
+                <Video size={16} /> {t('vision:startCamera')}
               </button>
             ) : (
               <button onClick={stopCamera} className="btn-ghost flex items-center gap-2 flex-1 justify-center py-3 border-[#ff6b35]/30 text-[#ff6b35]">
-                <VideoOff size={16} /> Stop Camera
+                <VideoOff size={16} /> {t('vision:stopCamera')}
               </button>
             )}
             <button onClick={resetSession} className="btn-ghost flex items-center gap-2 px-4">
-              <RefreshCw size={15} /> Reset
+              <RefreshCw size={15} /> {t('vision:reset')}
             </button>
           </div>
 
@@ -385,7 +383,7 @@ export default function Vision() {
           {top3.length > 0 && (
             <div className="card">
               <h4 className="font-bold font-display text-sm mb-3 flex items-center gap-2">
-                <Zap size={14} className="text-[#ffd93d]" /> Auto-Classifier Confidence
+                <Zap size={14} className="text-[#ffd93d]" /> {t('vision:classifierTitle')}
               </h4>
               <div className="space-y-2">
                 {top3.map((item, i) => (
@@ -393,7 +391,7 @@ export default function Vision() {
                     <div className="flex justify-between text-xs mb-1">
                       <span className="text-white/60 capitalize">{item.exercise_name || item.exercise_id}</span>
                       <span className="font-semibold" style={{ color: i === 0 ? '#00ff88' : '#7a9cbf' }}>
-                        {Math.round((item.confidence || 0) * 100)}%
+                        {formatNumber(Math.round((item.confidence || 0) * 100))}%
                       </span>
                     </div>
                     <div className="h-1.5 rounded-full bg-white/05 overflow-hidden">
@@ -410,16 +408,16 @@ export default function Vision() {
           )}
         </div>
 
-        {/* Right panel */}
+        {/* Side panel */}
         <div className="space-y-4">
           {/* Exercise picker */}
           <div className="card">
-            <h3 className="font-bold font-display text-sm mb-3">Exercise</h3>
+            <h3 className="font-bold font-display text-sm mb-3">{t('vision:exercise')}</h3>
             <div className="space-y-2">
               {EXERCISES.map(ex => (
                 <button key={ex} onClick={() => switchExercise(ex)}
-                  className={`w-full py-2.5 px-4 rounded-xl border text-sm font-semibold text-left transition-all ${exercise === ex ? 'border-[#00d4ff] bg-[#00d4ff]/10 text-[#00d4ff]' : 'border-white/08 text-white/40 hover:border-white/15'}`}>
-                  {EX_LABELS[ex]}
+                  className={`w-full py-2.5 px-4 rounded-xl border text-sm font-semibold text-start transition-all ${exercise === ex ? 'border-[#00d4ff] bg-[#00d4ff]/10 text-[#00d4ff]' : 'border-white/08 text-white/40 hover:border-white/15'}`}>
+                  {t(`vision:exercises.${ex}`)}
                 </button>
               ))}
             </div>
@@ -427,12 +425,12 @@ export default function Vision() {
 
           {/* Session stats */}
           <div className="card">
-            <h3 className="font-bold font-display text-sm mb-3">Session Stats</h3>
+            <h3 className="font-bold font-display text-sm mb-3">{t('vision:sessionStats')}</h3>
             {[
-              { label: 'Reps',     val: reps,                                             color: '#00ff88', icon: Activity },
-              { label: 'Form',     val: formScore != null ? `${formScore}/100` : '—',      color: scoreColor || '#7a9cbf', icon: Target },
-              { label: 'Phase',    val: phase || '—',                                     color: '#ffd93d', icon: Zap },
-              { label: 'Exercise', val: EX_LABELS[exercise]?.replace(/^\S+\s/, '') ?? exercise, color: '#00d4ff', icon: BarChart2 },
+              { label: t('vision:reps'),     val: formatNumber(reps),                                 color: '#00ff88', icon: Activity },
+              { label: t('vision:form'),     val: formScore != null ? `${formScore}/100` : '—',        color: scoreColor || '#7a9cbf', icon: Target },
+              { label: t('vision:phase'),    val: phase || '—',                                       color: '#ffd93d', icon: Zap },
+              { label: t('vision:exercise'), val: t(`vision:exercises.${exercise}`).replace(/^\S+\s/, ''), color: '#00d4ff', icon: BarChart2 },
             ].map(({ label, val, color, icon: Icon }) => (
               <div key={label} className="flex items-center justify-between py-3 border-b border-white/05 last:border-0">
                 <div className="flex items-center gap-2 text-sm text-white/50">
@@ -446,14 +444,14 @@ export default function Vision() {
 
           {/* How it works */}
           <div className="card card-neon2">
-            <h4 className="text-xs font-bold text-[#00d4ff] tracking-wider uppercase mb-2">How It Works</h4>
+            <h4 className="text-xs font-bold text-[#00d4ff] tracking-wider uppercase mb-2">{t('vision:howItWorks')}</h4>
             <ul className="text-xs text-white/50 space-y-1.5">
-              <li>• Your camera sends live video to the AI</li>
-              <li>• The AI detects your body position in real time</li>
-              <li>• Your joint angles are measured every frame</li>
-              <li>• The AI recognises which exercise you're doing</li>
-              <li>•Reps are counted automatically as you move</li>
-              <li>• Your form is scored on balance and range of motion</li>
+              <li>{t('vision:how1')}</li>
+              <li>{t('vision:how2')}</li>
+              <li>{t('vision:how3')}</li>
+              <li>{t('vision:how4')}</li>
+              <li>{t('vision:how5')}</li>
+              <li>{t('vision:how6')}</li>
             </ul>
           </div>
         </div>

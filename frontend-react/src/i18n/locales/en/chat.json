@@ -1,0 +1,21 @@
+{
+  "eyebrow": "AI Coach",
+  "title": "APEX Coach",
+  "titleAccent": "Chat",
+  "subtitle": "Knows your goals, your stats, and your history — every answer is made for you",
+  "newChat": "New Chat",
+  "ready": "APEX Coach is ready",
+  "readySubtitle": "I know your weight, your goal, and your workout history. Ask me anything about training or nutrition.",
+  "you": "You",
+  "coachLabel": "APEX Coach",
+  "inputPlaceholder": "Ask your AI coach anything…",
+  "privacyNote": "Powered by advanced AI — your data stays private and secure",
+  "fallbackReply": "I'm having a moment — try again! 💪",
+  "suggestions": {
+    "calories": "How many calories should I eat today?",
+    "plateau": "Why am I not losing weight?",
+    "workoutPlan": "Give me a workout plan for my goal",
+    "postWorkout": "What should I eat post-workout?",
+    "breakPlateau": "How do I break a plateau?"
+  }
+}

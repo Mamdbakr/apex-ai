@@ -2,20 +2,23 @@ import { Outlet, NavLink, useNavigate } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
 import { LayoutDashboard, MessageSquare, Brain, Eye, TrendingUp, User, LogOut,
          ChevronLeft, Menu, Zap, Sparkles, Flame } from 'lucide-react'
+import { useTranslation } from 'react-i18next'
 import useStore from '../../store/useStore'
 import { authAPI } from '../../lib/api'
 import toast from 'react-hot-toast'
+import LanguageSwitcher from '../LanguageSwitcher'
 
 const NAV = [
-  { to: '/dashboard',   icon: LayoutDashboard, label: 'Dashboard' },
-  { to: '/chat',        icon: MessageSquare,   label: 'Apex Coach' },
- { to: '/predictions', icon: Brain, label: 'Stats' },
-{ to: '/vision',      icon: Eye,   label: 'Camera Trainer' },
-  { to: '/progress',    icon: TrendingUp,      label: 'Progress' },
-  { to: '/profile',     icon: User,            label: 'Profile' },
+  { to: '/dashboard',   icon: LayoutDashboard, label: 'common:nav.dashboard' },
+  { to: '/chat',        icon: MessageSquare,   label: 'common:nav.coach' },
+  { to: '/predictions', icon: Brain,           label: 'common:nav.stats' },
+  { to: '/vision',      icon: Eye,             label: 'common:nav.camera' },
+  { to: '/progress',    icon: TrendingUp,      label: 'common:nav.progress' },
+  { to: '/profile',     icon: User,            label: 'common:nav.profile' },
 ]
 
 export default function Layout() {
+  const { t } = useTranslation()
   const user         = useStore((s) => s.user)
   const profile      = useStore((s) => s.profile)
   const sidebarOpen  = useStore((s) => s.sidebarOpen)
@@ -34,7 +37,7 @@ export default function Layout() {
       // the user wants out
     }
     clearUser()
-    toast.success('See you soon!')
+    toast.success(t('common:seeYouSoon'))
     navigate('/login')
   }
 
@@ -55,7 +58,7 @@ export default function Layout() {
       <motion.aside
         animate={{ width: sidebarOpen ? 240 : 72 }}
         transition={{ duration: 0.25, ease: 'easeInOut' }}
-        className="flex-shrink-0 h-full border-r flex flex-col overflow-hidden z-20"
+        className="flex-shrink-0 h-full border-e flex flex-col overflow-hidden z-20"
         style={{
           background: 'var(--bg-secondary)',
           borderColor: 'var(--border)',
@@ -77,9 +80,9 @@ export default function Layout() {
               </motion.span>
             )}
           </AnimatePresence>
-          <button onClick={toggleSidebar} className="ml-auto text-white/30 hover:text-white/70 transition-colors"
-                  aria-label="Toggle sidebar">
-            {sidebarOpen ? <ChevronLeft size={16} /> : <Menu size={16} />}
+          <button onClick={toggleSidebar} className="ms-auto text-white/30 hover:text-white/70 transition-colors"
+                  aria-label={t('common:toggleSidebar')}>
+            {sidebarOpen ? <ChevronLeft size={16} className="rtl-flip" /> : <Menu size={16} />}
           </button>
         </div>
 
@@ -94,9 +97,9 @@ export default function Layout() {
               {sidebarOpen && (
                 <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
                   <div className="text-sm font-semibold text-white truncate max-w-[140px]">
-                    {user?.name || profile?.name || 'Athlete'}
+                    {user?.name || profile?.name || t('common:athlete')}
                   </div>
-                  <div className="text-xs" style={{ color: 'var(--accent)' }}>Pro Member</div>
+                  <div className="text-xs" style={{ color: 'var(--accent)' }}>{t('common:proMember')}</div>
                 </motion.div>
               )}
             </AnimatePresence>
@@ -116,7 +119,7 @@ export default function Layout() {
               <AnimatePresence>
                 {sidebarOpen && (
                   <motion.span initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
-                    {label}
+                    {t(label)}
                   </motion.span>
                 )}
               </AnimatePresence>
@@ -124,27 +127,31 @@ export default function Layout() {
           ))}
         </nav>
 
-        {/* Bottom — theme toggle + logout */}
+        {/* Bottom — language, theme toggle + logout */}
         <div className="p-3 border-t space-y-1" style={{ borderColor: 'var(--border)' }}>
-          <button onClick={handleThemeToggle} className="sidebar-link w-full text-left"
-                  title={`Theme: ${theme}`}>
+          <LanguageSwitcher variant="sidebar" expanded={sidebarOpen} />
+
+          <button onClick={handleThemeToggle} className="sidebar-link w-full text-start"
+                  title={`${t('common:theme.label')}: ${theme}`}>
             <ThemeIcon size={18} className="flex-shrink-0" style={{ color: 'var(--accent)' }} />
             <AnimatePresence>
               {sidebarOpen && (
                 <motion.span initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
-                  Theme: <span style={{ color: 'var(--accent)' }}>{theme === 'feminine' ? 'Feminine' : 'Athletic'}</span>
+                  {t('common:theme.label')}: <span style={{ color: 'var(--accent)' }}>
+                    {theme === 'feminine' ? t('common:theme.feminine') : t('common:theme.athletic')}
+                  </span>
                 </motion.span>
               )}
             </AnimatePresence>
           </button>
 
-          <button onClick={handleLogout} className="sidebar-link w-full text-left"
+          <button onClick={handleLogout} className="sidebar-link w-full text-start"
                   style={{ color: 'var(--warn)' }}>
-            <LogOut size={18} className="flex-shrink-0" />
+            <LogOut size={18} className="flex-shrink-0 rtl-flip" />
             <AnimatePresence>
               {sidebarOpen && (
                 <motion.span initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
-                  Logout
+                  {t('common:logout')}
                 </motion.span>
               )}
             </AnimatePresence>

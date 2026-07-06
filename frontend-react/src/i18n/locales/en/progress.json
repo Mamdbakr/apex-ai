@@ -1,0 +1,51 @@
+{
+  "eyebrow": "Progress Tracking",
+  "title": "Your",
+  "titleAccent": "Progress",
+  "subtitle": "Time-series analytics · Behavioral patterns · Weight forecasting",
+  "kgPlaceholder": "kg",
+  "logWeight": "Log Weight",
+  "logging": "Logging…",
+  "weightLogged": "Weight {{weight}} kg logged! 📊",
+  "logWeightFailed": "Failed to log weight",
+  "stats": {
+    "totalWorkouts": "Total Workouts",
+    "sessionsPerMonth": "Sessions / Month",
+    "avgDuration": "Avg Duration",
+    "avgFormScore": "Avg Form Score",
+    "currentStreak": "Current Streak",
+    "consistency": "Consistency",
+    "days_one": "{{count}} day",
+    "days_other": "{{count}} days"
+  },
+  "weightHistory": "⚖️ Weight History",
+  "forecastBadge": "→ {{weight}} kg forecast",
+  "forecastPoint": "Forecast",
+  "logWeightHint": "Log your weight above to see your trend",
+  "weightSeries": "Weight (kg)",
+  "workoutFrequency": "📅 Workout Frequency",
+  "sessions": "Sessions",
+  "formScoreTrend": "🎯 Form Score Trend",
+  "formSeries": "Form %",
+  "logWorkoutsHint": "Log workouts to see form trend",
+  "improvement": "↑ {{percent}}% improvement over your history",
+  "recentSessions": "📋 Recent Sessions",
+  "table": {
+    "exercise": "Exercise",
+    "sets": "Sets",
+    "reps": "Reps",
+    "weight": "Weight",
+    "duration": "Duration",
+    "form": "Form",
+    "date": "Date"
+  },
+  "weekdays": {
+    "mon": "Mon",
+    "tue": "Tue",
+    "wed": "Wed",
+    "thu": "Thu",
+    "fri": "Fri",
+    "sat": "Sat",
+    "sun": "Sun"
+  }
+}

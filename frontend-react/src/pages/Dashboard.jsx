@@ -1,26 +1,12 @@
 /**
- * Dashboard.jsx — AI-powered dashboard.  (UI/UX-polished drop-in replacement)
+ * Dashboard.jsx — AI-powered dashboard.
  *
- * ── WHAT CHANGED (UI ONLY) ───────────────────────────────────────────────────
- * This is a visual + layout refresh of the original Dashboard. NOTHING about the
- * data flow changed: every numeric value still comes from `/insights/dashboard`
- * via `insightsAPI.dashboard()`, the exact same `data?.*` field names are read,
- * the macros math is identical, and all conditional-render guards
- * (`available`, `forecast.available`, etc.) are preserved 1:1.
- *
- * Polished:
- *   • Richer hero header with an at-a-glance status strip (Section component).
- *   • KPI tiles get optional trend deltas + your `.metric` orb styling, and the
- *     row uses your `.stagger` entrance helper instead of ad-hoc motion.
- *   • Consistent section headers via a reusable <SectionHead> using your
- *     `.eyebrow` design token, so the page reads as deliberate zones.
- *   • A real full-page skeleton state (charts no longer "pop in").
- *   • Empty/error states rebuilt on your `.notice` classes.
- *   • Light micro-interactions on rec / macro tiles.
- *
- * Every class used here already exists in index.css (card, glass, metric,
- * badge-*, eyebrow, gradient-text, skeleton, btn-ghost, notice*, stagger…).
- * No new CSS or dependencies are required.
+ * Data flow unchanged: every numeric value still comes from
+ * `/insights/dashboard` via `insightsAPI.dashboard()`, the same `data?.*`
+ * field names are read, the macros math is identical, and all
+ * conditional-render guards (`available`, `forecast.available`, etc.) are
+ * preserved 1:1. All user-facing strings come from the dashboard/common i18n
+ * namespaces; numbers and times use locale-aware formatting.
  */
 import { useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
@@ -32,7 +18,9 @@ import {
   AreaChart, Area, BarChart, Bar,
   XAxis, YAxis, Tooltip, ResponsiveContainer, ReferenceLine,
 } from 'recharts'
+import { useTranslation } from 'react-i18next'
 import { insightsAPI } from '../lib/api'
+import { formatNumber, formatTime } from '../i18n/format'
 import useStore from '../store/useStore'
 import toast from 'react-hot-toast'
 
@@ -76,9 +64,8 @@ function SectionHead({ icon: Icon, eyebrow, title, right }) {
 }
 
 /**
- * Kpi — metric tile. Now optionally renders a trend delta (`deltaDir` +
- * `deltaText`) and leans on your `.metric` orb hover styling. Entrance is
- * handled by the parent `.stagger` wrapper, so we drop the per-card motion.
+ * Kpi — metric tile. Optionally renders a trend delta (`deltaDir` +
+ * `deltaText`) and leans on the `.metric` orb hover styling.
  */
 function Kpi({ icon: Icon, value, sub, label, color, loading, deltaDir, deltaText }) {
   const DeltaIcon = deltaDir === 'down' ? TrendingDown : TrendingUp
@@ -159,6 +146,7 @@ function DashboardSkeleton() {
 // ─── main component ──────────────────────────────────────────────────────────
 
 export default function Dashboard() {
+  const { t } = useTranslation(['dashboard', 'common'])
   const { profile } = useStore()
   const [data, setData] = useState(null)
   const [loading, setLoading] = useState(true)
@@ -167,9 +155,9 @@ export default function Dashboard() {
 
   const hour = new Date().getHours()
   const greet =
-    hour < 12 ? 'Good morning' : hour < 18 ? 'Good afternoon' : 'Good evening'
+    hour < 12 ? t('dashboard:greetMorning') : hour < 18 ? t('dashboard:greetAfternoon') : t('dashboard:greetEvening')
   const name =
-    data?.profile?.name?.split(' ')[0] || profile?.name?.split(' ')[0] || 'Athlete'
+    data?.profile?.name?.split(' ')[0] || profile?.name?.split(' ')[0] || t('common:athlete')
 
   async function load(showSpinner = true) {
     if (showSpinner) setLoading(true)
@@ -189,7 +177,7 @@ export default function Dashboard() {
 
   async function handleRefresh() {
     await load(false)
-    toast.success('Dashboard refreshed')
+    toast.success(t('dashboard:refreshed'))
   }
 
   // ── derived (from API only — nothing fabricated) ──────────────────────────
@@ -207,7 +195,7 @@ export default function Dashboard() {
 
   // ── Goal-aware corrections ────────────────────────────────────────────────
   // The raw ML values (ml.calories_target, ml.weight_change_30d_kg) are
-  // GOAL-BLIND — they ignore the user's lose/gain goal. The backend now also
+  // GOAL-BLIND — they ignore the user's lose/gain goal. The backend also
   // returns goal-aware figures in the same payload: kpi.calories_goal applies
   // the deficit/surplus, and forecast.trend_kg_per_30d is the direction-clamped
   // blended trend. Prefer those so every card tells one consistent story.
@@ -216,13 +204,12 @@ export default function Dashboard() {
       : calorieCurve.daily_target != null ? calorieCurve.daily_target
       : ml.calories_target)          // last-resort fallback only
   const calorieSource =
-    kpi.calories_goal != null ? 'AI · matched to your goal'
+    kpi.calories_goal != null ? t('dashboard:kpi.aiGoalMatched')
       : (calorieCurve.method || ml.calories_source)
-        ? 'AI estimate' : undefined
+        ? t('dashboard:kpi.aiEstimate') : undefined
 
-  // Human-readable caption for the calorie plan footer. Describes what the
-  // number means for THIS user's goal instead of exposing raw internals like
-  // "ML target 3760 (heuristic_fallback)". Uses "AI" wording per request.
+  // Human-readable caption for the calorie plan footer, described in terms of
+  // THIS user's goal instead of raw internals.
   const calorieCaption = (() => {
     const goal = (data?.profile?.goal || '').toLowerCase()
     const tdee = calorieCurve.tdee
@@ -231,13 +218,14 @@ export default function Dashboard() {
     const diff = Math.round(target - tdee)
     const isLose  = ['lose', 'cut', 'fat_loss', 'fat loss'].includes(goal)
     const isGain  = ['gain', 'bulk', 'build', 'muscle_gain'].includes(goal)
+    const tdeeFmt = formatNumber(Number(tdee))
     if (isLose && diff < 0) {
-      return `AI plan: ${Math.abs(diff)} kcal deficit below your ${Number(tdee).toLocaleString()} kcal maintenance — tuned for fat loss.`
+      return t('dashboard:caloriePlan.deficit', { diff: formatNumber(Math.abs(diff)), tdee: tdeeFmt })
     }
     if (isGain && diff > 0) {
-      return `AI plan: ${diff} kcal surplus above your ${Number(tdee).toLocaleString()} kcal maintenance — tuned for muscle gain.`
+      return t('dashboard:caloriePlan.surplus', { diff: formatNumber(diff), tdee: tdeeFmt })
     }
-    return `AI plan: maintenance target, matched to your ${Number(tdee).toLocaleString()} kcal daily burn.`
+    return t('dashboard:caloriePlan.maintenance', { tdee: tdeeFmt })
   })()
 
   // Corrected 30-day weight change: prefer the goal-aware blended forecast.
@@ -247,7 +235,7 @@ export default function Dashboard() {
       : ml.weight_change_30d_kg      // last-resort fallback only
   const weightSource =
     forecast.trend_kg_per_30d != null || forecast.trend_kg_per_day != null
-      ? 'AI forecast' : (ml.weight_source ? 'AI estimate' : undefined)
+      ? t('dashboard:kpi.aiForecast') : (ml.weight_source ? t('dashboard:kpi.aiEstimate') : undefined)
 
   // Macros — computed from API-supplied weight + goal-aware calorie target
   const macros = (() => {
@@ -281,12 +269,12 @@ export default function Dashboard() {
       >
         {/* decorative corner orb (pure CSS, theme-aware via tokens) */}
         <div
-          className="absolute -top-16 -right-16 w-56 h-56 rounded-full pointer-events-none"
+          className="absolute -top-16 -end-16 w-56 h-56 rounded-full pointer-events-none"
           style={{ background: 'var(--grad-accent)', filter: 'blur(70px)', opacity: 0.18 }}
         />
         <div className="relative flex items-start justify-between flex-wrap gap-4">
           <div>
-            <div className="eyebrow">Apex Dashboard</div>
+            <div className="eyebrow">{t('dashboard:eyebrow')}</div>
             <h1 className="text-3xl font-bold font-display leading-tight">
               {greet}, <span className="gradient-text">{name}</span> 💪
             </h1>
@@ -294,22 +282,22 @@ export default function Dashboard() {
               {err
                 ? `⚠️ ${err}`
                 : !available
-                  ? 'Complete your profile to unlock AI insights'
-                  : `Real-time predictions · last computed ${
-                      data?.computed_at ? new Date(data.computed_at).toLocaleTimeString() : '—'
-                    }`}
+                  ? t('dashboard:completeProfile')
+                  : t('dashboard:lastComputed', {
+                      time: data?.computed_at ? formatTime(data.computed_at) : '—',
+                    })}
             </p>
           </div>
           <div className="flex items-center gap-2">
             <span className="badge badge-green">
-              <span className="w-1.5 h-1.5 rounded-full bg-[#00ff88] animate-pulse" /> AI Active
+              <span className="w-1.5 h-1.5 rounded-full bg-[#00ff88] animate-pulse" /> {t('dashboard:aiActive')}
             </span>
             <button
               onClick={handleRefresh}
               disabled={loading || refreshing}
               className="btn-ghost flex items-center gap-2 text-xs py-2 px-3"
             >
-              <RefreshCw size={13} className={refreshing ? 'animate-spin' : ''} /> Refresh
+              <RefreshCw size={13} className={refreshing ? 'animate-spin' : ''} /> {t('common:refresh')}
             </button>
           </div>
         </div>
@@ -320,34 +308,34 @@ export default function Dashboard() {
                style={{ borderTop: '1px solid var(--border)' }}>
             <span className="flex items-center gap-1.5 text-white/55">
               <Zap size={13} className="text-[#ffd93d]" />
-              <b className="text-white/85 tabular-nums">{kpi.streak_days ?? 0}</b> day streak
+              {t('dashboard:dayStreak', { count: kpi.streak_days ?? 0 })}
             </span>
             <span className="flex items-center gap-1.5 text-white/55">
               <Activity size={13} className="text-[#00d4ff]" />
-              <b className="text-white/85 tabular-nums">{kpi.workouts_7d ?? 0}</b> sessions / 7d
+              {t('dashboard:sessions7d', { count: kpi.workouts_7d ?? 0 })}
             </span>
             {ml.fitness_level && (
               <span className="flex items-center gap-1.5 text-white/55">
                 <Brain size={13} className="text-[#7b5cff]" />
-                <b className="text-white/85">{ml.fitness_level}</b> class
+                {t('dashboard:class', { level: ml.fitness_level })}
               </span>
             )}
             {insights.length > 0 && (
               <span className="flex items-center gap-1.5 text-white/55">
                 <Sparkles size={13} className="text-[#00ff88]" />
-                <b className="text-white/85 tabular-nums">{insights.length}</b> live insights
+                {t('dashboard:liveInsights', { count: insights.length })}
               </span>
             )}
           </div>
         )}
       </motion.div>
 
-      {/* No-profile fallback — now on the .notice system */}
+      {/* No-profile fallback */}
       {!err && !available && (
         <div className="notice notice-info">
           <Brain size={20} className="flex-shrink-0 mt-0.5" />
           <div className="text-sm text-white/70">
-            {data?.message || 'Set up your profile to see AI predictions and insights.'}
+            {data?.message || t('dashboard:setupProfile')}
           </div>
         </div>
       )}
@@ -357,7 +345,7 @@ export default function Dashboard() {
         <div className="notice notice-error">
           <AlertTriangle size={20} className="flex-shrink-0 mt-0.5" />
           <div className="text-sm text-white/70">
-            Couldn’t load your dashboard: {err}
+            {t('dashboard:loadError', { error: err })}
           </div>
         </div>
       )}
@@ -367,39 +355,39 @@ export default function Dashboard() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 stagger">
           <Kpi
             icon={Flame} loading={loading}
-            value={calorieTarget != null ? `${Number(calorieTarget).toLocaleString()} kcal` : '—'}
-            label="Calorie Target"
+            value={calorieTarget != null ? `${formatNumber(Number(calorieTarget))} ${t('common:units.kcal')}` : '—'}
+            label={t('dashboard:kpi.calorieTarget')}
             color="#ff6b35"
-            sub={calorieSource ? `${calorieSource}` : undefined}
+            sub={calorieSource || undefined}
           />
           <Kpi
             icon={Brain} loading={loading}
             value={ml.fitness_level || '—'}
-            label="AI Fitness Class"
+            label={t('dashboard:kpi.aiFitnessClass')}
             color="#00d4ff"
             sub={ml.fitness_probabilities && Object.keys(ml.fitness_probabilities).length
-              ? `${Math.round(Math.max(...Object.values(ml.fitness_probabilities)) * 100)}% confidence`
+              ? t('dashboard:kpi.confidence', { percent: formatNumber(Math.round(Math.max(...Object.values(ml.fitness_probabilities)) * 100)) })
               : undefined}
           />
           <Kpi
             icon={weightChange30d < 0 ? TrendingDown : TrendingUp}
             loading={loading}
             value={weightChange30d != null
-              ? `${weightChange30d > 0 ? '+' : ''}${weightChange30d} kg`
+              ? `${formatNumber(weightChange30d, { signDisplay: 'exceptZero' })} ${t('common:units.kg')}`
               : '—'}
-            label="Predicted 30d"
+            label={t('dashboard:kpi.predicted30d')}
             color="#00ff88"
             deltaDir={weightChange30d != null
               ? (weightChange30d < 0 ? 'down' : 'up') : undefined}
-            deltaText={weightChange30d != null ? '30-day' : undefined}
-            sub={weightSource ? `via ${weightSource}` : undefined}
+            deltaText={weightChange30d != null ? t('dashboard:kpi.thirtyDay') : undefined}
+            sub={weightSource ? t('dashboard:kpi.via', { source: weightSource }) : undefined}
           />
           <Kpi
             icon={Zap} loading={loading}
-            value={kpi.streak_days ?? 0}
-            label="Day Streak"
+            value={formatNumber(kpi.streak_days ?? 0)}
+            label={t('dashboard:kpi.dayStreak')}
             color="#ffd93d"
-            sub={kpi.workouts_7d ? `${kpi.workouts_7d} sessions this week` : undefined}
+            sub={kpi.workouts_7d ? t('dashboard:kpi.sessionsThisWeek', { count: kpi.workouts_7d }) : undefined}
           />
         </div>
       )}
@@ -408,12 +396,12 @@ export default function Dashboard() {
       {available && insights.length > 0 && (
         <div className="card">
           <SectionHead
-            eyebrow="Generated live"
+            eyebrow={t('dashboard:insights.eyebrow')}
             title={<span className="flex items-center gap-2">
               <span className="w-7 h-7 rounded-lg bg-gradient-to-br from-[#7b5cff] to-[#00d4ff] flex items-center justify-center text-sm">🧬</span>
-              AI Insight Engine
+              {t('dashboard:insights.title')}
             </span>}
-            right={<span className="badge badge-blue">{insights.length} live</span>}
+            right={<span className="badge badge-blue">{t('dashboard:insights.liveBadge', { count: insights.length })}</span>}
           />
           <div className="grid md:grid-cols-2 gap-3">
             {insights.map((ins, i) => {
@@ -442,17 +430,17 @@ export default function Dashboard() {
       {available && forecast.available && (
         <div className="card">
           <SectionHead
-            eyebrow="Multi-model projection"
+            eyebrow={t('dashboard:forecast.eyebrow')}
             icon={Scale}
-            title="Weight Forecast"
+            title={t('dashboard:forecast.title')}
             right={data?.profile?.target_weight
-              ? <span className="badge badge-blue">target {data.profile.target_weight}kg</span>
+              ? <span className="badge badge-blue">{t('dashboard:forecast.targetBadge', { weight: formatNumber(data.profile.target_weight) })}</span>
               : null}
           />
           <div className="text-xs text-white/40 -mt-2 mb-4">
-            <span className="text-white/60">AI forecast</span>{' · '}
-            Confidence: <span className="text-white/60">{Math.round((forecast.stability ?? 0) * 100)}%</span>{' · '}
-            Trend: <span className="text-white/60">{forecast.trend_kg_per_day} kg/day</span>
+            <span className="text-white/60">{t('dashboard:forecast.aiForecast')}</span>{' · '}
+            {t('dashboard:forecast.confidence')}: <span className="text-white/60">{formatNumber(Math.round((forecast.stability ?? 0) * 100))}%</span>{' · '}
+            {t('dashboard:forecast.trend')}: <span className="text-white/60">{formatNumber(forecast.trend_kg_per_day)} {t('common:units.kgPerDay')}</span>
           </div>
           <ResponsiveContainer width="100%" height={220}>
             <AreaChart data={forecast.points}>
@@ -468,20 +456,20 @@ export default function Dashboard() {
               <Tooltip content={<Tip />} />
               {data?.profile?.target_weight && (
                 <ReferenceLine y={data.profile.target_weight} stroke="#00d4ff" strokeDasharray="3 3" label={{
-                  value: `target ${data.profile.target_weight}kg`,
+                  value: t('dashboard:forecast.targetBadge', { weight: data.profile.target_weight }),
                   fill: '#00d4ff', fontSize: 10, position: 'right',
                 }} />
               )}
               <Area type="monotone" dataKey="kg" stroke="#00ff88" fill="url(#wGrad)"
-                strokeWidth={2} dot={{ r: 3, fill: '#00ff88' }} name="kg" />
+                strokeWidth={2} dot={{ r: 3, fill: '#00ff88' }} name={t('common:units.kg')} />
             </AreaChart>
           </ResponsiveContainer>
 
           <div className="grid grid-cols-3 gap-3 mt-4">
             {[
-              { k: 'ml', label: 'AI model', color: '#7b5cff' },
-              { k: 'energy_balance', label: 'Energy balance', color: '#ffd93d' },
-              { k: 'observed', label: 'Observed trend', color: '#00ff88' },
+              { k: 'ml', label: t('dashboard:forecast.aiModel'), color: '#7b5cff' },
+              { k: 'energy_balance', label: t('dashboard:forecast.energyBalance'), color: '#ffd93d' },
+              { k: 'observed', label: t('dashboard:forecast.observedTrend'), color: '#00ff88' },
             ].map(m => {
               const v = forecast.models_kg_change_30d?.[m.k]
               return (
@@ -489,9 +477,9 @@ export default function Dashboard() {
                      style={{ background: 'var(--bg-glass)', border: '1px solid var(--border)' }}>
                   <div className="text-xs uppercase tracking-wider text-white/40 mb-1">{m.label}</div>
                   <div className="text-lg font-bold tabular-nums" style={{ color: m.color }}>
-                    {v == null ? '—' : `${v > 0 ? '+' : ''}${v} kg`}
+                    {v == null ? '—' : `${formatNumber(v, { signDisplay: 'exceptZero' })} ${t('common:units.kg')}`}
                   </div>
-                  <div className="text-[10px] text-white/30">in 30 days</div>
+                  <div className="text-[10px] text-white/30">{t('dashboard:forecast.in30Days')}</div>
                 </div>
               )
             })}
@@ -505,9 +493,9 @@ export default function Dashboard() {
           <div className="card">
             <SectionHead
               icon={Flame}
-              title="14-Day Calorie Plan"
+              title={t('dashboard:caloriePlan.title')}
               right={calorieCurve.available
-                ? <span className="badge badge-warn">{calorieCurve.daily_target} kcal/day</span>
+                ? <span className="badge badge-warn">{formatNumber(calorieCurve.daily_target)} {t('common:units.kcalPerDay')}</span>
                 : null}
             />
             {calorieCurve.available ? (
@@ -517,57 +505,57 @@ export default function Dashboard() {
                     <XAxis dataKey="date" tick={{ fill: '#7a9cbf', fontSize: 10 }} axisLine={false} tickLine={false} />
                     <YAxis tick={{ fill: '#7a9cbf', fontSize: 10 }} axisLine={false} tickLine={false} />
                     <Tooltip content={<Tip />} />
-                    <Bar dataKey="calories" fill="#ff6b35" radius={[4, 4, 0, 0]} name="kcal" />
+                    <Bar dataKey="calories" fill="#ff6b35" radius={[4, 4, 0, 0]} name={t('common:units.kcal')} />
                   </BarChart>
                 </ResponsiveContainer>
                 <div className="text-xs text-white/40 mt-2">
-                  {calorieCaption || `Daily target matched to your goal.`}
+                  {calorieCaption || t('dashboard:caloriePlan.defaultCaption')}
                 </div>
               </>
             ) : (
               <div className="h-[140px] flex items-center justify-center text-white/30 text-sm">
-                Add your profile to see your calorie schedule
+                {t('dashboard:caloriePlan.addProfile')}
               </div>
             )}
           </div>
 
           <div className="card">
-            <SectionHead icon={Target} title="Timeline to Goal" />
+            <SectionHead icon={Target} title={t('dashboard:timeline.title')} />
             {timeline.available ? (
               <div className="space-y-3">
                 <div className="flex items-baseline justify-between">
-                  <div className="text-xs uppercase tracking-wider text-white/40">Days remaining</div>
+                  <div className="text-xs uppercase tracking-wider text-white/40">{t('dashboard:timeline.daysRemaining')}</div>
                   <div className="text-3xl font-bold font-display gradient-text tabular-nums">
-                    {timeline.days_to_target}
+                    {formatNumber(timeline.days_to_target)}
                   </div>
                 </div>
                 <div className="flex justify-between text-xs">
-                  <span className="text-white/50">Target date</span>
+                  <span className="text-white/50">{t('dashboard:timeline.targetDate')}</span>
                   <span className="text-white/80 font-mono">{timeline.target_date}</span>
                 </div>
                 <div className="flex justify-between text-xs">
-                  <span className="text-white/50">Gap to target</span>
-                  <span className="text-white/80 tabular-nums">{timeline.gap_kg > 0 ? '+' : ''}{timeline.gap_kg} kg</span>
+                  <span className="text-white/50">{t('dashboard:timeline.gapToTarget')}</span>
+                  <span className="text-white/80 tabular-nums">{formatNumber(timeline.gap_kg, { signDisplay: 'exceptZero' })} {t('common:units.kg')}</span>
                 </div>
                 <div className="flex justify-between text-xs">
-                  <span className="text-white/50">Trend</span>
-                  <span className="text-white/80 tabular-nums">{timeline.trend_kg_per_day} kg/day</span>
+                  <span className="text-white/50">{t('dashboard:timeline.trend')}</span>
+                  <span className="text-white/80 tabular-nums">{formatNumber(timeline.trend_kg_per_day)} {t('common:units.kgPerDay')}</span>
                 </div>
                 <div className="pt-2" style={{ borderTop: '1px solid var(--border)' }}>
                   <span className={`badge ${
                     timeline.feasibility === 'realistic' ? 'badge-green' :
                     timeline.feasibility === 'aggressive' ? 'badge-warn' : 'badge-warn'
                   }`}>
-                    {timeline.feasibility}
+                    {t(`dashboard:timeline.feasibility.${timeline.feasibility}`, { defaultValue: timeline.feasibility })}
                   </span>
                 </div>
               </div>
             ) : (
               <div className="text-sm text-white/40">
-                {timeline.reason === 'no_target_weight' && 'Set a target weight to see your timeline.'}
-                {timeline.reason === 'trend_too_flat' && 'No detectable weight trend yet — log more weights.'}
-                {timeline.reason === 'trend_wrong_direction' && 'Your current trend is moving away from your target.'}
-                {!timeline.reason && (loading ? 'Computing…' : 'Insufficient data for timeline.')}
+                {timeline.reason === 'no_target_weight' && t('dashboard:timeline.noTargetWeight')}
+                {timeline.reason === 'trend_too_flat' && t('dashboard:timeline.trendTooFlat')}
+                {timeline.reason === 'trend_wrong_direction' && t('dashboard:timeline.trendWrongDirection')}
+                {!timeline.reason && (loading ? t('dashboard:timeline.computing') : t('dashboard:timeline.insufficientData'))}
               </div>
             )}
           </div>
@@ -579,8 +567,8 @@ export default function Dashboard() {
         <div className="card" style={{ borderColor: 'rgba(255,107,53,0.20)' }}>
           <SectionHead
             icon={AlertTriangle}
-            title="Anomaly Detection"
-            right={<span className="badge badge-warn">{anomalies.length} flag{anomalies.length === 1 ? '' : 's'}</span>}
+            title={t('dashboard:anomalies.title')}
+            right={<span className="badge badge-warn">{t('dashboard:anomalies.flags', { count: anomalies.length })}</span>}
           />
           <div className="space-y-2">
             {anomalies.map((a, i) => {
@@ -607,8 +595,8 @@ export default function Dashboard() {
         <div className="card">
           <SectionHead
             icon={Target}
-            title={`Recommended for ${ml.fitness_level || 'You'}`}
-            right={<span className="badge badge-green">{recs.length} exercises</span>}
+            title={t('dashboard:recommendations.title', { level: ml.fitness_level || t('dashboard:recommendations.you') })}
+            right={<span className="badge badge-green">{t('dashboard:recommendations.exercises', { count: recs.length })}</span>}
           />
           <div className="grid grid-cols-2 md:grid-cols-5 gap-3">
             {recs.map((r, i) => (
@@ -634,18 +622,23 @@ export default function Dashboard() {
         <div className="card">
           <SectionHead
             icon={Award}
-            title="Vs Similar Users"
-            right={<span className="badge badge-blue">{cohort.cohort_size} peers</span>}
+            title={t('dashboard:cohort.title')}
+            right={<span className="badge badge-blue">{t('dashboard:cohort.peers', { count: cohort.cohort_size })}</span>}
           />
           <div className="text-xs text-white/40 -mt-2 mb-3">
-            Same goal ({cohort.filters?.goal}) · Age {cohort.filters?.age_band?.[0]}–{cohort.filters?.age_band?.[1]}
-            {' · '} BMI {cohort.filters?.bmi_band?.[0]}–{cohort.filters?.bmi_band?.[1]}
+            {t('dashboard:cohort.filters', {
+              goal: cohort.filters?.goal,
+              ageMin: formatNumber(cohort.filters?.age_band?.[0]),
+              ageMax: formatNumber(cohort.filters?.age_band?.[1]),
+              bmiMin: formatNumber(cohort.filters?.bmi_band?.[0]),
+              bmiMax: formatNumber(cohort.filters?.bmi_band?.[1]),
+            })}
           </div>
           <div className="grid md:grid-cols-3 gap-4">
             {[
-              { k: 'workouts_per_week', label: 'Workouts / week', unit: '' },
-              { k: 'avg_form_score',    label: 'Avg form score', unit: '' },
-              { k: 'weight_change_30d_kg', label: 'Weight Δ (30d)', unit: ' kg' },
+              { k: 'workouts_per_week', label: t('dashboard:cohort.workoutsPerWeek'), unit: '' },
+              { k: 'avg_form_score',    label: t('dashboard:cohort.avgFormScore'), unit: '' },
+              { k: 'weight_change_30d_kg', label: t('dashboard:cohort.weightDelta30d'), unit: ` ${t('common:units.kg')}` },
             ].map(m => {
               const c = cohort.you_vs_cohort?.[m.k] || {}
               return (
@@ -654,12 +647,12 @@ export default function Dashboard() {
                   <div className="text-xs uppercase tracking-wider text-white/40 mb-2">{m.label}</div>
                   <div className="flex items-baseline justify-center gap-2">
                     <span className="text-2xl font-bold font-display gradient-text tabular-nums">
-                      {c.you ?? '—'}{m.unit}
+                      {c.you != null ? formatNumber(c.you) : '—'}{m.unit}
                     </span>
-                    <span className="text-xs text-white/30">you</span>
+                    <span className="text-xs text-white/30">{t('common:you')}</span>
                   </div>
                   <div className="text-xs text-white/50 mt-1 tabular-nums">
-                    cohort avg: {c.cohort_avg ?? '—'}{m.unit}
+                    {t('dashboard:cohort.cohortAvg', { value: c.cohort_avg != null ? `${formatNumber(c.cohort_avg)}${m.unit}` : '—' })}
                   </div>
                   {c.your_percentile != null && (
                     <div className="text-xs mt-2">
@@ -678,25 +671,25 @@ export default function Dashboard() {
       {/* ── MACROS ──────────────────────────────────────────────────────── */}
       {available && macros && (
         <div className="card">
-          <SectionHead icon={Droplets} title="Daily Macro Targets" />
+          <SectionHead icon={Droplets} title={t('dashboard:macros.title')} />
           <div className="grid grid-cols-4 gap-4">
             {[
-              { label: 'Protein', val: macros.protein, unit: 'g', color: '#7b5cff' },
-              { label: 'Carbs',   val: macros.carbs,   unit: 'g', color: '#ffd93d' },
-              { label: 'Fats',    val: macros.fats,    unit: 'g', color: '#ff6b35' },
-              { label: 'Water',   val: macros.water,   unit: 'L', color: '#00d4ff' },
+              { label: t('dashboard:macros.protein'), val: macros.protein, unit: t('common:units.g'), color: '#7b5cff' },
+              { label: t('dashboard:macros.carbs'),   val: macros.carbs,   unit: t('common:units.g'), color: '#ffd93d' },
+              { label: t('dashboard:macros.fats'),    val: macros.fats,    unit: t('common:units.g'), color: '#ff6b35' },
+              { label: t('dashboard:macros.water'),   val: macros.water,   unit: t('common:units.l'), color: '#00d4ff' },
             ].map(({ label, val, unit, color }) => (
               <div key={label} className="text-center p-3 rounded-xl"
                    style={{ background: 'var(--bg-glass)', border: '1px solid var(--border)' }}>
                 <div className="text-xs uppercase tracking-wider text-white/40 mb-1">{label}</div>
                 <div className="text-2xl font-bold font-display tabular-nums" style={{ color }}>
-                  {val}{unit}
+                  {formatNumber(val)}{unit}
                 </div>
               </div>
             ))}
           </div>
           <div className="text-xs text-white/30 mt-3 text-center">
-            Derived from {calorieTarget} kcal target · 2g/kg protein · 0.8g/kg fat
+            {t('dashboard:macros.derivedFrom', { calories: formatNumber(calorieTarget) })}
           </div>
         </div>
       )}

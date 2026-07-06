@@ -1,53 +1,49 @@
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { Zap, Brain, TrendingUp, Eye, Star, ArrowRight, Check } from 'lucide-react'
+import { useTranslation } from 'react-i18next'
+import LanguageSwitcher from '../components/LanguageSwitcher'
 
 /**
- * Landing.jsx — UI/UX-polished drop-in replacement.
- *
- * No logic changed. Pure presentation refresh:
- *   • Replaced the broken `neon-glow` class (never existed in index.css) with
- *     the real `card-accent` class for the "Most Popular" plan.
- *   • Hero now uses the shared aurora orbs + a subtle grid backdrop (.bg-grid).
- *   • Feature cards lift on hover via the existing .card hover system.
- *   • Stats strip and section headers use the real `.eyebrow` token.
- *   • Footer year corrected to be evergreen.
- * Every class used here exists in index.css / tailwind.config.js.
+ * Landing.jsx — all copy comes from the landing i18n namespace; layout uses
+ * logical (start/end) utilities so the page mirrors correctly in RTL.
  */
 
 const FEATURES = [
-  { icon: Brain,      color: '#00ff88', title: 'Your Personal AI Trainer',    desc: 'Chat with your coach anytime. Ask about your diet, workouts, or goals — it knows your body and gives advice made just for you.' },
-  { icon: Eye,        color: '#00d4ff', title: 'Live Workout Camera', desc: 'Turn on your camera during a workout and get instant rep counting and form tips to help you move better.' },
-  { icon: TrendingUp, color: '#7b5cff', title: 'Smart Body Predictions',    desc: 'Tell us your stats and we predict your daily calorie needs, ideal weight, and fitness level — updated as you grow.' },
-  { icon: Zap,        color: '#ffd93d', title: 'Monitor Your Progress',      desc: 'See your weight trend, workout history, and streaks in simple charts. Know exactly what\'s working and what to focus on next.' },
-]
-
-const STATS = [
-  { n: 'Live', label: 'Camera Coaching' },
-  { n: 'Apex', label: 'Chatbot' },
-  { n: '∞',   label: 'Personalization' },
-  { n: '24/7', label: 'Always On' },
-]
-
-const PRICING = [
-  {
-    tier: 'Free', price: '$0', color: '#7b5cff', desc: 'Perfect to get started',
-    features: ['Basic predictions', 'AI chatbot (5/day)', 'Dashboard', 'Basic tracking'],
-    cta: 'Start Free',
-  },
-  {
-    tier: 'Pro', price: '$12', color: '#00ff88', desc: 'For serious athletes', popular: true,
-    features: ['Unlimited predictions', 'Unlimited AI chat', 'CV Trainer', 'Weight forecasting', 'Plateau detection', 'Full analytics'],
-    cta: 'Get Pro',
-  },
-  {
-    tier: 'Elite', price: '$29', color: '#00d4ff', desc: 'For coaches & trainers',
-    features: ['Everything in Pro', 'Multi-client dashboard', 'API access', 'Custom models', 'Priority support'],
-    cta: 'Contact Us',
-  },
+  { key: 'coach',       icon: Brain,      color: '#00ff88' },
+  { key: 'camera',      icon: Eye,        color: '#00d4ff' },
+  { key: 'predictions', icon: TrendingUp, color: '#7b5cff' },
+  { key: 'progress',    icon: Zap,        color: '#ffd93d' },
 ]
 
 export default function Landing() {
+  const { t } = useTranslation(['landing', 'common'])
+
+  const STATS = [
+    { n: t('landing:stats.live'),  label: t('landing:stats.cameraCoaching') },
+    { n: t('landing:stats.apex'),  label: t('landing:stats.chatbot') },
+    { n: '∞',                      label: t('landing:stats.personalization') },
+    { n: t('landing:stats.twentyFourSeven'), label: t('landing:stats.alwaysOn') },
+  ]
+
+  const PRICING = [
+    {
+      tier: t('landing:tiers.free.name'), price: '$0', color: '#7b5cff', desc: t('landing:tiers.free.desc'),
+      features: t('landing:tiers.free.features', { returnObjects: true }),
+      cta: t('landing:tiers.free.cta'),
+    },
+    {
+      tier: t('landing:tiers.pro.name'), price: '$12', color: '#00ff88', desc: t('landing:tiers.pro.desc'), popular: true,
+      features: t('landing:tiers.pro.features', { returnObjects: true }),
+      cta: t('landing:tiers.pro.cta'),
+    },
+    {
+      tier: t('landing:tiers.elite.name'), price: '$29', color: '#00d4ff', desc: t('landing:tiers.elite.desc'),
+      features: t('landing:tiers.elite.features', { returnObjects: true }),
+      cta: t('landing:tiers.elite.cta'),
+    },
+  ]
+
   return (
     <div className="min-h-screen text-white overflow-x-hidden" style={{ background: 'var(--bg-primary)' }}>
       {/* Nav */}
@@ -60,9 +56,10 @@ export default function Landing() {
             APEX<span className="text-[#00ff88]">AI</span>
           </div>
           <div className="flex items-center gap-3">
-            <Link to="/pricing" className="text-sm text-white/50 hover:text-white transition-colors">Pricing</Link>
-            <Link to="/login"   className="btn btn-ghost text-sm px-4 py-2" style={{ color: 'var(--text-primary)' }}>Sign In</Link>
-            <Link to="/register" className="btn-primary text-sm px-4 py-2">Start Free</Link>
+            <LanguageSwitcher />
+            <Link to="/pricing" className="text-sm text-white/50 hover:text-white transition-colors">{t('common:pricing')}</Link>
+            <Link to="/login"   className="btn btn-ghost text-sm px-4 py-2" style={{ color: 'var(--text-primary)' }}>{t('common:signIn')}</Link>
+            <Link to="/register" className="btn-primary text-sm px-4 py-2">{t('common:startFree')}</Link>
           </div>
         </div>
       </nav>
@@ -78,21 +75,21 @@ export default function Landing() {
         <motion.div initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
           <div className="inline-flex items-center gap-2 badge badge-green mb-8">
             <span className="w-1.5 h-1.5 rounded-full bg-[#00ff88] animate-pulse" />
-            AI Fitness Platform
+            {t('landing:badge')}
           </div>
           <h1 className="text-6xl md:text-7xl font-bold font-display leading-tight mb-6">
-            Your Body.<br />
-            <span className="gradient-text">Understood by AI.</span>
+            {t('landing:heroLine1')}<br />
+            <span className="gradient-text">{t('landing:heroLine2')}</span>
           </h1>
           <p className="text-xl text-white/50 max-w-2xl mx-auto mb-10 leading-relaxed">
-            APEX AI is your personal fitness coach that watches you work out, predicts your progress, and answers every question — all powered by AI, built around you.
+            {t('landing:heroSubtitle')}
           </p>
           <div className="flex items-center justify-center gap-4 flex-wrap">
             <Link to="/register" className="btn-primary flex items-center gap-2 text-base px-7 py-3">
-              Start for Free <ArrowRight size={16} />
+              {t('landing:startForFree')} <ArrowRight size={16} className="rtl-flip" />
             </Link>
             <Link to="/login" className="btn btn-ghost flex items-center gap-2 text-base px-7 py-3" style={{ color: 'var(--text-primary)' }}>
-              Sign In
+              {t('common:signIn')}
             </Link>
           </div>
         </motion.div>
@@ -115,8 +112,8 @@ export default function Landing() {
       <section className="py-24 px-6">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <div className="eyebrow justify-center" style={{ display: 'inline-flex' }}>Core Features</div>
-            <h2 className="text-4xl font-bold font-display mt-2">Everything you need to <span className="gradient-text">reach your goal</span></h2>
+            <div className="eyebrow justify-center" style={{ display: 'inline-flex' }}>{t('landing:coreFeatures')}</div>
+            <h2 className="text-4xl font-bold font-display mt-2">{t('landing:featuresTitle')} <span className="gradient-text">{t('landing:featuresTitleAccent')}</span></h2>
           </div>
           <div className="grid md:grid-cols-2 gap-5">
             {FEATURES.map((f, i) => (
@@ -128,8 +125,8 @@ export default function Landing() {
                      style={{ background: f.color + '18', border: `1px solid ${f.color}30` }}>
                   <f.icon size={20} style={{ color: f.color }} />
                 </div>
-                <h3 className="font-bold text-lg font-display mb-2">{f.title}</h3>
-                <p className="text-white/50 text-sm leading-relaxed">{f.desc}</p>
+                <h3 className="font-bold text-lg font-display mb-2">{t(`landing:features.${f.key}.title`)}</h3>
+                <p className="text-white/50 text-sm leading-relaxed">{t(`landing:features.${f.key}.desc`)}</p>
               </motion.div>
             ))}
           </div>
@@ -140,8 +137,8 @@ export default function Landing() {
       <section className="py-24 px-6" style={{ background: 'var(--bg-secondary)' }}>
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-16">
-            <div className="eyebrow justify-center" style={{ display: 'inline-flex' }}>Pricing</div>
-            <h2 className="text-4xl font-bold font-display mt-2">Simple, transparent pricing</h2>
+            <div className="eyebrow justify-center" style={{ display: 'inline-flex' }}>{t('landing:pricingEyebrow')}</div>
+            <h2 className="text-4xl font-bold font-display mt-2">{t('landing:pricingTitle')}</h2>
           </div>
           <div className="grid md:grid-cols-3 gap-6">
             {PRICING.map((p, i) => (
@@ -151,11 +148,11 @@ export default function Landing() {
               >
                 {p.popular && (
                   <div className="absolute -top-3 left-1/2 -translate-x-1/2 badge badge-green flex items-center gap-1">
-                    <Star size={11} /> Most Popular
+                    <Star size={11} /> {t('landing:mostPopular')}
                   </div>
                 )}
                 <div className="text-xs font-bold tracking-widest uppercase mb-1" style={{ color: p.color }}>{p.tier}</div>
-                <div className="text-4xl font-bold font-display mb-1">{p.price}<span className="text-sm text-white/40 font-normal">/mo</span></div>
+                <div className="text-4xl font-bold font-display mb-1">{p.price}<span className="text-sm text-white/40 font-normal">{t('common:units.perMonth')}</span></div>
                 <div className="text-sm text-white/40 mb-6">{p.desc}</div>
                 <ul className="space-y-2 mb-8">
                   {p.features.map((f, j) => (
@@ -181,7 +178,7 @@ export default function Landing() {
       {/* Footer */}
       <footer className="py-10 px-6 text-center" style={{ borderTop: '1px solid var(--border)' }}>
         <div className="font-bold font-display mb-2">APEX<span className="text-[#00ff88]">AI</span></div>
-        <div className="text-xs text-white/30">© {new Date().getFullYear()} APEX AI · Graduation Project · Production-Grade AI Fitness Platform</div>
+        <div className="text-xs text-white/30">{t('landing:footer', { year: new Date().getFullYear() })}</div>
       </footer>
     </div>
   )

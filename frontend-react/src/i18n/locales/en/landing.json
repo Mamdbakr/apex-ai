@@ -1,0 +1,73 @@
+{
+  "badge": "AI Fitness Platform",
+  "heroLine1": "Your Body.",
+  "heroLine2": "Understood by AI.",
+  "heroSubtitle": "APEX AI is your personal fitness coach that watches you work out, predicts your progress, and answers every question — all powered by AI, built around you.",
+  "startForFree": "Start for Free",
+  "stats": {
+    "live": "Live",
+    "cameraCoaching": "Camera Coaching",
+    "apex": "Apex",
+    "chatbot": "Chatbot",
+    "personalization": "Personalization",
+    "alwaysOn": "Always On",
+    "twentyFourSeven": "24/7"
+  },
+  "coreFeatures": "Core Features",
+  "featuresTitle": "Everything you need to",
+  "featuresTitleAccent": "reach your goal",
+  "features": {
+    "coach": {
+      "title": "Your Personal AI Trainer",
+      "desc": "Chat with your coach anytime. Ask about your diet, workouts, or goals — it knows your body and gives advice made just for you."
+    },
+    "camera": {
+      "title": "Live Workout Camera",
+      "desc": "Turn on your camera during a workout and get instant rep counting and form tips to help you move better."
+    },
+    "predictions": {
+      "title": "Smart Body Predictions",
+      "desc": "Tell us your stats and we predict your daily calorie needs, ideal weight, and fitness level — updated as you grow."
+    },
+    "progress": {
+      "title": "Monitor Your Progress",
+      "desc": "See your weight trend, workout history, and streaks in simple charts. Know exactly what's working and what to focus on next."
+    }
+  },
+  "pricingEyebrow": "Pricing",
+  "pricingTitle": "Simple, transparent pricing",
+  "mostPopular": "Most Popular",
+  "footer": "© {{year}} APEX AI · Graduation Project · Production-Grade AI Fitness Platform",
+  "backToHome": "Back to home",
+  "simplePricing": "Simple pricing",
+  "pricingHeroTitle": "Start free, scale as you",
+  "pricingHeroAccent": "grow",
+  "pricingHeroSubtitle": "Every plan includes the full AI stack. Upgrade when you need more.",
+  "pricingFootnote": "All plans include: cookie-session auth · SQLite/PostgreSQL · Full API · Self-hostable",
+  "tiers": {
+    "free": {
+      "name": "Free",
+      "desc": "Perfect to get started",
+      "cta": "Start Free",
+      "features": ["Basic predictions", "AI chatbot (5/day)", "Dashboard", "Basic tracking"],
+      "fullFeatures": ["5 AI predictions/day", "Chatbot (5 messages/day)", "Basic dashboard", "Progress tracking"],
+      "limits": ["No CV Trainer", "No weight forecasting", "No plateau detection"]
+    },
+    "pro": {
+      "name": "Pro",
+      "desc": "For serious athletes",
+      "cta": "Get Pro",
+      "ctaArrow": "Get Pro →",
+      "features": ["Unlimited predictions", "Unlimited AI chat", "CV Trainer", "Weight forecasting", "Plateau detection", "Full analytics"],
+      "fullFeatures": ["Unlimited ML predictions", "Unlimited AI coaching chat", "Computer Vision Trainer", "30-day weight forecast", "Plateau detection", "User clustering & insights", "Full analytics dashboard", "Priority model inference"]
+    },
+    "elite": {
+      "name": "Elite",
+      "desc": "For coaches & trainers",
+      "cta": "Contact Us",
+      "ctaSales": "Contact Sales",
+      "features": ["Everything in Pro", "Multi-client dashboard", "API access", "Custom models", "Priority support"],
+      "fullFeatures": ["Everything in Pro", "Multi-user management", "REST API access", "Custom model fine-tuning", "Webhook integrations", "Dedicated support", "SLA guarantee"]
+    }
+  }
+}

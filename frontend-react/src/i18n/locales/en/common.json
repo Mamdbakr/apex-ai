@@ -1,0 +1,82 @@
+{
+  "loading": "Loading…",
+  "refresh": "Refresh",
+  "back": "Back",
+  "continue": "Continue",
+  "reset": "Reset",
+  "logout": "Logout",
+  "signIn": "Sign In",
+  "startFree": "Start Free",
+  "pricing": "Pricing",
+  "language": "Language",
+  "athlete": "Athlete",
+  "proMember": "Pro Member",
+  "seeYouSoon": "See you soon!",
+  "toggleSidebar": "Toggle sidebar",
+  "you": "you",
+  "nav": {
+    "dashboard": "Dashboard",
+    "coach": "Apex Coach",
+    "stats": "Stats",
+    "camera": "Camera Trainer",
+    "progress": "Progress",
+    "profile": "Profile"
+  },
+  "theme": {
+    "label": "Theme",
+    "athletic": "Athletic",
+    "feminine": "Feminine"
+  },
+  "gender": {
+    "male": "Male",
+    "female": "Female",
+    "maleSym": "♂ Male",
+    "femaleSym": "♀ Female"
+  },
+  "goals": {
+    "lose": "🔥 Lose Fat",
+    "build": "💪 Build Muscle",
+    "maintain": "⚖️ Maintain"
+  },
+  "activities": {
+    "1": "Sedentary 🛌",
+    "2": "Lightly Active 🚶‍♂️",
+    "3": "Moderately Active 💪",
+    "4": "Very Active ⚡",
+    "5": "Extremely Active 🔥🔥"
+  },
+  "dietary": {
+    "No Restrictions": "No Restrictions",
+    "Vegetarian": "Vegetarian",
+    "Vegan": "Vegan",
+    "Keto": "Keto",
+    "Halal": "Halal",
+    "Gluten-Free": "Gluten-Free"
+  },
+  "timeframes": {
+    "1-3 months": "1–3 months",
+    "3-6 months": "3–6 months",
+    "6-12 months": "6–12 months",
+    "1+ years": "1+ years"
+  },
+  "units": {
+    "kg": "kg",
+    "kcal": "kcal",
+    "kcalPerDay": "kcal/day",
+    "kgPerDay": "kg/day",
+    "g": "g",
+    "l": "L",
+    "min": "min",
+    "perMonth": "/mo",
+    "month": "/month"
+  },
+  "apiErrors": {
+    "emailRegistered": "This email is already registered",
+    "incorrectCredentials": "Incorrect email or password",
+    "userGone": "This account no longer exists",
+    "notAuthenticated": "Not signed in — please sign in again",
+    "sessionNotFound": "Session not found",
+    "forbiddenHistory": "You can't access another user's history",
+    "generic": "Something went wrong — please try again"
+  }
+}
